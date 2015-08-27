@@ -1,22 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.rdswitchboard.utils</groupId>
-  <artifactId>clean_rds_records</artifactId>
-  <version>1.0.0</version>  	
-  <name>Clean RDS Records</name>
-  <description>Will Remove non-existing Records from RDS Database</description>
-  
+  <artifactId>sync_solr</artifactId>
+  <version>1.0.0</version> 	
+  <name>Sync SOLR Index</name>
+  <description>Will Sync SOLR index with RDS MySQL Database</description>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <main.class>org.rdswitchboard.utils.rds.records.clean.App</main.class>
+    <main.class>org.rdswitchboard.utils.rds.solr.sync.App</main.class>
     <class.path>jars/</class.path>
     <jdk.version>1.7</jdk.version>
-    <junit.version>4.11</junit.version> 
+    <junit.version>4.11</junit.version>
+    <commons.lang.version>2.6</commons.lang.version> 
     <jersey.version>1.9</jersey.version>
-    <opencsv.version>2.3</opencsv.version>
-    <mysql.version>5.1.35</mysql.version>	
-  </properties>  
-
+    <jackson.version>2.5.0</jackson.version>
+  </properties>
+  
   <build>
     <plugins>  
      
@@ -90,19 +90,29 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>${mysql.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>net.sf.opencsv</groupId>
-      <artifactId>opencsv</artifactId>
-      <version>${opencsv.version}</version>
-    </dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>${commons.lang.version}</version>
+    </dependency>    
     <dependency>
       <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-client</artifactId>
       <version>${jersey.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>        
+      <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>${jackson.version}</version>
     </dependency>
   </dependencies>
   

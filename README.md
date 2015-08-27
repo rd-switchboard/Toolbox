@@ -13,9 +13,13 @@ If registry object key does not exists in the list, the registry object will be 
 The progra, will delete the keys in chunks, the size of the chunk can be set in the program propertyes
 (the 256 is default).
 
-# [RDS: Export RDS URL's](https://github.com/rd-switchboard/Toolbox/tree/master/RDS/export_rds_urls)
+## [RDS: Export RDS URL's](https://github.com/rd-switchboard/Toolbox/tree/master/RDS/export_rds_urls)
 
 Tool will export URL's SLUG and ID parts for each Registry Object in the RDS Database
+
+## [RDS: Sync SOLR Index](https://github.com/rd-switchboard/Toolbox/tree/master/RDS/sync_solr)
+
+Tool will Sync SOLR Index with RDS MySQL Database
 
 # AWS S3
 

@@ -48,12 +48,11 @@ To stat the program, execute `java -jar export_rds_urls-{program_version}.jar [{
 For example:
 
 ```
+# swithc to project folder
 cd export_rds_urls-1.0.0
+
 # Edit program properties
 vi properties/export_rds_urls.propertis
-
-# Create a list with exising keys
-...
 
 # Execute the program
 java -jar export_rds_urls-1.0.0.jar
