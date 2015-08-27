@@ -25,6 +25,12 @@ Tool will export URL's SLUG and ID parts for each Registry Object in the RDS Dat
 
 Tool will Sync SOLR Index with RDS MySQL Database
 
+## [RDS: Import Browser](https://github.com/rd-switchboard/Toolbox/tree/master/RDS/import_browser)
+
+Tool will Import Records from XML files locaed in S3 Bucket into RDS Database. Each Record must be in RIF:CS XML 
+format and the whole XML file must be in OAI:PMH format. Optinal XSLT crosswalk can be provided to change record format
+into RIF:CS before uploading the file into RDS website, if records has been harvested in different format.
+
 # AWS S3
 
 ## [S3: Remove Public Access](https://github.com/rd-switchboard/Toolbox/tree/master/S3/remove_public_access)

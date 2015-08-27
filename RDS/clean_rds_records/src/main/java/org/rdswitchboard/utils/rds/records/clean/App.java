@@ -49,7 +49,7 @@ public class App {
 
 			Cookie cookie = new Cookie("PHPSESSID", properties.getProperty("session"));
 
-			String inputFile = properties.getProperty("input", "rda_keys.csv")
+			String inputFile = properties.getProperty("input", "rda_keys.csv");
 
 			int maxObjects = Integer.parseInt(properties.getProperty("max_objects", "256"));
 			
