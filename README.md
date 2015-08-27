@@ -3,6 +3,9 @@ Fancy tools that you can use to achieve great things: We have developed them too
 to make the RD-Switchboard operation easier. Please feel free to use these tools
 under the MIT license. 
 
+This Document contains only list of existsing projects in this repository. Please refer to the 
+actual project README.md file for a information about how to install and use each tool.
+
 # RDS
 
 ## [RDS: Clean RDS Records](https://github.com/rd-switchboard/Toolbox/tree/master/RDS/clean_rds_records)
