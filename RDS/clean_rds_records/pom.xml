@@ -1,24 +1,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.rdswitchboard.utils</groupId>
-  <artifactId>test_crosswalk</artifactId>
-  <version>1.0.0</version> 
-  <name>Test Crosswalk</name>
-  <description>Download an Object from S3 Bucket and apply a Crosswalk to it</description>
+  <artifactId>clean_rds_records</artifactId>
+  <version>1.0.0</version>  	
+  <name>Clean RDS Records</name>
+  <description>Will Remove non-existing Records from RDS Database</description>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <main.class>org.rdswitchboard.tests.crosswalk.App</main.class>
+    <main.class>org.rdswitchboard.utils.rds.records.clean.App</main.class>
     <class.path>jars/</class.path>
     <jdk.version>1.7</jdk.version>
     <junit.version>4.11</junit.version> 
-    <aws-java-sdk.version>1.9.39</aws-java-sdk.version>
     <jersey.version>1.9</jersey.version>
-  </properties>
-  
-  <build>
-    <plugins>
+    <opencsv.version>2.3</opencsv.version>
+    <mysql.version>5.1.35</mysql.version>	
+  </properties>  
 
+  <build>
+    <plugins>  
+     
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -27,8 +28,8 @@
           <source>${jdk.version}</source>
           <target>${jdk.version}</target>
         </configuration>
-      </plugin> 	
-      
+      </plugin> 
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
@@ -77,10 +78,8 @@
           </execution>
         </executions>
       </plugin>
-          
-    </plugins>
+ 	</plugins>
   </build>
-  
   
   <dependencies>
     <dependency>
@@ -90,9 +89,14 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.amazonaws</groupId>
-      <artifactId>aws-java-sdk</artifactId>
-      <version>${aws-java-sdk.version}</version>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>${mysql.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.opencsv</groupId>
+      <artifactId>opencsv</artifactId>
+      <version>${opencsv.version}</version>
     </dependency>
     <dependency>
       <groupId>com.sun.jersey</groupId>
