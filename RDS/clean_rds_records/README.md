@@ -61,6 +61,6 @@ vi properties/clean_rds_records.propertis
 ...
 
 # Execute the program
-java -jar test_crosswalk-1.0.0.jar my_bycket my_key
+java -jar clean_rds_records-1.0.0.jar
 ```
 

@@ -13,6 +13,10 @@ If registry object key does not exists in the list, the registry object will be 
 The progra, will delete the keys in chunks, the size of the chunk can be set in the program propertyes
 (the 256 is default).
 
+# [RDS: Export RDS URL's](https://github.com/rd-switchboard/Toolbox/tree/master/RDS/export_rds_urls)
+
+Tool will export URL's SLUG and ID parts for each Registry Object in the RDS Database
+
 # AWS S3
 
 ## [S3: Remove Public Access](https://github.com/rd-switchboard/Toolbox/tree/master/S3/remove_public_access)

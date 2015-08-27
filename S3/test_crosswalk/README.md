@@ -52,6 +52,6 @@ For example:
 
 ```
 cd test_crosswalk-1.0.0
-java -jar test_crosswalk-1.0.0.jar my_bycket my_key
+java -jar test_crosswalk-1.0.0.jar
 ```
 
