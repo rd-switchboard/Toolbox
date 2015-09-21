@@ -13,7 +13,6 @@
     <jdk.version>1.7</jdk.version>
     <junit.version>4.11</junit.version> 
     <jersey.version>1.9</jersey.version>
-    <opencsv.version>2.3</opencsv.version>
     <mysql.version>5.1.35</mysql.version>	
   </properties>  
 
@@ -93,11 +92,6 @@
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
       <version>${mysql.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>net.sf.opencsv</groupId>
-      <artifactId>opencsv</artifactId>
-      <version>${opencsv.version}</version>
     </dependency>
     <dependency>
       <groupId>com.sun.jersey</groupId>

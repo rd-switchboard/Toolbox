@@ -31,7 +31,15 @@ Tool will Import Records from XML files locaed in S3 Bucket into RDS Database. E
 format and the whole XML file must be in OAI:PMH format. Optinal XSLT crosswalk can be provided to change record format
 into RIF:CS before uploading the file into RDS website, if records has been harvested in different format.
 
+## [RDS: Check API Ussage limits](https://github.com/rd-switchboard/Toolbox/tree/master/RDS/check_limits)
+
+Tool will run periodically to check ussage quotas and issue or remove a temporray API blocks if needed.
+
 # AWS S3
+
+## [S3: Find Object](https://github.com/rd-switchboard/Toolbox/tree/master/S3/find_object)
+
+Tool is designed to find a single object in a S3 bucket.
 
 ## [S3: Remove Public Access](https://github.com/rd-switchboard/Toolbox/tree/master/S3/remove_public_access)
 
@@ -43,6 +51,14 @@ The selection can be limited by prefix, what usually is jus folder name.
 Tool will download a single XML object from a S3 Bucket and will apply a Crosswalk to it. 
 The result can be printed to stdout or to the file.
 
+# XSLT
 
+## MARC21_to_RIFCS
+
+A XSLT Crosswalk from Marc21 to RIF:CS
+
+## METS_TO_RIFCS
+
+A XSLT Crosswalk from Mets to RIF:CS
 
 

@@ -1,17 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.rdswitchboard.utils</groupId>
-  <artifactId>remove_public_access</artifactId>
+  <artifactId>find_object</artifactId>
   <version>1.0.0</version>
-  <name>Remove Public Access from S3 Bucket</name>
+  <name>Find S3 Object </name>
+  <description>Will fina an objct inside S3 Bucket containing a text</description>
   
   <properties>
-    <main.class>org.reswitchboard.utils.s3.access.App</main.class>
+    <main.class>org.rdswitchboard.utils.s3.find.App</main.class>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <class.path>jars/</class.path>
     <jdk.version>1.7</jdk.version>
     <junit.version>4.11</junit.version>
     <aws-java-sdk.version>1.9.39</aws-java-sdk.version>	
+    <commons.io.version>2.4</commons.io.version>
   </properties>
   
   <build>
@@ -85,6 +87,11 @@
       <artifactId>junit</artifactId>
       <version>${junit.version}</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>${commons.io.version}</version>
     </dependency>
     <dependency>
       <groupId>com.amazonaws</groupId>

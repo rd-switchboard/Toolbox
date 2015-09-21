@@ -1,21 +1,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.rdswitchboard.utils</groupId>
-  <artifactId>remove_public_access</artifactId>
+  <groupId>org.rdswicthboard.utils</groupId>
+  <artifactId>check_limits</artifactId>
   <version>1.0.0</version>
-  <name>Remove Public Access from S3 Bucket</name>
+  <name>Check Query Limits</name>
+  <description>Check query limits for each user, block users, who exceed they limits, unblock all who does not</description>
   
   <properties>
-    <main.class>org.reswitchboard.utils.s3.access.App</main.class>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <main.class>org.rdswitchboard.api.limits.App</main.class>
     <class.path>jars/</class.path>
     <jdk.version>1.7</jdk.version>
     <junit.version>4.11</junit.version>
-    <aws-java-sdk.version>1.9.39</aws-java-sdk.version>	
-  </properties>
-  
+    <mysql.version>5.1.35</mysql.version>	
+  </properties>  
+
   <build>
-    <plugins>
+    <plugins>  
+     
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -24,8 +26,8 @@
           <source>${jdk.version}</source>
           <target>${jdk.version}</target>
         </configuration>
-      </plugin>
-      
+      </plugin> 
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
@@ -58,7 +60,7 @@
           </execution>
         </executions>
       </plugin>
-          
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
@@ -78,7 +80,6 @@
     </plugins>
   </build>
   
-  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -87,9 +88,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.amazonaws</groupId>
-      <artifactId>aws-java-sdk</artifactId>
-      <version>${aws-java-sdk.version}</version>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>${mysql.version}</version>
     </dependency>
   </dependencies>
   

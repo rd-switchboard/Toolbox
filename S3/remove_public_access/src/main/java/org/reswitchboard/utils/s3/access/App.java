@@ -1,4 +1,4 @@
-package org.reswitchboard.toolbox.s3.access;
+package org.reswitchboard.utils.s3.access;
 
 import java.util.List;
 

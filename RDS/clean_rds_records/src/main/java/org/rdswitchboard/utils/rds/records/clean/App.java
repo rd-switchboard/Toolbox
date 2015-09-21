@@ -1,5 +1,6 @@
 package org.rdswitchboard.utils.rds.records.clean;
 
+import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.InputStream;
@@ -22,8 +23,6 @@ import javax.ws.rs.core.MediaType;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
-
-import au.com.bytecode.opencsv.CSVReader;
 
 public class App {
 	private static final String PROPERTIES_FILE = "properties/clean_rds_records.properties";	
@@ -49,7 +48,7 @@ public class App {
 
 			Cookie cookie = new Cookie("PHPSESSID", properties.getProperty("session"));
 
-			String inputFile = properties.getProperty("input", "rda_keys.csv");
+			String inputFile = properties.getProperty("input", "rds_keys.csv");
 
 			int maxObjects = Integer.parseInt(properties.getProperty("max_objects", "256"));
 			
@@ -57,22 +56,12 @@ public class App {
 			Set<String> index = new HashSet<String>();
 			
 			// load data
-			try (CSVReader reader = new CSVReader(new FileReader(inputFile))) {
-				
-				String[] line;
-	            boolean header = false;
-	                        
-	            while ((line = reader.readNext()) != null) 
-	            {
-	            	if (!header)
-	                {
-	            		header = true;
-	                    continue;
-	                }
-	            	
-	            	index.add(line[1] + ":" + line[0]);
-	            }
-			} 
+			try (BufferedReader br = new BufferedReader(new FileReader(inputFile))) {
+			    String line;
+			    while ((line = br.readLine()) != null) {
+			    	index.add(line);
+			    }
+			}
 			
 			System.out.println("Loading JDBC driver");
 			// The newInstance() call is a work around for some
@@ -99,22 +88,21 @@ public class App {
 							System.out.println("Processing data source with id " + sourceId);
 							
 							List<Integer> arrIds = new ArrayList<Integer>();
+							int counter = 0;
 							
 							try (Statement stmt2 = conn.createStatement()) {
-								try (ResultSet rs = stmt2.executeQuery("SELECT registry_object_id, slug FROM registry_objects WHERE data_source_id=" + sourceId + " AND class='collection'")) {
-									 while (rs.next()) {
-										 Integer objectId = rs.getInt("registry_object_id");
-										 String slug = rs.getString("slug");
-										 							 
-										 if (!index.contains(objectId + ":" + slug)) {
-											 arrIds.add(objectId);
-										 }
+								try (ResultSet rs = stmt2.executeQuery("SELECT registry_object_id, `key` FROM registry_objects WHERE data_source_id=" + sourceId + " AND class='collection'")) {
+									 while (rs.next()) { 
+										 ++counter;
+										 if (!index.contains(rs.getString("key"))) 
+											 arrIds.add(rs.getInt("registry_object_id"));
 									 }
 								}
 							}
+							System.out.println("Found " + counter + " records");
 							
 							if (!arrIds.isEmpty()) {
-								System.out.println("Found " + arrIds.size() + " objects");
+								System.out.println("Deleting " + arrIds.size() + " records");
 								int steps = arrIds.size() / maxObjects + 1;
 								for (int step = 0; step < steps; ++step) {
 									
