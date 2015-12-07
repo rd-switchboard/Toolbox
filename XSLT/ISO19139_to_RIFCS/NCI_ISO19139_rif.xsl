@@ -1,3 +1,20 @@
+<!--
+This file has been developed by https://github.com/mlwbarlow
+Copied form https://github.com/mlwbarlow/scripts-as-required/tree/master/XSLT/ISO19139_To_RIFCS 
+and distributed under the following terms of use. 
+
+* This file is part of RD-Switchboard.
+* RD-Switchboard is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+* You should have received a copy of the GNU General Public License
+* along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
