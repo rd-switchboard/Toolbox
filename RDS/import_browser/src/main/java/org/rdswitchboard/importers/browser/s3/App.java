@@ -6,6 +6,7 @@ import java.io.StringWriter;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.Properties;
 
 import javax.ws.rs.core.Cookie;
@@ -118,20 +119,32 @@ public class App {
 	        
 	        //String file = "rda/rif/class:collection/54800.xml";
 	        
-	        ListObjectsRequest listObjectsRequest = new ListObjectsRequest()
-				.withBucketName(bucket)
-				.withPrefix(prefix);
+	    	ListObjectsRequest listObjectsRequest;
 			ObjectListing objectListing;
+			
+			String file = prefix + "/latest.txt";
+			S3Object object = s3client.getObject(new GetObjectRequest(bucket, file));
+			
+			String latest;
+			try (InputStream txt = object.getObjectContent()) {
+				latest = prefix + "/" + IOUtils.toString(txt, StandardCharsets.UTF_8).trim() + "/";
+			}
+			
+			System.out.println("S3 Repository: " + latest);
+	        
+	        listObjectsRequest = new ListObjectsRequest()
+				.withBucketName(bucket)
+				.withPrefix(latest);
 			do {
 				objectListing = s3client.listObjects(listObjectsRequest);
 				for (S3ObjectSummary objectSummary : 
 					objectListing.getObjectSummaries()) {
 					
-					String file = objectSummary.getKey();
+					file = objectSummary.getKey();
 	
 					System.out.println("Processing file: " + file);
 					
-					S3Object object = s3client.getObject(new GetObjectRequest(bucket, file));
+					object = s3client.getObject(new GetObjectRequest(bucket, file));
 					String xml = null;
 					
 					if (null != template) {

@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.rdswitchboard.importers</groupId>
   <artifactId>import_browser</artifactId>
-  <version>1.0.0</version>  
+  <version>1.0.1</version>  
   <name>Import RIF:CS Records inio RD-Swithboard Browser</name>
   <description>Will import XML files from S3 storage into RD-Switchboard Browser</description>
   
