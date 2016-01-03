@@ -91,7 +91,7 @@ public class App {
 	        String crosswalk = properties.getProperty("crosswalk");
 	        Templates template = null;
 	        
-	        if (!StringUtils.isNullOrEmpty(prefix)) {
+	        if (!StringUtils.isNullOrEmpty(crosswalk)) {
 	        	System.out.println("Crosswalk: " + crosswalk);
 	        	
 	        	template = TransformerFactory.newInstance().newTemplates(
