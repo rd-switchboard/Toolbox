@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2016-01-21T04:31:41Z</responseDate>
+<request verb="ListRecords" metadataPrefix="junii2">http://irdb.nii.ac.jp/irdb/request2/harvest_teikyo_request_rnsid.php</request>
+<ListRecords>
+    <record>
+        <header>
+            <identifier>oai:irdb.nii.ac.jp:0003/00000053</identifier>
+            <datestamp>2014-12-30T09:05:27Z</datestamp>
+            <setSpec>3</setSpec>
+        </header>
+        <metadata>
+            <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-0.xsd">
+            <title>Lipid Content and Fatty Acid Composition of Euphausia pacifica (Total Body Lengths Less than 13 mm) Collected in the Water near Funka Bay</title>
+            <creator>KUSUMOTO, Nami</creator>
+            <creator id="http://rns.nii.ac.jp/nr/1000030261340">ANDO, Yasuhiro</creator>
+            <creator>MATSUKURA, Ryuichi</creator>
+            <creator id="http://rns.nii.ac.jp/nr/1000060209971">MUKAI, Tohru</creator>
+            <subject>Euphausia pacifica</subject>
+            <subject>Lipid</subject>
+            <subject>Fatty acid</subject>
+            <subject>DHA</subject>
+            <subject>IPA</subject>
+            <NDC>660</NDC>
+            <publisher>北海道大学大学院水産科学研究科 = GRADUATE SCHOOL OF FISHERIES SCIENCES, HOKKAIDO UNIVERSITY</publisher>
+            <NIItype>Departmental Bulletin Paper</NIItype>
+            <format>application/pdf</format>
+            <URI>http://jairo.nii.ac.jp/0003/00000053</URI>
+            <fullTextURL>http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/21986/1/54%283%29_P73-77.pdf</fullTextURL>
+            <issn>1346-1842</issn>
+            <NCID>AA11547977</NCID>
+            <jtitle>北海道大学水産科学研究彙報</jtitle>
+            <volume>54</volume>
+            <issue>3</issue>
+            <spage>73</spage>
+            <epage>77</epage>
+            <dateofissued>2003-12</dateofissued>
+            <language>eng</language>
+            <textversion>author</textversion>
+            <baseurl>http://eprints.lib.hokudai.ac.jp/dspace-oai/request</baseurl>
+            <IR_URI>http://hdl.handle.net/2115/21986</IR_URI>
+        </junii2>
+    </metadata>
+</record>
+<record>
+    <header>
+        <identifier>oai:irdb.nii.ac.jp:0003/00000058</identifier>
+        <datestamp>2012-02-14T09:05:57Z</datestamp>
+        <setSpec>3</setSpec>
+    </header>
+    <metadata>
+        <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-0.xsd">
+        <title>脂肪細胞への分化過程における細胞及び脂肪滴の挙動 ： タイムラプス観察による一細胞レベルでの解明</title>
+        <creator id="http://rns.nii.ac.jp/nr/1000070374585">永山, 昌史</creator>
+        <creator id="http://rns.nii.ac.jp/nr/1000070356575">内田, 努</creator>
+        <creator>平, 敏夫</creator>
+        <creator>清水, 恭子</creator>
+        <creator>郷原, 一寿</creator>
+        <NDC>463</NDC>
+        <publisher>日本肥満学会（Japan Society for the Study of Obesity）JASSO</publisher>
+        <NIItype>Journal Article</NIItype>
+        <format>application/pdf</format>
+        <URI>http://jairo.nii.ac.jp/0003/00000058</URI>
+        <fullTextURL>http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/25460/1/%e8%82%a5%e6%ba%80%e7%a0%94%e7%a9%b613-1.pdf</fullTextURL>
+        <issn>1343-229X</issn>
+        <jtitle>肥満研究</jtitle>
+        <volume>13</volume>
+        <issue>1</issue>
+        <spage>84</spage>
+        <epage>86</epage>
+        <dateofissued>2007</dateofissued>
+        <language>jpn</language>
+        <textversion>author</textversion>
+        <baseurl>http://eprints.lib.hokudai.ac.jp/dspace-oai/request</baseurl>
+        <IR_URI>http://hdl.handle.net/2115/25460</IR_URI>
+    </junii2>
+</metadata>
+</record>
+<record>
+    <header>
+        <identifier>oai:irdb.nii.ac.jp:0003/00000100</identifier>
+        <datestamp>2012-02-14T09:06:00Z</datestamp>
+        <setSpec>3</setSpec>
+    </header>
+    <metadata>
+        <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-0.xsd">
+        <title>科学技術者にもとめられる倫理的技能と教育</title>
+        <alternative>Engineering Ethics Requisite to Professional Engineers and Education</alternative>
+        <creator id="http://rns.nii.ac.jp/nr/1000000091504">三浦, 清一</creator>
+        <NDC>377</NDC>
+        <publisher>北海道大学高等教育機能開発総合センター</publisher>
+        <NIItype>Departmental Bulletin Paper</NIItype>
+        <format>application/pdf</format>
+        <URI>http://jairo.nii.ac.jp/0003/00000100</URI>
+        <fullTextURL>http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/29663/1/10_P59-68.pdf</fullTextURL>
+        <issn>1341-9374</issn>
+        <NCID>AN10527626</NCID>
+        <jtitle>高等教育ジャーナル</jtitle>
+        <volume>10</volume>
+        <spage>59</spage>
+        <epage>68</epage>
+        <dateofissued>2002</dateofissued>
+        <language>jpn</language>
+        <textversion>author</textversion>
+        <baseurl>http://eprints.lib.hokudai.ac.jp/dspace-oai/request</baseurl>
+        <IR_URI>http://hdl.handle.net/2115/29663</IR_URI>
+    </junii2>
+</metadata>
+</record>
+<record>
+    <header>
+        <identifier>oai:irdb.nii.ac.jp:0003/00000121</identifier>
+        <datestamp>2012-02-14T09:05:52Z</datestamp>
+        <setSpec>3</setSpec>
+    </header>
+    <metadata>
+        <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-0.xsd">
+        <title>札幌の平地積雪断面測定資料　平成７年～８年冬期</title>
+        <alternative>Report of pit-wall observations of snow cover in Sapporo 1995～96</alternative>
+        <creator>秋田谷, 英次</creator>
+        <creator>西村, 浩一</creator>
+        <creator id="http://rns.nii.ac.jp/nr/1000090235739">白岩, 孝行</creator>
+        <creator>尾関, 俊浩</creator>
+        <creator>伊藤, 陽一</creator>
+        <creator>山口, 悟</creator>
+        <creator>須沢, 啓一</creator>
+        <NDC>431.67</NDC>
+        <publisher>北海道大学低温科学研究所</publisher>
+        <NIItype>Departmental Bulletin Paper</NIItype>
+        <format>application/pdf</format>
+        <URI>http://jairo.nii.ac.jp/0003/00000121</URI>
+        <fullTextURL>http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/18805/1/55_p1-11.pdf</fullTextURL>
+        <issn>0385-3683</issn>
+        <NCID>AN00149657</NCID>
+        <jtitle>低温科学. 物理篇. 資料集</jtitle>
+        <volume>55</volume>
+        <spage>1</spage>
+        <epage>11</epage>
+        <dateofissued>1997-03-28</dateofissued>
+        <language>jpn</language>
+        <textversion>author</textversion>
+        <baseurl>http://eprints.lib.hokudai.ac.jp/dspace-oai/request</baseurl>
+        <IR_URI>http://hdl.handle.net/2115/18805</IR_URI>
+    </junii2>
+</metadata>
+</record>
+<record>
+    <header>
+        <identifier>oai:irdb.nii.ac.jp:0003/00000140</identifier>
+        <datestamp>2012-02-14T09:05:55Z</datestamp>
+        <setSpec>3</setSpec>
+    </header>
+    <metadata>
+        <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-0.xsd">
+        <title>電解陰極水による水産物からのイノシン酸の効率的抽出</title>
+        <alternative>Effective Extraction of Inosinic Acid from Marine Products by Electrolyzed Cathode Water</alternative>
+        <creator>峠, 有利子</creator>
+        <creator id="http://rns.nii.ac.jp/nr/1000010182015">宮下, 和夫</creator>
+        <subject>electrolyzed cathode water</subject>
+        <subject>fish tissue</subject>
+        <subject>dried fish product</subject>
+        <subject>water soluble extract</subject>
+        <subject>inosinic acid</subject>
+        <NDC>660</NDC>
+        <publisher>北海道大学大学院水産科学研究科 = GRADUATE SCHOOL OF FISHERIES SCIENCES, HOKKAIDO UNIVERSITY</publisher>
+        <NIItype>Departmental Bulletin Paper</NIItype>
+        <format>application/pdf</format>
+        <URI>http://jairo.nii.ac.jp/0003/00000140</URI>
+        <fullTextURL>http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/21973/1/53%283%29_P91-94.pdf</fullTextURL>
+        <issn>1346-1842</issn>
+        <NCID>AA11547977</NCID>
+        <jtitle>北海道大学水産科学研究彙報</jtitle>
+        <volume>53</volume>
+        <issue>3</issue>
+        <spage>91</spage>
+        <epage>94</epage>
+        <dateofissued>2002-12</dateofissued>
+        <language>jpn</language>
+        <textversion>author</textversion>
+        <baseurl>http://eprints.lib.hokudai.ac.jp/dspace-oai/request</baseurl>
+        <IR_URI>http://hdl.handle.net/2115/21973</IR_URI>
+    </junii2>
+</metadata>
+</record>
+<record>
+    <header>
+        <identifier>oai:irdb.nii.ac.jp:0003/00000145</identifier>
+        <datestamp>2012-02-14T09:05:56Z</datestamp>
+        <setSpec>3</setSpec>
+    </header>
+    <metadata>
+        <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-0.xsd">
+        <title>オゾン処理海水で飼育したマツカワ稚魚の細菌叢</title>
+        <alternative>Bacterial Flora of Hatchery-Reared Barfin Flounder Juveniles Reared by Ozone Treated Seawater</alternative>
+        <creator>渡辺, 研一</creator>
+        <creator id="http://rns.nii.ac.jp/nr/1000040122915">吉水, 守</creator>
+        <subject>Barfin flounder</subject>
+        <subject>Verasper moseri</subject>
+        <subject>Bacterial Flora</subject>
+        <subject>Skin</subject>
+        <subject>Intestine</subject>
+        <NDC>660</NDC>
+        <publisher>北海道大学水産学部 = FACULTY OF FISHERIES, HOKKAIDO UNIVERSITY</publisher>
+        <NIItype>Departmental Bulletin Paper</NIItype>
+        <format>application/pdf</format>
+        <URI>http://jairo.nii.ac.jp/0003/00000145</URI>
+        <fullTextURL>http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/24203/1/51%281%29_P63-69.pdf</fullTextURL>
+        <issn>0018-3458</issn>
+        <NCID>AN00230314</NCID>
+        <jtitle>北海道大學水産學部研究彙報</jtitle>
+        <volume>51</volume>
+        <issue>1</issue>
+        <spage>63</spage>
+        <epage>69</epage>
+        <dateofissued>2000-03</dateofissued>
+        <language>jpn</language>
+        <textversion>author</textversion>
+        <baseurl>http://eprints.lib.hokudai.ac.jp/dspace-oai/request</baseurl>
+        <IR_URI>http://hdl.handle.net/2115/24203</IR_URI>
+    </junii2>
+</metadata>
+</record>
+<record>
+    <header>
+        <identifier>oai:irdb.nii.ac.jp:0003/00000151</identifier>
+        <datestamp>2012-02-14T09:05:54Z</datestamp>
+        <setSpec>3</setSpec>
+    </header>
+    <metadata>
+        <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-0.xsd">
+        <title>生きにくさを抱える子どもたち : 生物学的基盤から社会的環境まで</title>
+        <alternative>About children who feel difficulties for existence in their society: From biological bases to social circumstances</alternative>
+        <creator id="http://rns.nii.ac.jp/nr/1000000182147">室橋, 春光</creator>
+        <subject>生きにくさ</subject>
+        <subject>いじめ</subject>
+        <subject>普通</subject>
+        <subject>発達障害</subject>
+        <subject>生物学的基盤</subject>
+        <NDC>376</NDC>
+        <description>「生きにくさ」には時代的・社会的背景があり、容易には定義し難い。しかし「生きにくさ」は、多数派の生活が基準となりそれが「普通」となるとき、少数派の生活様式のうちに「普通」ならざるものとして現れる。発達障害のある人々は、その特性の強さから往々にして少数派としての生活を強いられる。同じ「人」であるが故に、そのわずかな違いが偏見を生む。「障害」に現れる心理的特性の背景には、生物学的基盤と社会的環境との相互作用がある。それらの背景に存する諸基盤を理解した上で彼らを援助し支えることのできる社会こそが、真に強い社会であるといえる。</description>
+        <publisher>北海道大学大学院教育学研究科附属子ども発達臨床研究センター</publisher>
+        <NIItype>Departmental Bulletin Paper</NIItype>
+        <format>application/pdf</format>
+        <URI>http://jairo.nii.ac.jp/0003/00000151</URI>
+        <fullTextURL>http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/20562/1/MUROHASI.pdf</fullTextURL>
+        <NCID>AA12203623</NCID>
+        <jtitle>子ども発達臨床研究</jtitle>
+        <volume>1</volume>
+        <spage>11</spage>
+        <epage>17</epage>
+        <dateofissued>2007-03-30</dateofissued>
+        <language>jpn</language>
+        <textversion>author</textversion>
+        <baseurl>http://eprints.lib.hokudai.ac.jp/dspace-oai/request</baseurl>
+        <IR_URI>http://hdl.handle.net/2115/20562</IR_URI>
+    </junii2>
+</metadata>
+</record>
+<record>
+    <header>
+        <identifier>oai:irdb.nii.ac.jp:0003/00000156</identifier>
+        <datestamp>2012-02-14T09:05:55Z</datestamp>
+        <setSpec>3</setSpec>
+    </header>
+    <metadata>
+        <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-0.xsd">
+        <title>Regulation of STAT3-mediated signaling by LMW-DSP2.</title>
+        <creator>Sekine, Y.</creator>
+        <creator>Tsuji, S.</creator>
+        <creator>Ikeda, O.</creator>
+        <creator>Sato, N.</creator>
+        <creator>Aoki, N.</creator>
+        <creator>Aoyama, K.</creator>
+        <creator>Sugiyama, K.</creator>
+        <creator id="http://rns.nii.ac.jp/nr/1000020212219">Matsuda, T.</creator>
+        <subject>IL-6</subject>
+        <subject>LIF</subject>
+        <subject>STAT3</subject>
+        <subject>phosphatase</subject>
+        <subject>transcriptional regulation</subject>
+        <NDC>499</NDC>
+        <description>Signal transducer and activator of transcription 3 (STAT3), which mediates biological actions in many physiological processes, is activated by cytokines and growth factors, and has been reported to be constitutively activated in numerous cancer cells. In this study, we examined whether low molecular weight-dual specificity phosphatase two (LMW-DSP2) is involved in the regulation of the interleukin 6 (IL-6)/leukemia inhibitory factor (LIF)/STAT3-mediated signaling pathway. IL-6/LIF-induced LMW-DSP2 expression in murine testicular or hepatoma cell lines, while LMW-DSP2 overexpression in 293T cells suppressed IL-6-induced phosphorylation and activation of STAT3. Furthermore, LMW-DSP2 suppressed the expression of IL-6-induced endogenous genes. In contrast, small-interfering RNA-mediated reduction of LMW-DSP2 expression enhanced IL-6-induced STAT3-dependent transcription. In fact, LMW-DSP2 interacted with STAT3 in vivo and endogenous LMW-DSP2 bound to STAT3 in murine testicular GC-1 cells. These results strongly suggest that LMW-DSP2 acts as a negative regulator of the IL-6/LIF/STAT3-mediated signaling pathway.</description>
+        <publisher>Nature Publishing Group</publisher>
+        <NIItype>Journal Article</NIItype>
+        <format>application/pdf</format>
+        <URI>http://jairo.nii.ac.jp/0003/00000156</URI>
+        <fullTextURL>http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/22102/1/ONCO25-42.pdf</fullTextURL>
+        <issn>0950-9232</issn>
+        <issn>0950-9232</issn>
+        <jtitle>Oncogene</jtitle>
+        <volume>25</volume>
+        <issue>42</issue>
+        <spage>5801</spage>
+        <epage>5806</epage>
+        <dateofissued>2006-09-21</dateofissued>
+        <language>eng</language>
+        <pmid>info:pmid/16636663</pmid>
+        <doi>info:doi/10.1038/sj.onc.1209578</doi>
+        <rights>Nature Publishing Group, ONCOGENE, 25, 42, 2006, 5801-5806.</rights>
+        <textversion>author</textversion>
+        <baseurl>http://eprints.lib.hokudai.ac.jp/dspace-oai/request</baseurl>
+        <IR_URI>http://hdl.handle.net/2115/22102</IR_URI>
+    </junii2>
+</metadata>
+</record>
+<record>
+    <header>
+        <identifier>oai:irdb.nii.ac.jp:0003/00000172</identifier>
+        <datestamp>2012-02-14T09:05:53Z</datestamp>
+        <setSpec>3</setSpec>
+    </header>
+    <metadata>
+        <junii2 xmlns="http://irdb.nii.ac.jp/oai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://irdb.nii.ac.jp/oai http://irdb.nii.ac.jp/oai/junii2-3-0.xsd">
+        <title>財務諸表監査と内部統制監査</title>
+        <alternative>Financial Statement Audit and Internal Control Audit</alternative>
+        <creator id="http://rns.nii.ac.jp/nr/1000040214449">蟹江, 章</creator>
+        <subject>内部統制</subject>
+        <subject>内部統制報告書</subject>
+        <subject>内部統制監査</subject>
+        <subject>COSO</subject>
+        <subject>SOX法</subject>
+        <NDC>330</NDC>
+        <description>アメリカでは,エンロン事件をはじめとする不正会計事件に対応するために制定されたサーベンス・オクスレー法(SOX法)によって,内部統制監査が制度化された。わが国でも,相次ぐ財務報告の不実記載に対応するために,同様の制度が導入されることとなった。 リスク・アプローチに基づく財務諸表監査では,従来から監査人による内部統制の評価が重要な意味をもってきた。しかし,新たに導入される内部統制監査では,一義的に,経営者による内部統制の有効性の評価と報告が要求される点に特徴がある。監査人の役割は,経営者の評価と報告の適正性を検証することにある。 本稿では,金融庁・企業会計審議会の内部統制部会から公表された内部統制の評価及び監査の基準に基づいて,内部統制監査が財務情報の信頼性の向上にどのように寄与するかを検討している。</description>
+        <publisher>北海道大学大学院経済学研究科</publisher>
+        <NIItype>Departmental Bulletin Paper</NIItype>
+        <format>application/pdf</format>
+        <URI>http://jairo.nii.ac.jp/0003/00000172</URI>
+        <fullTextURL>http://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/20021/1/ES_56%284%29_47.pdf</fullTextURL>
+        <issn>0451-6265</issn>
+        <NCID>AN00070036</NCID>
+        <jtitle>經濟學研究</jtitle>
+        <volume>56</volume>
+        <issue>4</issue>
+        <spage>46</spage>
+        <epage>57</epage>
+        <dateofissued>2007-03-08</dateofissued>
+        <language>jpn</language>
+        <textversion>author</textversion>
+        <baseurl>http://eprints.lib.hokudai.ac.jp/dspace-oai/request</baseurl>
+        <IR_URI>http://hdl.handle.net/2115/20021</IR_URI>
+    </junii2>
+</metadata>
+</record>
+<resumptionToken/>
+</ListRecords>
+</OAI-PMH>
+
+
