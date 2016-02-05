@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2016-01-21T04:31:41Z</responseDate>
+  <request verb="ListRecords" metadataPrefix="junii2">http://irdb.nii.ac.jp/irdb/request2/harvest_teikyo_request_rnsid.php</request>
+  <ListRecords>
+    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+      <header xmlns="http://www.openarchives.org/OAI/2.0/">
+        <identifier>oai:irdb.nii.ac.jp:0003/00000053</identifier>
+        <datestamp>2014-12-30T09:05:27Z</datestamp>
+        <setSpec>3</setSpec>
+      </header>
+      <metadata>
+        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+          <registryObject group="NII">
+            <key>http://hdl.handle.net/2115/21986</key>
+            <originatingSource>NII</originatingSource>
+            <collection type="publication">
+              <name>
+                <namePart type="primary">Lipid Content and Fatty Acid Composition of Euphausia pacifica (Total Body Lengths Less than 13 mm) Collected in the Water near Funka Bay</namePart>
+              </name>
+              <relatedObject>
+                <key>http://rns.nii.ac.jp/nr/1000030261340</key>
+                <relation>
+                  <description>ANDO, Yasuhiro</description>
+                </relation>
+              </relatedObject>
+              <relatedObject>
+                <key>http://rns.nii.ac.jp/nr/1000060209971</key>
+                <relation>
+                  <description>MUKAI, Tohru</description>
+                </relation>
+              </relatedObject>
+            </collection>
+          </registryObject>
+        </registryObjects>
+      </metadata>
+    </record>
+    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+      <header xmlns="http://www.openarchives.org/OAI/2.0/">
+        <identifier>oai:irdb.nii.ac.jp:0003/00000058</identifier>
+        <datestamp>2012-02-14T09:05:57Z</datestamp>
+        <setSpec>3</setSpec>
+      </header>
+      <metadata>
+        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+          <registryObject group="NII">
+            <key>http://hdl.handle.net/2115/25460</key>
+            <originatingSource>NII</originatingSource>
+            <collection type="publication">
+              <name>
+                <namePart type="primary">脂肪細胞への分化過程における細胞及び脂肪滴の挙動 ： タイムラプス観察による一細胞レベルでの解明</namePart>
+              </name>
+              <relatedObject>
+                <key>http://rns.nii.ac.jp/nr/1000070374585</key>
+                <relation>
+                  <description>永山, 昌史</description>
+                </relation>
+              </relatedObject>
+              <relatedObject>
+                <key>http://rns.nii.ac.jp/nr/1000070356575</key>
+                <relation>
+                  <description>内田, 努</description>
+                </relation>
+              </relatedObject>
+            </collection>
+          </registryObject>
+        </registryObjects>
+      </metadata>
+    </record>
+    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+      <header xmlns="http://www.openarchives.org/OAI/2.0/">
+        <identifier>oai:irdb.nii.ac.jp:0003/00000100</identifier>
+        <datestamp>2012-02-14T09:06:00Z</datestamp>
+        <setSpec>3</setSpec>
+      </header>
+      <metadata>
+        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+          <registryObject group="NII">
+            <key>http://hdl.handle.net/2115/29663</key>
+            <originatingSource>NII</originatingSource>
+            <collection type="publication">
+              <name>
+                <namePart type="primary">科学技術者にもとめられる倫理的技能と教育</namePart>
+              </name>
+              <relatedObject>
+                <key>http://rns.nii.ac.jp/nr/1000000091504</key>
+                <relation>
+                  <description>三浦, 清一</description>
+                </relation>
+              </relatedObject>
+            </collection>
+          </registryObject>
+        </registryObjects>
+      </metadata>
+    </record>
+    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+      <header xmlns="http://www.openarchives.org/OAI/2.0/">
+        <identifier>oai:irdb.nii.ac.jp:0003/00000121</identifier>
+        <datestamp>2012-02-14T09:05:52Z</datestamp>
+        <setSpec>3</setSpec>
+      </header>
+      <metadata>
+        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+          <registryObject group="NII">
+            <key>http://hdl.handle.net/2115/18805</key>
+            <originatingSource>NII</originatingSource>
+            <collection type="publication">
+              <name>
+                <namePart type="primary">札幌の平地積雪断面測定資料　平成７年～８年冬期</namePart>
+              </name>
+              <relatedObject>
+                <key>http://rns.nii.ac.jp/nr/1000090235739</key>
+                <relation>
+                  <description>白岩, 孝行</description>
+                </relation>
+              </relatedObject>
+            </collection>
+          </registryObject>
+        </registryObjects>
+      </metadata>
+    </record>
+    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+      <header xmlns="http://www.openarchives.org/OAI/2.0/">
+        <identifier>oai:irdb.nii.ac.jp:0003/00000140</identifier>
+        <datestamp>2012-02-14T09:05:55Z</datestamp>
+        <setSpec>3</setSpec>
+      </header>
+      <metadata>
+        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+          <registryObject group="NII">
+            <key>http://hdl.handle.net/2115/21973</key>
+            <originatingSource>NII</originatingSource>
+            <collection type="publication">
+              <name>
+                <namePart type="primary">電解陰極水による水産物からのイノシン酸の効率的抽出</namePart>
+              </name>
+              <relatedObject>
+                <key>http://rns.nii.ac.jp/nr/1000010182015</key>
+                <relation>
+                  <description>宮下, 和夫</description>
+                </relation>
+              </relatedObject>
+            </collection>
+          </registryObject>
+        </registryObjects>
+      </metadata>
+    </record>
+    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+      <header xmlns="http://www.openarchives.org/OAI/2.0/">
+        <identifier>oai:irdb.nii.ac.jp:0003/00000145</identifier>
+        <datestamp>2012-02-14T09:05:56Z</datestamp>
+        <setSpec>3</setSpec>
+      </header>
+      <metadata>
+        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+          <registryObject group="NII">
+            <key>http://hdl.handle.net/2115/24203</key>
+            <originatingSource>NII</originatingSource>
+            <collection type="publication">
+              <name>
+                <namePart type="primary">オゾン処理海水で飼育したマツカワ稚魚の細菌叢</namePart>
+              </name>
+              <relatedObject>
+                <key>http://rns.nii.ac.jp/nr/1000040122915</key>
+                <relation>
+                  <description>吉水, 守</description>
+                </relation>
+              </relatedObject>
+            </collection>
+          </registryObject>
+        </registryObjects>
+      </metadata>
+    </record>
+    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+      <header xmlns="http://www.openarchives.org/OAI/2.0/">
+        <identifier>oai:irdb.nii.ac.jp:0003/00000151</identifier>
+        <datestamp>2012-02-14T09:05:54Z</datestamp>
+        <setSpec>3</setSpec>
+      </header>
+      <metadata>
+        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+          <registryObject group="NII">
+            <key>http://hdl.handle.net/2115/20562</key>
+            <originatingSource>NII</originatingSource>
+            <collection type="publication">
+              <name>
+                <namePart type="primary">生きにくさを抱える子どもたち : 生物学的基盤から社会的環境まで</namePart>
+              </name>
+              <relatedObject>
+                <key>http://rns.nii.ac.jp/nr/1000000182147</key>
+                <relation>
+                  <description>室橋, 春光</description>
+                </relation>
+              </relatedObject>
+            </collection>
+          </registryObject>
+        </registryObjects>
+      </metadata>
+    </record>
+    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+      <header xmlns="http://www.openarchives.org/OAI/2.0/">
+        <identifier>oai:irdb.nii.ac.jp:0003/00000156</identifier>
+        <datestamp>2012-02-14T09:05:55Z</datestamp>
+        <setSpec>3</setSpec>
+      </header>
+      <metadata>
+        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+          <registryObject group="NII">
+            <key>http://hdl.handle.net/2115/22102</key>
+            <originatingSource>NII</originatingSource>
+            <collection type="publication">
+              <name>
+                <namePart type="primary">Regulation of STAT3-mediated signaling by LMW-DSP2.</namePart>
+              </name>
+              <relatedObject>
+                <key>http://rns.nii.ac.jp/nr/1000020212219</key>
+                <relation>
+                  <description>Matsuda, T.</description>
+                </relation>
+              </relatedObject>
+            </collection>
+          </registryObject>
+        </registryObjects>
+      </metadata>
+    </record>
+    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+      <header xmlns="http://www.openarchives.org/OAI/2.0/">
+        <identifier>oai:irdb.nii.ac.jp:0003/00000172</identifier>
+        <datestamp>2012-02-14T09:05:53Z</datestamp>
+        <setSpec>3</setSpec>
+      </header>
+      <metadata>
+        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+          <registryObject group="NII">
+            <key>http://hdl.handle.net/2115/20021</key>
+            <originatingSource>NII</originatingSource>
+            <collection type="publication">
+              <name>
+                <namePart type="primary">財務諸表監査と内部統制監査</namePart>
+              </name>
+              <relatedObject>
+                <key>http://rns.nii.ac.jp/nr/1000040214449</key>
+                <relation>
+                  <description>蟹江, 章</description>
+                </relation>
+              </relatedObject>
+            </collection>
+          </registryObject>
+        </registryObjects>
+      </metadata>
+    </record>
+    <resumptionToken/>
+  </ListRecords>
+</OAI-PMH>

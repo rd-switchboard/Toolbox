@@ -36,7 +36,7 @@
 	<!-- standart OAI key -->
 	<!-- <xsl:variable name="recordKey" select="./oai:header/oai:identifier/text()"/> -->
 	<!-- IR_URI key -->	
-	<xsl:variable name="recordKey" select="./oai:header/oai:metadata/irdb:junii2/irdb:IR_URI/text()"/>
+	<xsl:variable name="recordKey" select="./oai:metadata/irdb:junii2/irdb:IR_URI/text()"/>
 
 	<!-- define recordType variable (can be multiple) -->	
         <!-- <xsl:variable name="recordType" select=".//marc:record/marc:datafield[@tag='980']/marc:subfield[@code='a']/text()" /> -->
