@@ -17,7 +17,9 @@
             <key>oai:cds.cern.ch:185439</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Metrology for experiments</namePart>
+              <name>
+                <namePart type="primary">Metrology for experiments</namePart>
+              </name>
               <description type="full">Author: Lasseur, C</description>
               <subject type="local">accuracy</subject>
               <subject type="local">colliders</subject>
@@ -43,7 +45,9 @@
             <key>oai:cds.cern.ch:185440</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Future accelerators</namePart>
+              <name>
+                <namePart type="primary">Future accelerators</namePart>
+              </name>
               <description type="full">Author: Johnsen, Kjell</description>
               <subject type="local">Eloisatron</subject>
               <subject type="local">HERA</subject>
@@ -77,7 +81,9 @@
             <key>oai:cds.cern.ch:185442</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">After dinner speech</namePart>
+              <name>
+                <namePart type="primary">After dinner speech</namePart>
+              </name>
               <description type="full">Author: Picasso, Emilio</description>
               <subject type="local">LEP</subject>
               <subject type="local">surveying</subject>
@@ -101,7 +107,9 @@
             <key>oai:cds.cern.ch:185457</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Theory of RF acceleration</namePart>
+              <name>
+                <namePart type="primary">Theory of RF acceleration</namePart>
+              </name>
               <description type="full">Author: Dôme, Georges</description>
               <subject type="local">formula</subject>
               <subject type="local">frequency</subject>
@@ -127,7 +135,9 @@
             <key>oai:cds.cern.ch:185459</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Hamiltonian mechanics</namePart>
+              <name>
+                <namePart type="primary">Hamiltonian mechanics</namePart>
+              </name>
               <description type="full">Author: Bell, John Stewart</description>
               <subject type="local">action</subject>
               <subject type="local">canonical</subject>
@@ -154,7 +164,9 @@
             <key>oai:cds.cern.ch:185460</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Chromatic effects and their first-order correction</namePart>
+              <name>
+                <namePart type="primary">Chromatic effects and their first-order correction</namePart>
+              </name>
               <description type="full">Author: Montague, Brian William St. Leger</description>
               <subject type="local">chromaticity</subject>
               <subject type="local">dependence</subject>
@@ -183,7 +195,9 @@
             <key>oai:cds.cern.ch:185463</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Diffusion due to RF noise</namePart>
+              <name>
+                <namePart type="primary">Diffusion due to RF noise</namePart>
+              </name>
               <description type="full">Author: Dôme, Georges</description>
               <subject type="local">Fokker</subject>
               <subject type="local">Planck</subject>
@@ -214,7 +228,9 @@
             <key>oai:cds.cern.ch:185482</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Summary report of the working group 5 on final focus and interaction point</namePart>
+              <name>
+                <namePart type="primary">Summary report of the working group 5 on final focus and interaction point</namePart>
+              </name>
               <description type="full">Author: Chen, P</description>
               <subject type="local">1-10TeVcm</subject>
               <subject type="local">collider</subject>
@@ -239,7 +255,9 @@
             <key>oai:cds.cern.ch:185501</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Gamma-gamma physics</namePart>
+              <name>
+                <namePart type="primary">Gamma-gamma physics</namePart>
+              </name>
               <description type="full">Author: Miller, D J</description>
               <subject type="local">100-1000GeVcm</subject>
               <subject type="local">e+ e-</subject>
@@ -275,7 +293,9 @@
             <key>oai:cds.cern.ch:185758</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Buses for high energy physics</namePart>
+              <name>
+                <namePart type="primary">Buses for high energy physics</namePart>
+              </name>
               <description type="full">Author: von Rüden, Wolfgang</description>
               <subject type="local">CAMAC</subject>
               <subject type="local">Ethernet</subject>
@@ -309,7 +329,9 @@
             <key>oai:cds.cern.ch:185877</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Copper-beryllium alloys for technical applications</namePart>
+              <name>
+                <namePart type="primary">Copper-beryllium alloys for technical applications</namePart>
+              </name>
               <description type="full">Author: Heller, Wolfram</description>
               <subject type="local">Engineering</subject>
               <identifier type="doi">10.5170/CERN-1976-001</identifier>
@@ -339,7 +361,9 @@
             <key>oai:cds.cern.ch:185878</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">List of publications covering bubble-chamber experiments carried out at CERN during the period 1960-1974</namePart>
+              <name>
+                <namePart type="primary">List of publications covering bubble-chamber experiments carried out at CERN during the period 1960-1974</namePart>
+              </name>
               <description type="full">Author: Steel, Ella Wentworth Dyne</description>
               <subject type="local">bibliography</subject>
               <subject type="local">Information Transfer and Management</subject>
@@ -370,7 +394,9 @@
             <key>oai:cds.cern.ch:185879</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">List of publications covering bubble-chamber experiments carried out at CERN during the year 1975</namePart>
+              <name>
+                <namePart type="primary">List of publications covering bubble-chamber experiments carried out at CERN during the year 1975</namePart>
+              </name>
               <description type="full">Author: Steel, Ella Wentworth Dyne</description>
               <subject type="local">bibliography</subject>
               <subject type="local">Information Transfer and Management</subject>
@@ -401,7 +427,9 @@
             <key>oai:cds.cern.ch:185880</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Système tridimensionnel de coordonnées utilisé au CERN</namePart>
+              <name>
+                <namePart type="primary">Système tridimensionnel de coordonnées utilisé au CERN</namePart>
+              </name>
               <description type="full">Author: Gervaise, Jean
 Author: Mayoud, Michel
 Author: Menant, Elie</description>
@@ -426,7 +454,9 @@ Author: Menant, Elie</description>
             <key>oai:cds.cern.ch:185883</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">The radiation environment of proton accelerators and storage rings</namePart>
+              <name>
+                <namePart type="primary">The radiation environment of proton accelerators and storage rings</namePart>
+              </name>
               <description type="full">Author: Stevenson, Graham Roger</description>
               <subject type="local">Health Physics and Radiation Effects</subject>
               <identifier type="doi">10.5170/CERN-1976-004</identifier>
@@ -456,7 +486,9 @@ Author: Menant, Elie</description>
             <key>oai:cds.cern.ch:185918</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">New methods of measuring spin-rotation parameters in hadron-hadron elastic scattering</namePart>
+              <name>
+                <namePart type="primary">New methods of measuring spin-rotation parameters in hadron-hadron elastic scattering</namePart>
+              </name>
               <description type="full">Author: Antille, Jacques
 Author: Dick, Louis
 Author: Gonidec, Allain
@@ -497,7 +529,9 @@ Author: Madansky, Léon</description>
             <key>oai:cds.cern.ch:185921</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">The general theory of all sum and difference resonances in a three-dimensional magnetic field in a synchrotron</namePart>
+              <name>
+                <namePart type="primary">The general theory of all sum and difference resonances in a three-dimensional magnetic field in a synchrotron</namePart>
+              </name>
               <description type="full">Author: Guignard, Gilbert</description>
               <subject type="local">Accelerators and Storage Rings</subject>
               <identifier type="doi">10.5170/CERN-1976-006</identifier>
@@ -527,7 +561,9 @@ Author: Madansky, Léon</description>
             <key>oai:cds.cern.ch:185924</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Application de l'analyse dimensionnelle à l'étude des enveloppes soumises à une pression extérieure et à l'utilisation de modèles</namePart>
+              <name>
+                <namePart type="primary">Application de l'analyse dimensionnelle à l'étude des enveloppes soumises à une pression extérieure et à l'utilisation de modèles</namePart>
+              </name>
               <description type="full">Author: Lefrançois, Aymar</description>
               <subject type="local">Health Physics and Radiation Effects</subject>
               <identifier type="doi">10.5170/CERN-1976-007</identifier>
@@ -557,7 +593,9 @@ Author: Madansky, Léon</description>
             <key>oai:cds.cern.ch:185926</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">A system for communication between a CDC 6000 and a PDP-11 computer</namePart>
+              <name>
+                <namePart type="primary">A system for communication between a CDC 6000 and a PDP-11 computer</namePart>
+              </name>
               <description type="full">Author: Von Eicken, H
 Author: Lee, John Gordon
 Author: Piney, Crispin
@@ -590,7 +628,9 @@ Author: Van Praag, Adrianes</description>
             <key>oai:cds.cern.ch:185939</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">The birth of quantum mechanics</namePart>
+              <name>
+                <namePart type="primary">The birth of quantum mechanics</namePart>
+              </name>
               <description type="full">Author: Mehra, Jagdish</description>
               <subject type="local">bibliography</subject>
               <subject type="local">General Theoretical Physics</subject>
@@ -621,7 +661,9 @@ Author: Van Praag, Adrianes</description>
             <key>oai:cds.cern.ch:185954</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">The physics interests of a 10 TeV proton synchrotron, 400 x 400 GeV$^2$ storage rings, and electron-proton storage rings</namePart>
+              <name>
+                <namePart type="primary">The physics interests of a 10 TeV proton synchrotron, 400 x 400 GeV$^2$ storage rings, and electron-proton storage rings</namePart>
+              </name>
               <description type="full">Author: Camilleri, Leslie Loris</description>
               <subject type="local">Particle Physics</subject>
               <identifier type="doi">10.5170/CERN-1976-012</identifier>
@@ -651,7 +693,9 @@ Author: Van Praag, Adrianes</description>
             <key>oai:cds.cern.ch:185957</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Electronic equipment for wire-stretching machines</namePart>
+              <name>
+                <namePart type="primary">Electronic equipment for wire-stretching machines</namePart>
+              </name>
               <description type="full">Author: Rasmussen, Niels</description>
               <subject type="local">Engineering</subject>
               <identifier type="doi">10.5170/CERN-1976-015</identifier>
@@ -680,7 +724,9 @@ Author: Van Praag, Adrianes</description>
             <key>oai:cds.cern.ch:185958</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Physics at LEP</namePart>
+              <name>
+                <namePart type="primary">Physics at LEP</namePart>
+              </name>
               <description type="full">Author: Peccei, Roberto D</description>
               <subject type="local">bibliography</subject>
               <subject type="local">Particle Physics</subject>
@@ -704,7 +750,9 @@ Author: Van Praag, Adrianes</description>
             <key>oai:cds.cern.ch:185959</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Construction of a prototype superconducting quadrupole magnet for a high-luminosity insertion at the CERN Intersecting Storage Rings</namePart>
+              <name>
+                <namePart type="primary">Construction of a prototype superconducting quadrupole magnet for a high-luminosity insertion at the CERN Intersecting Storage Rings</namePart>
+              </name>
               <description type="full">Author: Billan, Jacques
 Author: Perin, Romeo
 Author: Resegotti, Lorenzo
@@ -738,7 +786,9 @@ Author: Wolf, Robert</description>
             <key>oai:cds.cern.ch:185960</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">The Digitron system</namePart>
+              <name>
+                <namePart type="primary">The Digitron system</namePart>
+              </name>
               <description type="full">Author: Pizer, Henry Ian
 Author: Van Koningsveld, Lambertus
 Author: Verweij, Hendrik</description>
@@ -770,7 +820,9 @@ Author: Verweij, Hendrik</description>
             <key>oai:cds.cern.ch:185961</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Physics with very high-energy $e^{+}e^{-}$ colliding beams</namePart>
+              <name>
+                <namePart type="primary">Physics with very high-energy $e^{+}e^{-}$ colliding beams</namePart>
+              </name>
               <description type="full">This report consists of a collection of documents produced by a study group on large electron-positron storage rings (LEP). The reactions of interest in the weak, electromagnetic and strong interactions are discussed. The technical feasibility of the relevant experiments is investigated by attempting, in each case, the design of an experimental set-up. Event rates are estimated using currently prevailing theoretical models and by extrapolation of results at present accelerators. A number of technical reports previously issued by members of the LEP Design Study Group are included as appendices.
 Author: Cundy, Donald C
 Author: Darriulat, Pierre
@@ -820,7 +872,9 @@ Author: Camilleri, Leslie Loris</description>
             <key>oai:cds.cern.ch:185962</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Low-energy recoil measurements in high-energy physics</namePart>
+              <name>
+                <namePart type="primary">Low-energy recoil measurements in high-energy physics</namePart>
+              </name>
               <description type="full">Author: Ekelöf, T J C</description>
               <subject type="local">Detectors and Experimental Techniques</subject>
               <identifier type="doi">10.5170/CERN-1976-023</identifier>
@@ -850,7 +904,9 @@ Author: Camilleri, Leslie Loris</description>
             <key>oai:cds.cern.ch:185979</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Calculation of the neutron-induced background in the Gargamelle neutral current search</namePart>
+              <name>
+                <namePart type="primary">Calculation of the neutron-induced background in the Gargamelle neutral current search</namePart>
+              </name>
               <description type="full">Author: Fry, W F
 Author: Haidt, Dieter</description>
               <subject type="local">Detectors and Experimental Techniques</subject>
@@ -881,7 +937,9 @@ Author: Haidt, Dieter</description>
             <key>oai:cds.cern.ch:185980</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Power laws in particle physics</namePart>
+              <name>
+                <namePart type="primary">Power laws in particle physics</namePart>
+              </name>
               <description type="full">Author: Amati, Daniele
 Author: Fubini, Sergio P</description>
               <subject type="local">General Theoretical Physics</subject>
@@ -912,7 +970,9 @@ Author: Fubini, Sergio P</description>
             <key>oai:cds.cern.ch:185990</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Radiation and fire resistance of cable-insulating materials used in accelerator engineering</namePart>
+              <name>
+                <namePart type="primary">Radiation and fire resistance of cable-insulating materials used in accelerator engineering</namePart>
+              </name>
               <description type="full">Author: Schönbacher, Helmut
 Author: Van de Voorde, Marcel Hubert</description>
               <subject type="local">Health Physics and Radiation Effects</subject>
@@ -943,7 +1003,9 @@ Author: Van de Voorde, Marcel Hubert</description>
             <key>oai:cds.cern.ch:185993</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">A comparison of the radiation damage of electronic components irradiated in different radiation fields</namePart>
+              <name>
+                <namePart type="primary">A comparison of the radiation damage of electronic components irradiated in different radiation fields</namePart>
+              </name>
               <description type="full">Author: Lambert, K P
 Author: Schönbacher, Helmut
 Author: Van de Voorde, Marcel Hubert</description>
@@ -975,7 +1037,9 @@ Author: Van de Voorde, Marcel Hubert</description>
             <key>oai:cds.cern.ch:185996</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">A study of economic utility resulting from CERN contracts</namePart>
+              <name>
+                <namePart type="primary">A study of economic utility resulting from CERN contracts</namePart>
+              </name>
               <description type="full">Author: Schmied, Helwig</description>
               <subject type="local">Health Physics and Radiation Effects</subject>
               <identifier type="doi">10.5170/CERN-1975-005</identifier>
@@ -1005,7 +1069,9 @@ Author: Van de Voorde, Marcel Hubert</description>
             <key>oai:cds.cern.ch:186004</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Etude de l'utilité économique des contrats du CERN</namePart>
+              <name>
+                <namePart type="primary">Etude de l'utilité économique des contrats du CERN</namePart>
+              </name>
               <description type="full">Author: Schmied, Helwig</description>
               <subject type="local">Commerce, Economics, Social Science</subject>
               <identifier type="doi">10.5170/CERN-1975-006</identifier>
@@ -1035,7 +1101,9 @@ Author: Van de Voorde, Marcel Hubert</description>
             <key>oai:cds.cern.ch:186009</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">A history of the collaboration between the European Organization for Nuclear Research (CERN) and the Joint Institute for Nuclear Research (JINR), and with Soviet research institutes in the USSR 1955-1970</namePart>
+              <name>
+                <namePart type="primary">A history of the collaboration between the European Organization for Nuclear Research (CERN) and the Joint Institute for Nuclear Research (JINR), and with Soviet research institutes in the USSR 1955-1970</namePart>
+              </name>
               <description type="full">Author: Lock, William Owen</description>
               <subject type="local">CERN</subject>
               <subject type="local">JINR</subject>
@@ -1070,7 +1138,9 @@ Author: Van de Voorde, Marcel Hubert</description>
             <key>oai:cds.cern.ch:186016</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">A new collective-field acceleration mechanism using a powerful laser</namePart>
+              <name>
+                <namePart type="primary">A new collective-field acceleration mechanism using a powerful laser</namePart>
+              </name>
               <description type="full">Author: Willis, William J</description>
               <subject type="local">Accelerators and Storage Rings</subject>
               <identifier type="doi">10.5170/CERN-1975-009</identifier>
@@ -1100,7 +1170,9 @@ Author: Van de Voorde, Marcel Hubert</description>
             <key>oai:cds.cern.ch:186050</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Measurement of the real part of the forward scattering amplitude by means of the Coulomb-nuclear interference in $\pi^{\pm}$ p and K$^{\pm}$ p elastic scattering at incident momenta below 3 GeV/c</namePart>
+              <name>
+                <namePart type="primary">Measurement of the real part of the forward scattering amplitude by means of the Coulomb-nuclear interference in $\pi^{\pm}$ p and K$^{\pm}$ p elastic scattering at incident momenta below 3 GeV/c</namePart>
+              </name>
               <description type="full">Author: Baillon, Paul
 Author: Bricman, Claude
 Author: Déclais, Yves
@@ -1142,7 +1214,9 @@ Author: Ypsilantis, Thomas</description>
             <key>oai:cds.cern.ch:186060</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">A 256-channel pulse height analyser</namePart>
+              <name>
+                <namePart type="primary">A 256-channel pulse height analyser</namePart>
+              </name>
               <description type="full">Author: Berset, Jean Claude
 Author: Delavallade, Gérard
 Author: Lindsay, John B</description>
@@ -1174,7 +1248,9 @@ Author: Lindsay, John B</description>
             <key>oai:cds.cern.ch:186061</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">AGS</namePart>
+              <name>
+                <namePart type="primary">AGS</namePart>
+              </name>
               <description type="full">Author: Keil, Eberhard
 Author: Marti, Yolande
 Author: Montague, Brian William St. Leger
@@ -1207,7 +1283,9 @@ Author: Sudbø, A</description>
             <key>oai:cds.cern.ch:186062</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Monte Carlo calculations of the neutron transmission through the access ways of the CERN Super Proton Synchrotron</namePart>
+              <name>
+                <namePart type="primary">Monte Carlo calculations of the neutron transmission through the access ways of the CERN Super Proton Synchrotron</namePart>
+              </name>
               <description type="full">Author: Vogt, H</description>
               <subject type="local">Health Physics and Radiation Effects</subject>
               <identifier type="doi">10.5170/CERN-1975-014</identifier>
@@ -1237,7 +1315,9 @@ Author: Sudbø, A</description>
             <key>oai:cds.cern.ch:186063</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Terminals for the interactive input and editing of bibliographic records on the PDP-11 computer in the CERN library</namePart>
+              <name>
+                <namePart type="primary">Terminals for the interactive input and editing of bibliographic records on the PDP-11 computer in the CERN library</namePart>
+              </name>
               <description type="full">Author: Van Praag, Adrianes</description>
               <subject type="local">Information Transfer and Management</subject>
               <identifier type="doi">10.5170/CERN-1975-015</identifier>
@@ -1267,7 +1347,9 @@ Author: Sudbø, A</description>
             <key>oai:cds.cern.ch:186064</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Effects of nuclear radiation on the optical properties of cerium-doped glass</namePart>
+              <name>
+                <namePart type="primary">Effects of nuclear radiation on the optical properties of cerium-doped glass</namePart>
+              </name>
               <description type="full">Author: McGrath, Bernadette
 Author: Schönbacher, Helmut
 Author: Van de Voorde, Marcel Hubert</description>
@@ -1300,7 +1382,9 @@ Author: Van de Voorde, Marcel Hubert</description>
             <key>oai:cds.cern.ch:186073</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Calculation and optimization of stray fields of septum dipole magnets</namePart>
+              <name>
+                <namePart type="primary">Calculation and optimization of stray fields of septum dipole magnets</namePart>
+              </name>
               <description type="full">A theoretical treatment is described of the external stray field of C- shaped septum magnets, such as those designed for the beam extraction systems of the 400 GeV CERN Super Proton Synchrotron. A special conformal transformation of the magnetic plane yields analytic expressions for the four components of the stray field: the septum- shape field (due to the form of the septum conductor), the edge-effect field (due to the mechanical clearance between septum and yoke), the cooling-duct field (due to the presence of these ducts in the septum), and the magnetomotance field (caused by the ampere-turn losses in the yoke). These expressions can be computed by numerical iteration. The septum-shape field turns out to be opposite in sign to the other three, making possible a criterion which creates a minimal stray field for a given magnetic induction. Plots of calculated and measured stray fields are presented for four prototype septum magnets whose total induction is between 0.38 and 1.41 T. (3 refs).
 Author: Holmes, Andrew J T
 Author: Holmes1, Andrew J T</description>
@@ -1342,7 +1426,9 @@ Author: Holmes1, Andrew J T</description>
             <key>oai:cds.cern.ch:186078</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Radiation damage to electronic components</namePart>
+              <name>
+                <namePart type="primary">Radiation damage to electronic components</namePart>
+              </name>
               <description type="full">Author: Battisti, Sylvain
 Author: Bossart, Rudolf
 Author: Schönbacher, Helmut
@@ -1375,7 +1461,9 @@ Author: Van de Voorde, Marcel Hubert</description>
             <key>oai:cds.cern.ch:186083</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Instruction timing for the CDC 7600 computer</namePart>
+              <name>
+                <namePart type="primary">Instruction timing for the CDC 7600 computer</namePart>
+              </name>
               <description type="full">Author: Lipps, Herbert</description>
               <subject type="local">Computing and Computers</subject>
               <identifier type="doi">10.5170/CERN-1975-019</identifier>
@@ -1405,7 +1493,9 @@ Author: Van de Voorde, Marcel Hubert</description>
             <key>oai:cds.cern.ch:186084</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">The design of the control system for the SPS</namePart>
+              <name>
+                <namePart type="primary">The design of the control system for the SPS</namePart>
+              </name>
               <description type="full">Author: Crowley-Milling, Michael C</description>
               <subject type="local">Accelerators and Storage Rings</subject>
               <identifier type="doi">10.5170/CERN-1975-020</identifier>
@@ -1436,7 +1526,9 @@ Author: Van de Voorde, Marcel Hubert</description>
             <key>oai:cds.cern.ch:186147</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Computer-aided control of separated bubble-chamber beams</namePart>
+              <name>
+                <namePart type="primary">Computer-aided control of separated bubble-chamber beams</namePart>
+              </name>
               <description type="full">Author: Lazeyras, Pierre
 Author: Lehraus, Ivan
 Author: Matthewson, Roy
@@ -1470,7 +1562,9 @@ Author: Tejessy, Wolfgang</description>
             <key>oai:cds.cern.ch:186178</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">DECAY TURTLE (Trace Unlimted Rays Through Lumped Elements)</namePart>
+              <name>
+                <namePart type="primary">DECAY TURTLE (Trace Unlimted Rays Through Lumped Elements)</namePart>
+              </name>
               <description type="full">Author: Brown, Karl L
 Author: Iselin, F Christoph</description>
               <subject type="local">Accelerators and Storage Rings</subject>
@@ -1501,7 +1595,9 @@ Author: Iselin, F Christoph</description>
             <key>oai:cds.cern.ch:186179</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Analyse de la perte de poids des testicules de souris après irradiation aux neutrons de 14 et de 400 MeV</namePart>
+              <name>
+                <namePart type="primary">Analyse de la perte de poids des testicules de souris après irradiation aux neutrons de 14 et de 400 MeV</namePart>
+              </name>
               <description type="full">Author: Laurent, Jean Michel</description>
               <subject type="local">Health Physics and Radiation Effects</subject>
               <identifier type="doi">10.5170/CERN-1974-003</identifier>
@@ -1532,7 +1628,9 @@ Author: Iselin, F Christoph</description>
             <key>oai:cds.cern.ch:186182</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Image-intensifier camera for streamer-chamber photography</namePart>
+              <name>
+                <namePart type="primary">Image-intensifier camera for streamer-chamber photography</namePart>
+              </name>
               <description type="full">Author: Gentsch, Heinrich
 Author: Gygi, Edmond
 Author: Hanney, M
@@ -1566,7 +1664,9 @@ Author: Schneider, Fritz</description>
             <key>oai:cds.cern.ch:186185</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Machine à bobiner les fils métalliques ultra-fins utilisés dans la fabrication des chambres à fils de petites dimensions</namePart>
+              <name>
+                <namePart type="primary">Machine à bobiner les fils métalliques ultra-fins utilisés dans la fabrication des chambres à fils de petites dimensions</namePart>
+              </name>
               <description type="full">Author: Benoît, René Eugène</description>
               <subject type="local">Detectors and Experimental Techniques</subject>
               <identifier type="doi">10.5170/CERN-1974-005</identifier>
@@ -1596,7 +1696,9 @@ Author: Schneider, Fritz</description>
             <key>oai:cds.cern.ch:186188</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">A versatile cable and connector assembly testing apparatus (NP 2026)</namePart>
+              <name>
+                <namePart type="primary">A versatile cable and connector assembly testing apparatus (NP 2026)</namePart>
+              </name>
               <description type="full">Author: Harrison, K</description>
               <subject type="local">Engineering</subject>
               <identifier type="doi">10.5170/CERN-1974-006</identifier>
@@ -1626,7 +1728,9 @@ Author: Schneider, Fritz</description>
             <key>oai:cds.cern.ch:186192</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Calcul numérique des dérivées partielles successives des fonctions de deux et de trois variables</namePart>
+              <name>
+                <namePart type="primary">Calcul numérique des dérivées partielles successives des fonctions de deux et de trois variables</namePart>
+              </name>
               <description type="full">Author: Barthelemy, Jean François</description>
               <subject type="local">Mathematical Physics and Mathematics</subject>
               <identifier type="doi">10.5170/CERN-1974-007</identifier>
@@ -1656,7 +1760,9 @@ Author: Schneider, Fritz</description>
             <key>oai:cds.cern.ch:186202</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">On preconditioning and convergence acceleration in sparse matrix problems</namePart>
+              <name>
+                <namePart type="primary">On preconditioning and convergence acceleration in sparse matrix problems</namePart>
+              </name>
               <description type="full">Author: Axelsson, O</description>
               <subject type="local">Particle Physics</subject>
               <identifier type="doi">10.5170/CERN-1974-010</identifier>
@@ -1686,7 +1792,9 @@ Author: Schneider, Fritz</description>
             <key>oai:cds.cern.ch:186203</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Dynamic orientation of nuclei at low temperatures</namePart>
+              <name>
+                <namePart type="primary">Dynamic orientation of nuclei at low temperatures</namePart>
+              </name>
               <description type="full">Author: de Boer, Wim</description>
               <subject type="local">Detectors and Experimental Techniques</subject>
               <identifier type="doi">10.5170/CERN-1974-011</identifier>
@@ -1716,7 +1824,9 @@ Author: Schneider, Fritz</description>
             <key>oai:cds.cern.ch:186204</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">A general-purpose amplifier and read-out system for multiwire proportional chambers</namePart>
+              <name>
+                <namePart type="primary">A general-purpose amplifier and read-out system for multiwire proportional chambers</namePart>
+              </name>
               <description type="full">Author: Lindsay, John B
 Author: Millerin, Claude
 Author: Tarlé, Jean Claude
@@ -1750,7 +1860,9 @@ Author: Wendler, Helmut</description>
             <key>oai:cds.cern.ch:186205</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Dipole septum magnets</namePart>
+              <name>
+                <namePart type="primary">Dipole septum magnets</namePart>
+              </name>
               <description type="full">Author: Keizer, Reinder L</description>
               <subject type="local">Accelerators and Storage Rings</subject>
               <identifier type="doi">10.5170/CERN-1974-013</identifier>
@@ -1780,7 +1892,9 @@ Author: Wendler, Helmut</description>
             <key>oai:cds.cern.ch:186206</key>
             <originatingSource>CERN</originatingSource>
             <collection type="publication">
-              <namePart type="primary">Numerical computation of field distribution and frequency in the lower passbands of a symmetrical periodic structure</namePart>
+              <name>
+                <namePart type="primary">Numerical computation of field distribution and frequency in the lower passbands of a symmetrical periodic structure</namePart>
+              </name>
               <description type="full">Author: Bell, Mary
 Author: Dôme, Georges</description>
               <subject type="local">Accelerators and Storage Rings</subject>

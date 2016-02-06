@@ -43,17 +43,16 @@ public class App {
 	private static final String PROPERTY_INPUT_FILE = "input-file";
 	private static final String PROPERTY_OUTPUT_FILE = "output-file";
 	private static final String PROPERTY_CONFIG_FILE = "config-file";
-	private static final String PROPERTY_ENCODING = "encoding";
+	private static final String PROPERTY_INPUT_ENCODING = "input-encoding";
+	private static final String PROPERTY_OUTPUT_ENCODING = "output-encoding";
 	private static final String PROPERTY_SET_SPEC = "set-spec";
+	private static final String PROPERTY_FORMAT_OUTPUT = "format-output";
 	private static final String PROPERTY_HELP = "help";
 	
-	private static final String DEFAULR_OUTPUT_FILE = "output.xml";
-//	private static final String DEFAULR_ENCODING = "ISO8859_1"; 
-	private static final String DEFAULR_ENCODING = StandardCharsets.UTF_8.toString();
-//	private static final String DEFAULR_ENCODING = "Shift_JIS";
-//	private static final String DEFAULR_ENCODING = "UTF-32";
-	private static final String DEFAULR_SET_SPEC = "RDF";
-//	private static final String DEFAULR_SET_SPEC = "NII";
+	private static final String DEFAULT_OUTPUT_FILE = "output.xml";
+	private static final String DEFAULT_ENCODING = StandardCharsets.UTF_8.toString();
+	private static final String DEFAULT_SET_SPEC = "RDF";
+	private static final String DEFAULT_FORMAT_OUTPUT = "no";
 	
 	private static final String TIME_FORMAT = "yyyy-MM-dd'T'HH:mm:ss'Z'";
 	
@@ -67,10 +66,12 @@ public class App {
 		// create the Options
 		Options options = new Options();
 		options.addOption( "i", PROPERTY_INPUT_FILE, true, "input RDF file" );
-		options.addOption( "o", PROPERTY_OUTPUT_FILE, true, "output OAI-PMH XML file (default is " + DEFAULR_OUTPUT_FILE +  ")" );
+		options.addOption( "o", PROPERTY_OUTPUT_FILE, true, "output OAI-PMH XML file (default is " + DEFAULT_OUTPUT_FILE +  ")" );
 		options.addOption( "c", PROPERTY_CONFIG_FILE, true, "configuration file (" + PROPERTIES_FILE + ")" );
-		options.addOption( "s", PROPERTY_SET_SPEC, true, "set spec value (default is " + DEFAULR_SET_SPEC + ")" );
-		options.addOption( "e", PROPERTY_ENCODING, true, "encoding (default is " + DEFAULR_ENCODING + ")" );
+		options.addOption( "s", PROPERTY_SET_SPEC, true, "set spec value (default is " + DEFAULT_SET_SPEC + ")" );
+		options.addOption( "I", PROPERTY_INPUT_ENCODING, true, "input file encoding (default is " + DEFAULT_ENCODING + ")" );
+		options.addOption( "O", PROPERTY_OUTPUT_ENCODING, true, "output file encoding (default is " + DEFAULT_ENCODING + ")" );
+		options.addOption( "f", PROPERTY_FORMAT_OUTPUT, false, "format output encoding" );
 		options.addOption( "h", PROPERTY_HELP, false, "print this message" );
 
 		try {
@@ -87,9 +88,11 @@ public class App {
 			// variables to store program properties
 			CompositeConfiguration config = new CompositeConfiguration();
 			config.setProperty( PROPERTY_INPUT_FILE, "researchers-small.rdf" );
-			config.setProperty( PROPERTY_OUTPUT_FILE, DEFAULR_OUTPUT_FILE );
-			config.setProperty( PROPERTY_ENCODING, DEFAULR_ENCODING );
-			config.setProperty( PROPERTY_SET_SPEC, DEFAULR_SET_SPEC );
+			config.setProperty( PROPERTY_OUTPUT_FILE, DEFAULT_OUTPUT_FILE );
+			config.setProperty( PROPERTY_INPUT_ENCODING, DEFAULT_ENCODING );
+			config.setProperty( PROPERTY_OUTPUT_ENCODING, DEFAULT_ENCODING );
+			config.setProperty( PROPERTY_SET_SPEC, DEFAULT_SET_SPEC );
+			config.setProperty( PROPERTY_FORMAT_OUTPUT, DEFAULT_FORMAT_OUTPUT );
 			
 			// check if arguments has input file properties 
 			if (line.hasOption( PROPERTY_CONFIG_FILE )) {
@@ -119,10 +122,18 @@ public class App {
 			if (line.hasOption( PROPERTY_SET_SPEC )) 
 				config.setProperty( PROPERTY_SET_SPEC, line.getOptionValue( PROPERTY_SET_SPEC ));
 			
-			// check if arguments has encoding
-			if (line.hasOption( PROPERTY_ENCODING )) 
-				config.setProperty( PROPERTY_ENCODING, line.getOptionValue( PROPERTY_ENCODING ));
-			
+			// check if arguments has input encoding
+			if (line.hasOption( PROPERTY_INPUT_ENCODING )) 
+				config.setProperty( PROPERTY_INPUT_ENCODING, line.getOptionValue( PROPERTY_INPUT_ENCODING ));
+
+			// check if arguments has output encoding
+			if (line.hasOption( PROPERTY_OUTPUT_ENCODING )) 
+				config.setProperty( PROPERTY_OUTPUT_ENCODING, line.getOptionValue( PROPERTY_OUTPUT_ENCODING ));
+
+			// check if arguments has output encoding
+			if (line.hasOption( PROPERTY_FORMAT_OUTPUT )) 
+				config.setProperty( PROPERTY_FORMAT_OUTPUT, "yes");
+
 			// check if arguments has input file without a key
 			if (line.getArgs().length > 0) { 
 				config.setProperty( PROPERTY_INPUT_FILE, line.getArgs()[0]);
@@ -151,7 +162,10 @@ public class App {
 			String setSpecName = config.getString(PROPERTY_SET_SPEC);
 			
 			// extract encoding
-			String encoding = config.getString(PROPERTY_ENCODING);
+			String inputEncoding = config.getString(PROPERTY_INPUT_ENCODING);
+			String outputEncoding = config.getString(PROPERTY_OUTPUT_ENCODING);
+			
+			boolean formatOutput = config.getBoolean(PROPERTY_FORMAT_OUTPUT);
 			
 			// test if source is an regular file and it is readable
 			Path source = Paths.get(inputFile);
@@ -182,8 +196,7 @@ public class App {
 			
 			// set document version
 			oai.setXmlVersion("1.0");
-			
-			//oai.setXmlStandalone(true);
+			oai.setXmlStandalone(true);
 			
 			// create root OAI-PMH element
 			Element oaiPmh = oai.createElement("OAI-PMH");
@@ -248,7 +261,7 @@ public class App {
 			XPathExpression emptyExpr = xpath.compile("//text()[normalize-space(.) = '']");
 			
 			// read file into a sring
-			String content = new String(Files.readAllBytes(source), encoding);
+			String content = new String(Files.readAllBytes(source), inputEncoding);
 			
 			// split all records
 			String[] records = content.split("<\\?xml\\s+version=\"[\\d\\.]+\".*\\?>\\s*");
@@ -314,10 +327,13 @@ public class App {
 	        
 	        // create transformer
 	        Transformer transformer = transformerFactory.newTransformer();
-	        transformer.setOutputProperty(OutputKeys.ENCODING, encoding);
-	        transformer.setOutputProperty(OutputKeys.INDENT, "no");
-	        // transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-	        // transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
+	        transformer.setOutputProperty(OutputKeys.ENCODING, outputEncoding);
+	        
+	        if (formatOutput) {
+		        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+		        transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
+	        } else
+	        	transformer.setOutputProperty(OutputKeys.INDENT, "no");
 	        
 	        // create dom source
 	        DOMSource oaiSource = new DOMSource(oai);

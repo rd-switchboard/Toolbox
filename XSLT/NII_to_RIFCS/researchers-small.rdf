@@ -1,63 +1,59 @@
-<?xml version="1.0"?>
-<rdf:RDF 
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
-	xmlns:owl="http://www.w3.org/2002/07/owl#" 
-	xmlns:foaf="http://xmlns.com/foaf/0.1/" 
-	xmlns:dcterms="http://purl.org/dc/terms/" 
-	xmlns:kaken="http://kaken.nii.ac.jp/ns#" 
-	xmlns:rns="http://rns.nii.ac.jp/ns#" 
-	xml:base="http://rns.nii.ac.jp/ns">
-
+<?xml version="1.0" ?><rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:kaken="http://kaken.nii.ac.jp/ns#"
+	xmlns:rns="http://rns.nii.ac.jp/ns#"
+	xml:base="http://rns.nii.ac.jp/ns"
+>
 	<rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000030261340">
 		<dcterms:abstract>
-    			<rns:Document dcterms:title="Researcher Name Resolver - Ando, Yasuhiro | &#x88;&#xC0;&#x93;&#xA1;&#x96;&#xF5;&#x8D;_ (1000030261340)">
-        			<dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000030261340.rdf"/>
-    			</rns:Document>
+			<rns:Document dcterms:title="Researcher Name Resolver - Ando, Yasuhiro | à¿ì°ñıç_ (1000030261340)">
+				<dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000030261340.rdf"/>
+			</rns:Document>
 		</dcterms:abstract>
 
-		<foaf:lastName xml:lang="ja">&#x88;&#xC0;&#x93;&#xA1;</foaf:lastName>
-		<foaf:firstName xml:lang="ja">&#x96;&#xF5;&#x8D;_</foaf:firstName>
-		<rns:lastNameYomi xml:lang="ja">&#x83;A&#x83;&#x93;&#x83;h&#x83;E</rns:lastNameYomi>
-		<rns:firstNameYomi xml:lang="ja">&#x83;&#x84;&#x83;X&#x83;q&#x83;&#x8D;</rns:firstNameYomi>
+		<foaf:lastName xml:lang="ja">à¿ì°</foaf:lastName>
+		<foaf:firstName xml:lang="ja">ñıç_</foaf:firstName>
+		<rns:lastNameYomi xml:lang="ja">ÉAÉìÉhÉE</rns:lastNameYomi>
+		<rns:firstNameYomi xml:lang="ja">ÉÑÉXÉqÉç</rns:firstNameYomi>
 		<foaf:lastName xml:lang="en">Ando</foaf:lastName>
 		<foaf:firstName xml:lang="en">Yasuhiro</foaf:firstName>
-		<rns:institution xml:lang="ja">&#x96;k&#x8A;C&#x93;&#xB9;&#x91;&#xE5;&#x8A;w</rns:institution>
-		<rns:department xml:lang="ja"/>
-		<rns:title xml:lang="ja">&#x8F;&#x95;&#x8B;&#xB3;&#x8E;&#xF6;</rns:title>
+
+	<rns:institution xml:lang="ja">ñkäCìπëÂäw</rns:institution>
+		<rns:department xml:lang="ja"></rns:department>
+		<rns:title xml:lang="ja">èïã≥éˆ</rns:title>
 		<rns:researcherNumber>1000030261340</rns:researcherNumber>
 		<kaken:researcherNumber>30261340</kaken:researcherNumber>
-		
+
 		<!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
-
-		<owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/30261340"/>
-		<owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000030261340"/>
-		<owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000030261340"/>
-		<owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901043118301080&amp;t=1"/>
-		<owl:sameAs rdf:resource="http://researchmap.jp/read0183643/?lang=english"/>
-
-		<!-- Search links -->
-		<rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+	<owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/30261340" />
+	<owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000030261340" />
+	<owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000030261340" />
+	<owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901043118301080&amp;t=1" />
+	<owl:sameAs rdf:resource="http://researchmap.jp/read0183643/?lang=english" />
+	<!-- Search links -->
+		<rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)" />
 		<rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
 		<rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="JAIRO Search (by Name in Japanese)"/>
 		<rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
-		<rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="researchmap (by Name in Japanese)"/>
-		<rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="J-Global (by Name in Japanese)"/>
-		<rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
-		<rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="Google Search (by Name in Japanese)"/>
-		<rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E5%AE%89%E8%97%A4%20%E9%9D%96%E6%B5%A9" rdfs:label="ORCID Search (by Name in Japanese)"/>
+		<rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="researchmap (by Name in Japanese)" />
+		<rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="J-Global (by Name in Japanese)" />
+		<rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="Google Scholar Search (by Name in Japanese)" />
+		<rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="Google Search (by Name in Japanese)" />
+		<rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E5%AE%89%E8%97%A4%20%E9%9D%96%E6%B5%A9" rdfs:label="ORCID Search (by Name in Japanese)" />
 		<rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FAndo+Yasuhiro%2F" rdfs:label="CiNii Search (by Name in English)"/>
 		<rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Ando%20Yasuhiro" rdfs:label="JAIRO Search (by Name in English)"/>
-		<rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Ando+Yasuhiro" rdfs:label="Webcat Plus Search (by Name in English)"/>
-		<rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Ando%20Yasuhiro" rdfs:label="researchmap (by Name in English)"/>
-		<rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Ando+Yasuhiro" rdfs:label="J-Global (by Name in English)"/>
-		<rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Ando+Yasuhiro%22" rdfs:label="Google Scholar Search (by Name in English)"/>
-		<rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Ando+Yasuhiro" rdfs:label="Google Search (by Name in English)"/>
-		<rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Ando%20Yasuhiro" rdfs:label="ORCID Search (by Name in English)"/>
+		<rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Ando+Yasuhiro" rdfs:label="Webcat Plus Search (by Name in English)" />
+		<rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Ando%20Yasuhiro" rdfs:label="researchmap (by Name in English)" />
+		<rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Ando+Yasuhiro" rdfs:label="J-Global (by Name in English)" />
+		<rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Ando+Yasuhiro%22" rdfs:label="Google Scholar Search (by Name in English)" />
+		<rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Ando+Yasuhiro" rdfs:label="Google Search (by Name in English)" />
+		<rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Ando%20Yasuhiro" rdfs:label="ORCID Search (by Name in English)" />
 	</rns:Researcher>
 </rdf:RDF>
-
-
 <?xml version="1.0" ?><rdf:RDF
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"

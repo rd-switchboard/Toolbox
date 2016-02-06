@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="Shift_JIS" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2016-02-06T16:35:48Z</responseDate>
+  <responseDate>2016-02-06T21:45:44Z</responseDate>
   <ListRecords>
     <record>
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000030261340</identifier>
-        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <datestamp>2016-02-06T21:45:44Z</datestamp>
         <setSpec>NII</setSpec>
       </header>
       <metadata>
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
           <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000030261340">
             <dcterms:abstract>
-              <rns:Document dcterms:title="Researcher Name Resolver - Ando, Yasuhiro | ˆÀ“¡–õ_ (1000030261340)">
+              <rns:Document dcterms:title="Researcher Name Resolver - Ando, Yasuhiro | å®‰è—¤é–æµ© (1000030261340)">
                 <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000030261340.rdf"/>
               </rns:Document>
             </dcterms:abstract>
-            <foaf:lastName xml:lang="ja">ˆÀ“¡</foaf:lastName>
-            <foaf:firstName xml:lang="ja">–õ_</foaf:firstName>
-            <rns:lastNameYomi xml:lang="ja">ƒAƒ“ƒhƒE</rns:lastNameYomi>
-            <rns:firstNameYomi xml:lang="ja">ƒ„ƒXƒqƒ</rns:firstNameYomi>
+            <foaf:lastName xml:lang="ja">å®‰è—¤</foaf:lastName>
+            <foaf:firstName xml:lang="ja">é–æµ©</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ã‚¢ãƒ³ãƒ‰ã‚¦</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ãƒ¤ã‚¹ãƒ’ãƒ­</rns:firstNameYomi>
             <foaf:lastName xml:lang="en">Ando</foaf:lastName>
             <foaf:firstName xml:lang="en">Yasuhiro</foaf:firstName>
-            <rns:institution xml:lang="ja">–kŠC“¹‘åŠw</rns:institution>
+            <rns:institution xml:lang="ja">åŒ—æµ·é“å¤§å­¦</rns:institution>
             <rns:department xml:lang="ja"/>
-            <rns:title xml:lang="ja">•‹³Žö</rns:title>
+            <rns:title xml:lang="ja">åŠ©æ•™æŽˆ</rns:title>
             <rns:researcherNumber>1000030261340</rns:researcherNumber>
             <kaken:researcherNumber>30261340</kaken:researcherNumber>
             <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
@@ -58,26 +58,26 @@
     <record>
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000060209971</identifier>
-        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <datestamp>2016-02-06T21:45:44Z</datestamp>
         <setSpec>NII</setSpec>
       </header>
       <metadata>
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
           <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000060209971">
             <dcterms:abstract>
-              <rns:Document dcterms:title="Researcher Name Resolver - Mukai, Tohru | Œüˆä“O (1000060209971)">
+              <rns:Document dcterms:title="Researcher Name Resolver - Mukai, Tohru | å‘äº•å¾¹ (1000060209971)">
                 <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000060209971.rdf"/>
               </rns:Document>
             </dcterms:abstract>
-            <foaf:lastName xml:lang="ja">Œüˆä</foaf:lastName>
-            <foaf:firstName xml:lang="ja">“O</foaf:firstName>
-            <rns:lastNameYomi xml:lang="ja">ƒ€ƒJƒC</rns:lastNameYomi>
-            <rns:firstNameYomi xml:lang="ja">ƒgƒIƒ‹</rns:firstNameYomi>
+            <foaf:lastName xml:lang="ja">å‘äº•</foaf:lastName>
+            <foaf:firstName xml:lang="ja">å¾¹</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ãƒ ã‚«ã‚¤</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ãƒˆã‚ªãƒ«</rns:firstNameYomi>
             <foaf:lastName xml:lang="en">Mukai</foaf:lastName>
             <foaf:firstName xml:lang="en">Tohru</foaf:firstName>
-            <rns:institution xml:lang="ja">–kŠC“¹‘åŠw</rns:institution>
-            <rns:department xml:lang="ja">…ŽY‰ÈŠwŒ¤‹†‰ÈiŒ¤‹†‰@j</rns:department>
-            <rns:title xml:lang="ja">y‹³Žö</rns:title>
+            <rns:institution xml:lang="ja">åŒ—æµ·é“å¤§å­¦</rns:institution>
+            <rns:department xml:lang="ja">æ°´ç”£ç§‘å­¦ç ”ç©¶ç§‘ï¼ˆç ”ç©¶é™¢ï¼‰</rns:department>
+            <rns:title xml:lang="ja">å‡†æ•™æŽˆ</rns:title>
             <rns:researcherNumber>1000060209971</rns:researcherNumber>
             <kaken:researcherNumber>60209971</kaken:researcherNumber>
             <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
@@ -111,26 +111,26 @@
     <record>
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000070374585</identifier>
-        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <datestamp>2016-02-06T21:45:44Z</datestamp>
         <setSpec>NII</setSpec>
       </header>
       <metadata>
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
           <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000070374585">
             <dcterms:abstract>
-              <rns:Document dcterms:title="Researcher Name Resolver - Nagayama, Masafumi | ‰iŽR¹Žj (1000070374585)">
+              <rns:Document dcterms:title="Researcher Name Resolver - Nagayama, Masafumi | æ°¸å±±æ˜Œå² (1000070374585)">
                 <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000070374585.rdf"/>
               </rns:Document>
             </dcterms:abstract>
-            <foaf:lastName xml:lang="ja">‰iŽR</foaf:lastName>
-            <foaf:firstName xml:lang="ja">¹Žj</foaf:firstName>
-            <rns:lastNameYomi xml:lang="ja">ƒiƒKƒ„ƒ}</rns:lastNameYomi>
-            <rns:firstNameYomi xml:lang="ja">ƒ}ƒTƒtƒ~</rns:firstNameYomi>
+            <foaf:lastName xml:lang="ja">æ°¸å±±</foaf:lastName>
+            <foaf:firstName xml:lang="ja">æ˜Œå²</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ãƒŠã‚¬ãƒ¤ãƒž</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ãƒžã‚µãƒ•ãƒŸ</rns:firstNameYomi>
             <foaf:lastName xml:lang="en">Nagayama</foaf:lastName>
             <foaf:firstName xml:lang="en">Masafumi</foaf:firstName>
-            <rns:institution xml:lang="ja">–kŠC“¹‹³ˆç‘åŠw</rns:institution>
-            <rns:department xml:lang="ja">‹³ˆçŠw•”</rns:department>
-            <rns:title xml:lang="ja">y‹³Žö</rns:title>
+            <rns:institution xml:lang="ja">åŒ—æµ·é“æ•™è‚²å¤§å­¦</rns:institution>
+            <rns:department xml:lang="ja">æ•™è‚²å­¦éƒ¨</rns:department>
+            <rns:title xml:lang="ja">å‡†æ•™æŽˆ</rns:title>
             <rns:researcherNumber>1000070374585</rns:researcherNumber>
             <kaken:researcherNumber>70374585</kaken:researcherNumber>
             <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
@@ -162,26 +162,26 @@
     <record>
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000070356575</identifier>
-        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <datestamp>2016-02-06T21:45:44Z</datestamp>
         <setSpec>NII</setSpec>
       </header>
       <metadata>
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
           <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000070356575">
             <dcterms:abstract>
-              <rns:Document dcterms:title="Researcher Name Resolver - Uchida, Tsutomu | “à“c“w (1000070356575)">
+              <rns:Document dcterms:title="Researcher Name Resolver - Uchida, Tsutomu | å†…ç”°åŠª (1000070356575)">
                 <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000070356575.rdf"/>
               </rns:Document>
             </dcterms:abstract>
-            <foaf:lastName xml:lang="ja">“à“c</foaf:lastName>
-            <foaf:firstName xml:lang="ja">“w</foaf:firstName>
-            <rns:lastNameYomi xml:lang="ja">ƒEƒ`ƒ_</rns:lastNameYomi>
-            <rns:firstNameYomi xml:lang="ja">ƒcƒgƒ€</rns:firstNameYomi>
+            <foaf:lastName xml:lang="ja">å†…ç”°</foaf:lastName>
+            <foaf:firstName xml:lang="ja">åŠª</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ã‚¦ãƒãƒ€</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ãƒ„ãƒˆãƒ </rns:firstNameYomi>
             <foaf:lastName xml:lang="en">Uchida</foaf:lastName>
             <foaf:firstName xml:lang="en">Tsutomu</foaf:firstName>
-            <rns:institution xml:lang="ja">–kŠC“¹‘åŠw</rns:institution>
-            <rns:department xml:lang="ja">HŠwiŒnjŒ¤‹†‰ÈiŒ¤‹†‰@j</rns:department>
-            <rns:title xml:lang="ja">y‹³Žö</rns:title>
+            <rns:institution xml:lang="ja">åŒ—æµ·é“å¤§å­¦</rns:institution>
+            <rns:department xml:lang="ja">å·¥å­¦ï¼ˆç³»ï¼‰ç ”ç©¶ç§‘ï¼ˆç ”ç©¶é™¢ï¼‰</rns:department>
+            <rns:title xml:lang="ja">å‡†æ•™æŽˆ</rns:title>
             <rns:researcherNumber>1000070356575</rns:researcherNumber>
             <kaken:researcherNumber>70356575</kaken:researcherNumber>
             <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
@@ -215,25 +215,25 @@
     <record>
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000000091504</identifier>
-        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <datestamp>2016-02-06T21:45:44Z</datestamp>
         <setSpec>NII</setSpec>
       </header>
       <metadata>
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
           <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000000091504">
             <dcterms:abstract>
-              <rns:Document dcterms:title="Researcher Name Resolver - Miura, Seiichi | ŽO‰Y´ˆê (1000000091504)">
+              <rns:Document dcterms:title="Researcher Name Resolver - Miura, Seiichi | ä¸‰æµ¦æ¸…ä¸€ (1000000091504)">
                 <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000000091504.rdf"/>
               </rns:Document>
             </dcterms:abstract>
-            <foaf:lastName xml:lang="ja">ŽO‰Y</foaf:lastName>
-            <foaf:firstName xml:lang="ja">´ˆê</foaf:firstName>
-            <rns:lastNameYomi xml:lang="ja">ƒ~ƒEƒ‰</rns:lastNameYomi>
-            <rns:firstNameYomi xml:lang="ja">ƒZƒCƒCƒ`</rns:firstNameYomi>
+            <foaf:lastName xml:lang="ja">ä¸‰æµ¦</foaf:lastName>
+            <foaf:firstName xml:lang="ja">æ¸…ä¸€</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ãƒŸã‚¦ãƒ©</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ã‚»ã‚¤ã‚¤ãƒ</rns:firstNameYomi>
             <foaf:lastName xml:lang="en">Miura</foaf:lastName>
             <foaf:firstName xml:lang="en">Seiichi</foaf:firstName>
-            <rns:institution xml:lang="ja">–kŠC“¹‘åŠw</rns:institution>
-            <rns:department xml:lang="ja">HŠw(Œn)Œ¤‹†‰È(Œ¤‹†‰@)</rns:department>
+            <rns:institution xml:lang="ja">åŒ—æµ·é“å¤§å­¦</rns:institution>
+            <rns:department xml:lang="ja">å·¥å­¦(ç³»)ç ”ç©¶ç§‘(ç ”ç©¶é™¢)</rns:department>
             <rns:title xml:lang="ja"/>
             <rns:researcherNumber>1000000091504</rns:researcherNumber>
             <kaken:researcherNumber>00091504</kaken:researcherNumber>
@@ -268,26 +268,26 @@
     <record>
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000090235739</identifier>
-        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <datestamp>2016-02-06T21:45:44Z</datestamp>
         <setSpec>NII</setSpec>
       </header>
       <metadata>
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
           <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000090235739">
             <dcterms:abstract>
-              <rns:Document dcterms:title="Researcher Name Resolver - Shiraiwa, Takayuki | ”’ŠâFs (1000090235739)">
+              <rns:Document dcterms:title="Researcher Name Resolver - Shiraiwa, Takayuki | ç™½å²©å­è¡Œ (1000090235739)">
                 <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000090235739.rdf"/>
               </rns:Document>
             </dcterms:abstract>
-            <foaf:lastName xml:lang="ja">”’Šâ</foaf:lastName>
-            <foaf:firstName xml:lang="ja">Fs</foaf:firstName>
-            <rns:lastNameYomi xml:lang="ja">ƒVƒ‰ƒCƒ</rns:lastNameYomi>
-            <rns:firstNameYomi xml:lang="ja">ƒ^ƒJƒ†ƒL</rns:firstNameYomi>
+            <foaf:lastName xml:lang="ja">ç™½å²©</foaf:lastName>
+            <foaf:firstName xml:lang="ja">å­è¡Œ</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ã‚·ãƒ©ã‚¤ãƒ¯</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ã‚¿ã‚«ãƒ¦ã‚­</rns:firstNameYomi>
             <foaf:lastName xml:lang="en">Shiraiwa</foaf:lastName>
             <foaf:firstName xml:lang="en">Takayuki</foaf:firstName>
-            <rns:institution xml:lang="ja">–kŠC“¹‘åŠw</rns:institution>
-            <rns:department xml:lang="ja">’á‰·‰ÈŠwŒ¤‹†Š</rns:department>
-            <rns:title xml:lang="ja">y‹³Žö</rns:title>
+            <rns:institution xml:lang="ja">åŒ—æµ·é“å¤§å­¦</rns:institution>
+            <rns:department xml:lang="ja">ä½Žæ¸©ç§‘å­¦ç ”ç©¶æ‰€</rns:department>
+            <rns:title xml:lang="ja">å‡†æ•™æŽˆ</rns:title>
             <rns:researcherNumber>1000090235739</rns:researcherNumber>
             <kaken:researcherNumber>90235739</kaken:researcherNumber>
             <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
@@ -321,26 +321,26 @@
     <record>
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000010182015</identifier>
-        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <datestamp>2016-02-06T21:45:44Z</datestamp>
         <setSpec>NII</setSpec>
       </header>
       <metadata>
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
           <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000010182015">
             <dcterms:abstract>
-              <rns:Document dcterms:title="Researcher Name Resolver - Miyashita, Kazuo | ‹{‰º˜a•v (1000010182015)">
+              <rns:Document dcterms:title="Researcher Name Resolver - Miyashita, Kazuo | å®®ä¸‹å’Œå¤« (1000010182015)">
                 <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000010182015.rdf"/>
               </rns:Document>
             </dcterms:abstract>
-            <foaf:lastName xml:lang="ja">‹{‰º</foaf:lastName>
-            <foaf:firstName xml:lang="ja">˜a•v</foaf:firstName>
-            <rns:lastNameYomi xml:lang="ja">ƒ~ƒ„ƒVƒ^</rns:lastNameYomi>
-            <rns:firstNameYomi xml:lang="ja">ƒJƒYƒI</rns:firstNameYomi>
+            <foaf:lastName xml:lang="ja">å®®ä¸‹</foaf:lastName>
+            <foaf:firstName xml:lang="ja">å’Œå¤«</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ãƒŸãƒ¤ã‚·ã‚¿</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ã‚«ã‚ºã‚ª</rns:firstNameYomi>
             <foaf:lastName xml:lang="en">Miyashita</foaf:lastName>
             <foaf:firstName xml:lang="en">Kazuo</foaf:firstName>
-            <rns:institution xml:lang="ja">–kŠC“¹‘åŠw</rns:institution>
-            <rns:department xml:lang="ja">‘åŠw‰@E…ŽY‰ÈŠwŒ¤‹†‰@</rns:department>
-            <rns:title xml:lang="ja">‹³Žö</rns:title>
+            <rns:institution xml:lang="ja">åŒ—æµ·é“å¤§å­¦</rns:institution>
+            <rns:department xml:lang="ja">å¤§å­¦é™¢ãƒ»æ°´ç”£ç§‘å­¦ç ”ç©¶é™¢</rns:department>
+            <rns:title xml:lang="ja">æ•™æŽˆ</rns:title>
             <rns:researcherNumber>1000010182015</rns:researcherNumber>
             <kaken:researcherNumber>10182015</kaken:researcherNumber>
             <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
@@ -374,26 +374,26 @@
     <record>
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000040122915</identifier>
-        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <datestamp>2016-02-06T21:45:44Z</datestamp>
         <setSpec>NII</setSpec>
       </header>
       <metadata>
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
           <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000040122915">
             <dcterms:abstract>
-              <rns:Document dcterms:title="Researcher Name Resolver - Yoshimizu, Mamoru | ‹g…Žç (1000040122915)">
+              <rns:Document dcterms:title="Researcher Name Resolver - Yoshimizu, Mamoru | å‰æ°´å®ˆ (1000040122915)">
                 <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000040122915.rdf"/>
               </rns:Document>
             </dcterms:abstract>
-            <foaf:lastName xml:lang="ja">‹g…</foaf:lastName>
-            <foaf:firstName xml:lang="ja">Žç</foaf:firstName>
-            <rns:lastNameYomi xml:lang="ja">ƒˆƒVƒ~ƒY</rns:lastNameYomi>
-            <rns:firstNameYomi xml:lang="ja">ƒ}ƒ‚ƒ‹</rns:firstNameYomi>
+            <foaf:lastName xml:lang="ja">å‰æ°´</foaf:lastName>
+            <foaf:firstName xml:lang="ja">å®ˆ</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ãƒ¨ã‚·ãƒŸã‚º</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ãƒžãƒ¢ãƒ«</rns:firstNameYomi>
             <foaf:lastName xml:lang="en">Yoshimizu</foaf:lastName>
             <foaf:firstName xml:lang="en">Mamoru</foaf:firstName>
-            <rns:institution xml:lang="ja">–kŠC“¹‘åŠw</rns:institution>
-            <rns:department xml:lang="ja">…ŽY‰ÈŠwŒ¤‹†‰ÈiŒ¤‹†‰@j</rns:department>
-            <rns:title xml:lang="ja">“Á”C‹³Žö</rns:title>
+            <rns:institution xml:lang="ja">åŒ—æµ·é“å¤§å­¦</rns:institution>
+            <rns:department xml:lang="ja">æ°´ç”£ç§‘å­¦ç ”ç©¶ç§‘ï¼ˆç ”ç©¶é™¢ï¼‰</rns:department>
+            <rns:title xml:lang="ja">ç‰¹ä»»æ•™æŽˆ</rns:title>
             <rns:researcherNumber>1000040122915</rns:researcherNumber>
             <kaken:researcherNumber>40122915</kaken:researcherNumber>
             <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
@@ -427,26 +427,26 @@
     <record>
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000000182147</identifier>
-        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <datestamp>2016-02-06T21:45:44Z</datestamp>
         <setSpec>NII</setSpec>
       </header>
       <metadata>
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
           <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000000182147">
             <dcterms:abstract>
-              <rns:Document dcterms:title="Researcher Name Resolver - Murohashi, Harumitsu | Žº‹´tŒõ (1000000182147)">
+              <rns:Document dcterms:title="Researcher Name Resolver - Murohashi, Harumitsu | å®¤æ©‹æ˜¥å…‰ (1000000182147)">
                 <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000000182147.rdf"/>
               </rns:Document>
             </dcterms:abstract>
-            <foaf:lastName xml:lang="ja">Žº‹´</foaf:lastName>
-            <foaf:firstName xml:lang="ja">tŒõ</foaf:firstName>
-            <rns:lastNameYomi xml:lang="ja">ƒ€ƒƒnƒV</rns:lastNameYomi>
-            <rns:firstNameYomi xml:lang="ja">ƒnƒ‹ƒ~ƒc</rns:firstNameYomi>
+            <foaf:lastName xml:lang="ja">å®¤æ©‹</foaf:lastName>
+            <foaf:firstName xml:lang="ja">æ˜¥å…‰</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ãƒ ãƒ­ãƒã‚·</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ãƒãƒ«ãƒŸãƒ„</rns:firstNameYomi>
             <foaf:lastName xml:lang="en">Murohashi</foaf:lastName>
             <foaf:firstName xml:lang="en">Harumitsu</foaf:firstName>
-            <rns:institution xml:lang="ja">–kŠC“¹‘åŠw</rns:institution>
-            <rns:department xml:lang="ja">‹³ˆçŠwŒ¤‹†‰ÈiŒ¤‹†‰@j</rns:department>
-            <rns:title xml:lang="ja">“Á”C‹³Žö</rns:title>
+            <rns:institution xml:lang="ja">åŒ—æµ·é“å¤§å­¦</rns:institution>
+            <rns:department xml:lang="ja">æ•™è‚²å­¦ç ”ç©¶ç§‘ï¼ˆç ”ç©¶é™¢ï¼‰</rns:department>
+            <rns:title xml:lang="ja">ç‰¹ä»»æ•™æŽˆ</rns:title>
             <rns:researcherNumber>1000000182147</rns:researcherNumber>
             <kaken:researcherNumber>00182147</kaken:researcherNumber>
             <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
@@ -480,26 +480,26 @@
     <record>
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000020212219</identifier>
-        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <datestamp>2016-02-06T21:45:44Z</datestamp>
         <setSpec>NII</setSpec>
       </header>
       <metadata>
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
           <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000020212219">
             <dcterms:abstract>
-              <rns:Document dcterms:title="Researcher Name Resolver - Matsuda, Tadashi | ¼“c³ (1000020212219)">
+              <rns:Document dcterms:title="Researcher Name Resolver - Matsuda, Tadashi | æ¾ç”°æ­£ (1000020212219)">
                 <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000020212219.rdf"/>
               </rns:Document>
             </dcterms:abstract>
-            <foaf:lastName xml:lang="ja">¼“c</foaf:lastName>
-            <foaf:firstName xml:lang="ja">³</foaf:firstName>
-            <rns:lastNameYomi xml:lang="ja">ƒ}ƒcƒ_</rns:lastNameYomi>
-            <rns:firstNameYomi xml:lang="ja">ƒ^ƒ_ƒV</rns:firstNameYomi>
+            <foaf:lastName xml:lang="ja">æ¾ç”°</foaf:lastName>
+            <foaf:firstName xml:lang="ja">æ­£</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ãƒžãƒ„ãƒ€</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ã‚¿ãƒ€ã‚·</rns:firstNameYomi>
             <foaf:lastName xml:lang="en">Matsuda</foaf:lastName>
             <foaf:firstName xml:lang="en">Tadashi</foaf:firstName>
-            <rns:institution xml:lang="ja">–kŠC“¹‘åŠw</rns:institution>
-            <rns:department xml:lang="ja">–òŠwŒ¤‹†‰ÈiŒ¤‹†‰@j</rns:department>
-            <rns:title xml:lang="ja">‹³Žö</rns:title>
+            <rns:institution xml:lang="ja">åŒ—æµ·é“å¤§å­¦</rns:institution>
+            <rns:department xml:lang="ja">è–¬å­¦ç ”ç©¶ç§‘ï¼ˆç ”ç©¶é™¢ï¼‰</rns:department>
+            <rns:title xml:lang="ja">æ•™æŽˆ</rns:title>
             <rns:researcherNumber>1000020212219</rns:researcherNumber>
             <kaken:researcherNumber>20212219</kaken:researcherNumber>
             <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
@@ -533,26 +533,26 @@
     <record>
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000040214449</identifier>
-        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <datestamp>2016-02-06T21:45:44Z</datestamp>
         <setSpec>NII</setSpec>
       </header>
       <metadata>
         <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
           <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000040214449">
             <dcterms:abstract>
-              <rns:Document dcterms:title="Researcher Name Resolver - Kanie, Akira | ŠI]Í (1000040214449)">
+              <rns:Document dcterms:title="Researcher Name Resolver - Kanie, Akira | èŸ¹æ±Ÿç«  (1000040214449)">
                 <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000040214449.rdf"/>
               </rns:Document>
             </dcterms:abstract>
-            <foaf:lastName xml:lang="ja">ŠI]</foaf:lastName>
-            <foaf:firstName xml:lang="ja">Í</foaf:firstName>
-            <rns:lastNameYomi xml:lang="ja">ƒJƒjƒG</rns:lastNameYomi>
-            <rns:firstNameYomi xml:lang="ja">ƒAƒLƒ‰</rns:firstNameYomi>
+            <foaf:lastName xml:lang="ja">èŸ¹æ±Ÿ</foaf:lastName>
+            <foaf:firstName xml:lang="ja">ç« </foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ã‚«ãƒ‹ã‚¨</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ã‚¢ã‚­ãƒ©</rns:firstNameYomi>
             <foaf:lastName xml:lang="en">Kanie</foaf:lastName>
             <foaf:firstName xml:lang="en">Akira</foaf:firstName>
-            <rns:institution xml:lang="ja">–kŠC“¹‘åŠw</rns:institution>
-            <rns:department xml:lang="ja">ŒoÏŠwŒ¤‹†‰ÈiŒ¤‹†‰@j</rns:department>
-            <rns:title xml:lang="ja">‹³Žö</rns:title>
+            <rns:institution xml:lang="ja">åŒ—æµ·é“å¤§å­¦</rns:institution>
+            <rns:department xml:lang="ja">çµŒæ¸ˆå­¦ç ”ç©¶ç§‘ï¼ˆç ”ç©¶é™¢ï¼‰</rns:department>
+            <rns:title xml:lang="ja">æ•™æŽˆ</rns:title>
             <rns:researcherNumber>1000040214449</rns:researcherNumber>
             <kaken:researcherNumber>40214449</kaken:researcherNumber>
             <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->

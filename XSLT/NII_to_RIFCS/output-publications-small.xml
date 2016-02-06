@@ -3,9 +3,9 @@
   <responseDate>2016-01-21T04:31:41Z</responseDate>
   <request verb="ListRecords" metadataPrefix="junii2">http://irdb.nii.ac.jp/irdb/request2/harvest_teikyo_request_rnsid.php</request>
   <ListRecords>
-    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
-      <header xmlns="http://www.openarchives.org/OAI/2.0/">
-        <identifier>oai:irdb.nii.ac.jp:0003/00000053</identifier>
+    <record>
+      <header>
+        <identifier>http://hdl.handle.net/2115/21986</identifier>
         <datestamp>2014-12-30T09:05:27Z</datestamp>
         <setSpec>3</setSpec>
       </header>
@@ -21,13 +21,13 @@
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000030261340</key>
                 <relation>
-                  <description>ANDO, Yasuhiro</description>
+                  <description>creator</description>
                 </relation>
               </relatedObject>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000060209971</key>
                 <relation>
-                  <description>MUKAI, Tohru</description>
+                  <description>creator</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -35,9 +35,9 @@
         </registryObjects>
       </metadata>
     </record>
-    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
-      <header xmlns="http://www.openarchives.org/OAI/2.0/">
-        <identifier>oai:irdb.nii.ac.jp:0003/00000058</identifier>
+    <record>
+      <header>
+        <identifier>http://hdl.handle.net/2115/25460</identifier>
         <datestamp>2012-02-14T09:05:57Z</datestamp>
         <setSpec>3</setSpec>
       </header>
@@ -53,13 +53,13 @@
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000070374585</key>
                 <relation>
-                  <description>永山, 昌史</description>
+                  <description>creator</description>
                 </relation>
               </relatedObject>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000070356575</key>
                 <relation>
-                  <description>内田, 努</description>
+                  <description>creator</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -67,9 +67,9 @@
         </registryObjects>
       </metadata>
     </record>
-    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
-      <header xmlns="http://www.openarchives.org/OAI/2.0/">
-        <identifier>oai:irdb.nii.ac.jp:0003/00000100</identifier>
+    <record>
+      <header>
+        <identifier>http://hdl.handle.net/2115/29663</identifier>
         <datestamp>2012-02-14T09:06:00Z</datestamp>
         <setSpec>3</setSpec>
       </header>
@@ -85,7 +85,7 @@
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000000091504</key>
                 <relation>
-                  <description>三浦, 清一</description>
+                  <description>creator</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -93,9 +93,9 @@
         </registryObjects>
       </metadata>
     </record>
-    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
-      <header xmlns="http://www.openarchives.org/OAI/2.0/">
-        <identifier>oai:irdb.nii.ac.jp:0003/00000121</identifier>
+    <record>
+      <header>
+        <identifier>http://hdl.handle.net/2115/18805</identifier>
         <datestamp>2012-02-14T09:05:52Z</datestamp>
         <setSpec>3</setSpec>
       </header>
@@ -111,7 +111,7 @@
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000090235739</key>
                 <relation>
-                  <description>白岩, 孝行</description>
+                  <description>creator</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -119,9 +119,9 @@
         </registryObjects>
       </metadata>
     </record>
-    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
-      <header xmlns="http://www.openarchives.org/OAI/2.0/">
-        <identifier>oai:irdb.nii.ac.jp:0003/00000140</identifier>
+    <record>
+      <header>
+        <identifier>http://hdl.handle.net/2115/21973</identifier>
         <datestamp>2012-02-14T09:05:55Z</datestamp>
         <setSpec>3</setSpec>
       </header>
@@ -137,7 +137,7 @@
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000010182015</key>
                 <relation>
-                  <description>宮下, 和夫</description>
+                  <description>creator</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -145,9 +145,9 @@
         </registryObjects>
       </metadata>
     </record>
-    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
-      <header xmlns="http://www.openarchives.org/OAI/2.0/">
-        <identifier>oai:irdb.nii.ac.jp:0003/00000145</identifier>
+    <record>
+      <header>
+        <identifier>http://hdl.handle.net/2115/24203</identifier>
         <datestamp>2012-02-14T09:05:56Z</datestamp>
         <setSpec>3</setSpec>
       </header>
@@ -163,7 +163,7 @@
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000040122915</key>
                 <relation>
-                  <description>吉水, 守</description>
+                  <description>creator</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -171,9 +171,9 @@
         </registryObjects>
       </metadata>
     </record>
-    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
-      <header xmlns="http://www.openarchives.org/OAI/2.0/">
-        <identifier>oai:irdb.nii.ac.jp:0003/00000151</identifier>
+    <record>
+      <header>
+        <identifier>http://hdl.handle.net/2115/20562</identifier>
         <datestamp>2012-02-14T09:05:54Z</datestamp>
         <setSpec>3</setSpec>
       </header>
@@ -189,7 +189,7 @@
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000000182147</key>
                 <relation>
-                  <description>室橋, 春光</description>
+                  <description>creator</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -197,9 +197,9 @@
         </registryObjects>
       </metadata>
     </record>
-    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
-      <header xmlns="http://www.openarchives.org/OAI/2.0/">
-        <identifier>oai:irdb.nii.ac.jp:0003/00000156</identifier>
+    <record>
+      <header>
+        <identifier>http://hdl.handle.net/2115/22102</identifier>
         <datestamp>2012-02-14T09:05:55Z</datestamp>
         <setSpec>3</setSpec>
       </header>
@@ -215,7 +215,7 @@
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000020212219</key>
                 <relation>
-                  <description>Matsuda, T.</description>
+                  <description>creator</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -223,9 +223,9 @@
         </registryObjects>
       </metadata>
     </record>
-    <record xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
-      <header xmlns="http://www.openarchives.org/OAI/2.0/">
-        <identifier>oai:irdb.nii.ac.jp:0003/00000172</identifier>
+    <record>
+      <header>
+        <identifier>http://hdl.handle.net/2115/20021</identifier>
         <datestamp>2012-02-14T09:05:53Z</datestamp>
         <setSpec>3</setSpec>
       </header>
@@ -241,7 +241,7 @@
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000040214449</key>
                 <relation>
-                  <description>蟹江, 章</description>
+                  <description>creator</description>
                 </relation>
               </relatedObject>
             </collection>

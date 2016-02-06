@@ -1,3 +1,3 @@
 #!/bin/bash 
 
-xsltproc -v nii_researcher_rifcs.xsl creators-small.rdf 2>error.txt | xmllint --format --output output-creators-sample.xml -
+xsltproc -v nii_researcher_rifcs.xsl researchers-small.xml 2>researchers-error.txt | xmllint --format --output output-researchers-small.xml -

@@ -65,9 +65,9 @@ Registered 0 modules
 reusing transformation dict for output
 Registering global variables
 Registering global variables from cern_marc21.xsl
-Evaluating global variable global_group
-Object is a string : CERN
 Evaluating global variable originatingSource
+Object is a string : CERN
+Evaluating global variable global_group
 Object is a string : CERN
 xsltProcessOneNode: no template found for /
 xsltDefaultProcessOneNode: template found for PI xml-stylesheet
@@ -187,6 +187,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Metrology for experiments
@@ -353,6 +354,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Future accelerators
@@ -554,6 +556,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text After dinner speech
@@ -705,6 +708,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Theory of RF acceleration
@@ -866,6 +870,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Hamiltonian mechanics
@@ -1032,6 +1037,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Chromatic effects and their first-order correction
@@ -1208,6 +1214,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Diffusion due to RF noise
@@ -1394,6 +1401,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Summary report of the working group 5 on final focus and interaction point
@@ -1550,6 +1558,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Gamma-gamma physics
@@ -1761,6 +1770,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Buses for high energy physics
@@ -1957,6 +1967,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Copper-beryllium alloys for technical applications
@@ -2177,6 +2188,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text List of publications covering bubble-chamber experiments carried out at CERN during the period 1960-1974
@@ -2374,6 +2386,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text List of publications covering bubble-chamber experiments carried out at CERN during the year 1975
@@ -2556,6 +2569,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Système tridimensionnel de coordonnées utilisé au CERN
@@ -2748,6 +2762,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text The radiation environment of proton accelerators and storage rings
@@ -2938,6 +2953,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text New methods of measuring spin-rotation parameters in hadron-hadron elastic scattering
@@ -3245,6 +3261,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text The general theory of all sum and difference resonances in a three-dimensional magnetic field in a synchrotron
@@ -3435,6 +3452,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Application de l'analyse dimensionnelle à l'étude des enveloppes soumises à une pression extérieure et à l'utilisation de modèles
@@ -3625,6 +3643,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text A system for communication between a CDC 6000 and a PDP-11 computer
@@ -3903,6 +3922,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text The birth of quantum mechanics
@@ -4147,6 +4167,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text The physics interests of a 10 TeV proton synchrotron, 400 x 400 GeV$^2$ storage rings, and electron-proton storage rings
@@ -4394,6 +4415,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Electronic equipment for wire-stretching machines
@@ -4584,6 +4606,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Physics at LEP
@@ -4730,6 +4753,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Construction of a prototype superconducting quadrupole magnet for a high-luminosity insertion at the CERN Intersecting Storage Rings
@@ -5002,6 +5026,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text The Digitron system
@@ -5248,6 +5273,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Physics with very high-energy $e^{+}e^{-}$ colliding beams
@@ -5684,6 +5710,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Low-energy recoil measurements in high-energy physics
@@ -5897,6 +5924,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Calculation of the neutron-induced background in the Gargamelle neutral current search
@@ -6117,6 +6145,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Power laws in particle physics
@@ -6337,6 +6366,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Radiation and fire resistance of cable-insulating materials used in accelerator engineering
@@ -6540,6 +6570,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text A comparison of the radiation damage of electronic components irradiated in different radiation fields
@@ -6743,6 +6774,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text A study of economic utility resulting from CERN contracts
@@ -6933,6 +6965,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Etude de l'utilité économique des contrats du CERN
@@ -7108,6 +7141,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text A history of the collaboration between the European Organization for Nuclear Research (CERN) and the Joint Institute for Nuclear Research (JINR), and with Soviet research institutes in the USSR 1955-1970
@@ -7359,6 +7393,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text A new collective-field acceleration mechanism using a powerful laser
@@ -7549,6 +7584,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Measurement of the real part of the forward scattering amplitude by means of the Coulomb-nuclear interference in $\pi^{\pm}$ p and K$^{\pm}$ p elastic scattering at incident momenta below 3 GeV/c
@@ -7912,6 +7948,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text A 256-channel pulse height analyser
@@ -8145,6 +8182,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text AGS
@@ -8374,6 +8412,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Monte Carlo calculations of the neutron transmission through the access ways of the CERN Super Proton Synchrotron
@@ -8564,6 +8603,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Terminals for the interactive input and editing of bibliographic records on the PDP-11 computer in the CERN library
@@ -8754,6 +8794,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Effects of nuclear radiation on the optical properties of cerium-doped glass
@@ -8955,6 +8996,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Calculation and optimization of stray fields of septum dipole magnets
@@ -9222,6 +9264,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Radiation damage to electronic components
@@ -9466,6 +9509,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Instruction timing for the CDC 7600 computer
@@ -9656,6 +9700,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text The design of the control system for the SPS
@@ -9876,6 +9921,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Computer-aided control of separated bubble-chamber beams
@@ -10127,6 +10173,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text DECAY TURTLE (Trace Unlimted Rays Through Lumped Elements)
@@ -10332,6 +10379,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Analyse de la perte de poids des testicules de souris après irradiation aux neutrons de 14 et de 400 MeV
@@ -10524,6 +10572,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Image-intensifier camera for streamer-chamber photography
@@ -10760,6 +10809,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Machine à bobiner les fils métalliques ultra-fins utilisés dans la fabrication des chambres à fils de petites dimensions
@@ -10950,6 +11000,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text A versatile cable and connector assembly testing apparatus (NP 2026)
@@ -11142,6 +11193,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Calcul numérique des dérivées partielles successives des fonctions de deux et de trois variables
@@ -11391,6 +11443,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text On preconditioning and convergence acceleration in sparse matrix problems
@@ -11581,6 +11634,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Dynamic orientation of nuclei at low temperatures
@@ -11771,6 +11825,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text A general-purpose amplifier and read-out system for multiwire proportional chambers
@@ -12043,6 +12098,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Dipole septum magnets
@@ -12233,6 +12289,7 @@ xsltApplyTemplates: node: 'record'
 xsltApplyTemplates: select .//marc:record/marc:datafield[@tag='245']/marc:subfield[@code='a']/text()
 xsltApplyTemplates: list of 1 nodes
 xsltProcessOneNode: applying template 'node()' for text
+xsltApplySequenceConstructor: copy node name
 xsltApplySequenceConstructor: copy node namePart
 xsltValueOf: select normalize-space(.)
 xsltCopyTextString: copy text Numerical computation of field distribution and frequency in the lower passbands of a symmetrical periodic structure
