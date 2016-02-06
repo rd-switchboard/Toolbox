@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="Shift_JIS" standalone="no"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2016-02-06T16:35:48Z</responseDate>
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>http://rns.nii.ac.jp/nr/1000030261340</identifier>
+        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <setSpec>NII</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
+          <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000030261340">
+            <dcterms:abstract>
+              <rns:Document dcterms:title="Researcher Name Resolver - Ando, Yasuhiro | 安藤靖浩 (1000030261340)">
+                <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000030261340.rdf"/>
+              </rns:Document>
+            </dcterms:abstract>
+            <foaf:lastName xml:lang="ja">安藤</foaf:lastName>
+            <foaf:firstName xml:lang="ja">靖浩</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">アンドウ</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ヤスヒロ</rns:firstNameYomi>
+            <foaf:lastName xml:lang="en">Ando</foaf:lastName>
+            <foaf:firstName xml:lang="en">Yasuhiro</foaf:firstName>
+            <rns:institution xml:lang="ja">北海道大学</rns:institution>
+            <rns:department xml:lang="ja"/>
+            <rns:title xml:lang="ja">助教授</rns:title>
+            <rns:researcherNumber>1000030261340</rns:researcherNumber>
+            <kaken:researcherNumber>30261340</kaken:researcherNumber>
+            <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
+            <owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/30261340"/>
+            <owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000030261340"/>
+            <owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000030261340"/>
+            <owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901043118301080&amp;t=1"/>
+            <owl:sameAs rdf:resource="http://researchmap.jp/read0183643/?lang=english"/>
+            <!-- Search links -->
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="JAIRO Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="researchmap (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="J-Global (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%AE%89%E8%97%A4%E9%9D%96%E6%B5%A9" rdfs:label="Google Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E5%AE%89%E8%97%A4%20%E9%9D%96%E6%B5%A9" rdfs:label="ORCID Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FAndo+Yasuhiro%2F" rdfs:label="CiNii Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Ando%20Yasuhiro" rdfs:label="JAIRO Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Ando+Yasuhiro" rdfs:label="Webcat Plus Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Ando%20Yasuhiro" rdfs:label="researchmap (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Ando+Yasuhiro" rdfs:label="J-Global (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Ando+Yasuhiro%22" rdfs:label="Google Scholar Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Ando+Yasuhiro" rdfs:label="Google Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Ando%20Yasuhiro" rdfs:label="ORCID Search (by Name in English)"/>
+          </rns:Researcher>
+        </rdf:RDF>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>http://rns.nii.ac.jp/nr/1000060209971</identifier>
+        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <setSpec>NII</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
+          <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000060209971">
+            <dcterms:abstract>
+              <rns:Document dcterms:title="Researcher Name Resolver - Mukai, Tohru | 向井徹 (1000060209971)">
+                <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000060209971.rdf"/>
+              </rns:Document>
+            </dcterms:abstract>
+            <foaf:lastName xml:lang="ja">向井</foaf:lastName>
+            <foaf:firstName xml:lang="ja">徹</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ムカイ</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">トオル</rns:firstNameYomi>
+            <foaf:lastName xml:lang="en">Mukai</foaf:lastName>
+            <foaf:firstName xml:lang="en">Tohru</foaf:firstName>
+            <rns:institution xml:lang="ja">北海道大学</rns:institution>
+            <rns:department xml:lang="ja">水産科学研究科（研究院）</rns:department>
+            <rns:title xml:lang="ja">准教授</rns:title>
+            <rns:researcherNumber>1000060209971</rns:researcherNumber>
+            <kaken:researcherNumber>60209971</kaken:researcherNumber>
+            <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
+            <owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/60209971"/>
+            <owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000060209971"/>
+            <owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000060209971"/>
+            <owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901066628359210&amp;t=1"/>
+            <owl:sameAs rdf:resource="http://researchmap.jp/read0166816/?lang=english"/>
+            <!-- Search links -->
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%90%91%E4%BA%95%E5%BE%B9+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E5%90%91%E4%BA%95%E5%BE%B9%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E5%90%91%E4%BA%95%E5%BE%B9" rdfs:label="JAIRO Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E5%90%91%E4%BA%95%E5%BE%B9" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E5%90%91%E4%BA%95%E5%BE%B9" rdfs:label="researchmap (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E5%90%91%E4%BA%95%E5%BE%B9" rdfs:label="J-Global (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E5%90%91%E4%BA%95%E5%BE%B9" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%90%91%E4%BA%95%E5%BE%B9" rdfs:label="Google Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E5%90%91%E4%BA%95%20%E5%BE%B9" rdfs:label="ORCID Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FMukai+Tohru%2F" rdfs:label="CiNii Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Mukai%20Tohru" rdfs:label="JAIRO Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Mukai+Tohru" rdfs:label="Webcat Plus Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Mukai%20Tohru" rdfs:label="researchmap (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Mukai+Tohru" rdfs:label="J-Global (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Mukai+Tohru%22" rdfs:label="Google Scholar Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Mukai+Tohru" rdfs:label="Google Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Mukai%20Tohru" rdfs:label="ORCID Search (by Name in English)"/>
+          </rns:Researcher>
+        </rdf:RDF>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>http://rns.nii.ac.jp/nr/1000070374585</identifier>
+        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <setSpec>NII</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
+          <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000070374585">
+            <dcterms:abstract>
+              <rns:Document dcterms:title="Researcher Name Resolver - Nagayama, Masafumi | 永山昌史 (1000070374585)">
+                <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000070374585.rdf"/>
+              </rns:Document>
+            </dcterms:abstract>
+            <foaf:lastName xml:lang="ja">永山</foaf:lastName>
+            <foaf:firstName xml:lang="ja">昌史</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ナガヤマ</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">マサフミ</rns:firstNameYomi>
+            <foaf:lastName xml:lang="en">Nagayama</foaf:lastName>
+            <foaf:firstName xml:lang="en">Masafumi</foaf:firstName>
+            <rns:institution xml:lang="ja">北海道教育大学</rns:institution>
+            <rns:department xml:lang="ja">教育学部</rns:department>
+            <rns:title xml:lang="ja">准教授</rns:title>
+            <rns:researcherNumber>1000070374585</rns:researcherNumber>
+            <kaken:researcherNumber>70374585</kaken:researcherNumber>
+            <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
+            <owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/70374585"/>
+            <owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000070374585"/>
+            <owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000070374585"/>
+            <!-- Search links -->
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E6%B0%B8%E5%B1%B1%E6%98%8C%E5%8F%B2+%E5%8C%97%E6%B5%B7%E9%81%93%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E6%B0%B8%E5%B1%B1%E6%98%8C%E5%8F%B2%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E6%B0%B8%E5%B1%B1%E6%98%8C%E5%8F%B2" rdfs:label="JAIRO Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E6%B0%B8%E5%B1%B1%E6%98%8C%E5%8F%B2" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E6%B0%B8%E5%B1%B1%E6%98%8C%E5%8F%B2" rdfs:label="researchmap (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E6%B0%B8%E5%B1%B1%E6%98%8C%E5%8F%B2" rdfs:label="J-Global (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E6%B0%B8%E5%B1%B1%E6%98%8C%E5%8F%B2" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E6%B0%B8%E5%B1%B1%E6%98%8C%E5%8F%B2" rdfs:label="Google Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E6%B0%B8%E5%B1%B1%20%E6%98%8C%E5%8F%B2" rdfs:label="ORCID Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FNagayama+Masafumi%2F" rdfs:label="CiNii Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Nagayama%20Masafumi" rdfs:label="JAIRO Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Nagayama+Masafumi" rdfs:label="Webcat Plus Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Nagayama%20Masafumi" rdfs:label="researchmap (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Nagayama+Masafumi" rdfs:label="J-Global (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Nagayama+Masafumi%22" rdfs:label="Google Scholar Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Nagayama+Masafumi" rdfs:label="Google Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Nagayama%20Masafumi" rdfs:label="ORCID Search (by Name in English)"/>
+          </rns:Researcher>
+        </rdf:RDF>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>http://rns.nii.ac.jp/nr/1000070356575</identifier>
+        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <setSpec>NII</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
+          <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000070356575">
+            <dcterms:abstract>
+              <rns:Document dcterms:title="Researcher Name Resolver - Uchida, Tsutomu | 内田努 (1000070356575)">
+                <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000070356575.rdf"/>
+              </rns:Document>
+            </dcterms:abstract>
+            <foaf:lastName xml:lang="ja">内田</foaf:lastName>
+            <foaf:firstName xml:lang="ja">努</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ウチダ</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ツトム</rns:firstNameYomi>
+            <foaf:lastName xml:lang="en">Uchida</foaf:lastName>
+            <foaf:firstName xml:lang="en">Tsutomu</foaf:firstName>
+            <rns:institution xml:lang="ja">北海道大学</rns:institution>
+            <rns:department xml:lang="ja">工学（系）研究科（研究院）</rns:department>
+            <rns:title xml:lang="ja">准教授</rns:title>
+            <rns:researcherNumber>1000070356575</rns:researcherNumber>
+            <kaken:researcherNumber>70356575</kaken:researcherNumber>
+            <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
+            <owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/70356575"/>
+            <owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000070356575"/>
+            <owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000070356575"/>
+            <owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901055674674870&amp;t=1"/>
+            <owl:sameAs rdf:resource="http://researchmap.jp/read0166333/?lang=english"/>
+            <!-- Search links -->
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%86%85%E7%94%B0%E5%8A%AA+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E5%86%85%E7%94%B0%E5%8A%AA%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E5%86%85%E7%94%B0%E5%8A%AA" rdfs:label="JAIRO Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E5%86%85%E7%94%B0%E5%8A%AA" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E5%86%85%E7%94%B0%E5%8A%AA" rdfs:label="researchmap (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E5%86%85%E7%94%B0%E5%8A%AA" rdfs:label="J-Global (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E5%86%85%E7%94%B0%E5%8A%AA" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%86%85%E7%94%B0%E5%8A%AA" rdfs:label="Google Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E5%86%85%E7%94%B0%20%E5%8A%AA" rdfs:label="ORCID Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FUchida+Tsutomu%2F" rdfs:label="CiNii Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Uchida%20Tsutomu" rdfs:label="JAIRO Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Uchida+Tsutomu" rdfs:label="Webcat Plus Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Uchida%20Tsutomu" rdfs:label="researchmap (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Uchida+Tsutomu" rdfs:label="J-Global (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Uchida+Tsutomu%22" rdfs:label="Google Scholar Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Uchida+Tsutomu" rdfs:label="Google Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Uchida%20Tsutomu" rdfs:label="ORCID Search (by Name in English)"/>
+          </rns:Researcher>
+        </rdf:RDF>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>http://rns.nii.ac.jp/nr/1000000091504</identifier>
+        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <setSpec>NII</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
+          <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000000091504">
+            <dcterms:abstract>
+              <rns:Document dcterms:title="Researcher Name Resolver - Miura, Seiichi | 三浦清一 (1000000091504)">
+                <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000000091504.rdf"/>
+              </rns:Document>
+            </dcterms:abstract>
+            <foaf:lastName xml:lang="ja">三浦</foaf:lastName>
+            <foaf:firstName xml:lang="ja">清一</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ミウラ</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">セイイチ</rns:firstNameYomi>
+            <foaf:lastName xml:lang="en">Miura</foaf:lastName>
+            <foaf:firstName xml:lang="en">Seiichi</foaf:firstName>
+            <rns:institution xml:lang="ja">北海道大学</rns:institution>
+            <rns:department xml:lang="ja">工学(系)研究科(研究院)</rns:department>
+            <rns:title xml:lang="ja"/>
+            <rns:researcherNumber>1000000091504</rns:researcherNumber>
+            <kaken:researcherNumber>00091504</kaken:researcherNumber>
+            <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
+            <owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/00091504"/>
+            <owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000000091504"/>
+            <owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000000091504"/>
+            <owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901062751129509&amp;t=1"/>
+            <owl:sameAs rdf:resource="http://researchmap.jp/read0167385/?lang=english"/>
+            <!-- Search links -->
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E4%B8%89%E6%B5%A6%E6%B8%85%E4%B8%80+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E4%B8%89%E6%B5%A6%E6%B8%85%E4%B8%80%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E4%B8%89%E6%B5%A6%E6%B8%85%E4%B8%80" rdfs:label="JAIRO Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E4%B8%89%E6%B5%A6%E6%B8%85%E4%B8%80" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E4%B8%89%E6%B5%A6%E6%B8%85%E4%B8%80" rdfs:label="researchmap (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E4%B8%89%E6%B5%A6%E6%B8%85%E4%B8%80" rdfs:label="J-Global (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E4%B8%89%E6%B5%A6%E6%B8%85%E4%B8%80" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E4%B8%89%E6%B5%A6%E6%B8%85%E4%B8%80" rdfs:label="Google Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E4%B8%89%E6%B5%A6%20%E6%B8%85%E4%B8%80" rdfs:label="ORCID Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FMiura+Seiichi%2F" rdfs:label="CiNii Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Miura%20Seiichi" rdfs:label="JAIRO Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Miura+Seiichi" rdfs:label="Webcat Plus Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Miura%20Seiichi" rdfs:label="researchmap (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Miura+Seiichi" rdfs:label="J-Global (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Miura+Seiichi%22" rdfs:label="Google Scholar Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Miura+Seiichi" rdfs:label="Google Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Miura%20Seiichi" rdfs:label="ORCID Search (by Name in English)"/>
+          </rns:Researcher>
+        </rdf:RDF>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>http://rns.nii.ac.jp/nr/1000090235739</identifier>
+        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <setSpec>NII</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
+          <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000090235739">
+            <dcterms:abstract>
+              <rns:Document dcterms:title="Researcher Name Resolver - Shiraiwa, Takayuki | 白岩孝行 (1000090235739)">
+                <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000090235739.rdf"/>
+              </rns:Document>
+            </dcterms:abstract>
+            <foaf:lastName xml:lang="ja">白岩</foaf:lastName>
+            <foaf:firstName xml:lang="ja">孝行</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">シライワ</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">タカユキ</rns:firstNameYomi>
+            <foaf:lastName xml:lang="en">Shiraiwa</foaf:lastName>
+            <foaf:firstName xml:lang="en">Takayuki</foaf:firstName>
+            <rns:institution xml:lang="ja">北海道大学</rns:institution>
+            <rns:department xml:lang="ja">低温科学研究所</rns:department>
+            <rns:title xml:lang="ja">准教授</rns:title>
+            <rns:researcherNumber>1000090235739</rns:researcherNumber>
+            <kaken:researcherNumber>90235739</kaken:researcherNumber>
+            <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
+            <owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/90235739"/>
+            <owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000090235739"/>
+            <owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000090235739"/>
+            <owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901054844695145&amp;t=1"/>
+            <owl:sameAs rdf:resource="http://researchmap.jp/read0166844/?lang=english"/>
+            <!-- Search links -->
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E7%99%BD%E5%B2%A9%E5%AD%9D%E8%A1%8C+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E7%99%BD%E5%B2%A9%E5%AD%9D%E8%A1%8C%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E7%99%BD%E5%B2%A9%E5%AD%9D%E8%A1%8C" rdfs:label="JAIRO Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E7%99%BD%E5%B2%A9%E5%AD%9D%E8%A1%8C" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E7%99%BD%E5%B2%A9%E5%AD%9D%E8%A1%8C" rdfs:label="researchmap (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E7%99%BD%E5%B2%A9%E5%AD%9D%E8%A1%8C" rdfs:label="J-Global (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E7%99%BD%E5%B2%A9%E5%AD%9D%E8%A1%8C" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E7%99%BD%E5%B2%A9%E5%AD%9D%E8%A1%8C" rdfs:label="Google Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E7%99%BD%E5%B2%A9%20%E5%AD%9D%E8%A1%8C" rdfs:label="ORCID Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FShiraiwa+Takayuki%2F" rdfs:label="CiNii Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Shiraiwa%20Takayuki" rdfs:label="JAIRO Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Shiraiwa+Takayuki" rdfs:label="Webcat Plus Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Shiraiwa%20Takayuki" rdfs:label="researchmap (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Shiraiwa+Takayuki" rdfs:label="J-Global (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Shiraiwa+Takayuki%22" rdfs:label="Google Scholar Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Shiraiwa+Takayuki" rdfs:label="Google Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Shiraiwa%20Takayuki" rdfs:label="ORCID Search (by Name in English)"/>
+          </rns:Researcher>
+        </rdf:RDF>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>http://rns.nii.ac.jp/nr/1000010182015</identifier>
+        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <setSpec>NII</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
+          <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000010182015">
+            <dcterms:abstract>
+              <rns:Document dcterms:title="Researcher Name Resolver - Miyashita, Kazuo | 宮下和夫 (1000010182015)">
+                <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000010182015.rdf"/>
+              </rns:Document>
+            </dcterms:abstract>
+            <foaf:lastName xml:lang="ja">宮下</foaf:lastName>
+            <foaf:firstName xml:lang="ja">和夫</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ミヤシタ</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">カズオ</rns:firstNameYomi>
+            <foaf:lastName xml:lang="en">Miyashita</foaf:lastName>
+            <foaf:firstName xml:lang="en">Kazuo</foaf:firstName>
+            <rns:institution xml:lang="ja">北海道大学</rns:institution>
+            <rns:department xml:lang="ja">大学院・水産科学研究院</rns:department>
+            <rns:title xml:lang="ja">教授</rns:title>
+            <rns:researcherNumber>1000010182015</rns:researcherNumber>
+            <kaken:researcherNumber>10182015</kaken:researcherNumber>
+            <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
+            <owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/10182015"/>
+            <owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000010182015"/>
+            <owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000010182015"/>
+            <owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901095571170743&amp;t=1"/>
+            <owl:sameAs rdf:resource="http://researchmap.jp/read0166803/?lang=english"/>
+            <!-- Search links -->
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%AE%AE%E4%B8%8B%E5%92%8C%E5%A4%AB+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E5%AE%AE%E4%B8%8B%E5%92%8C%E5%A4%AB%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E5%AE%AE%E4%B8%8B%E5%92%8C%E5%A4%AB" rdfs:label="JAIRO Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E5%AE%AE%E4%B8%8B%E5%92%8C%E5%A4%AB" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E5%AE%AE%E4%B8%8B%E5%92%8C%E5%A4%AB" rdfs:label="researchmap (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E5%AE%AE%E4%B8%8B%E5%92%8C%E5%A4%AB" rdfs:label="J-Global (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E5%AE%AE%E4%B8%8B%E5%92%8C%E5%A4%AB" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%AE%AE%E4%B8%8B%E5%92%8C%E5%A4%AB" rdfs:label="Google Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E5%AE%AE%E4%B8%8B%20%E5%92%8C%E5%A4%AB" rdfs:label="ORCID Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FMiyashita+Kazuo%2F" rdfs:label="CiNii Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Miyashita%20Kazuo" rdfs:label="JAIRO Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Miyashita+Kazuo" rdfs:label="Webcat Plus Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Miyashita%20Kazuo" rdfs:label="researchmap (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Miyashita+Kazuo" rdfs:label="J-Global (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Miyashita+Kazuo%22" rdfs:label="Google Scholar Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Miyashita+Kazuo" rdfs:label="Google Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Miyashita%20Kazuo" rdfs:label="ORCID Search (by Name in English)"/>
+          </rns:Researcher>
+        </rdf:RDF>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>http://rns.nii.ac.jp/nr/1000040122915</identifier>
+        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <setSpec>NII</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
+          <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000040122915">
+            <dcterms:abstract>
+              <rns:Document dcterms:title="Researcher Name Resolver - Yoshimizu, Mamoru | 吉水守 (1000040122915)">
+                <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000040122915.rdf"/>
+              </rns:Document>
+            </dcterms:abstract>
+            <foaf:lastName xml:lang="ja">吉水</foaf:lastName>
+            <foaf:firstName xml:lang="ja">守</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ヨシミズ</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">マモル</rns:firstNameYomi>
+            <foaf:lastName xml:lang="en">Yoshimizu</foaf:lastName>
+            <foaf:firstName xml:lang="en">Mamoru</foaf:firstName>
+            <rns:institution xml:lang="ja">北海道大学</rns:institution>
+            <rns:department xml:lang="ja">水産科学研究科（研究院）</rns:department>
+            <rns:title xml:lang="ja">特任教授</rns:title>
+            <rns:researcherNumber>1000040122915</rns:researcherNumber>
+            <kaken:researcherNumber>40122915</kaken:researcherNumber>
+            <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
+            <owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/40122915"/>
+            <owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000040122915"/>
+            <owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000040122915"/>
+            <owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901067701369985&amp;t=1"/>
+            <owl:sameAs rdf:resource="http://researchmap.jp/read0166789/?lang=english"/>
+            <!-- Search links -->
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%90%89%E6%B0%B4%E5%AE%88+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E5%90%89%E6%B0%B4%E5%AE%88%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E5%90%89%E6%B0%B4%E5%AE%88" rdfs:label="JAIRO Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E5%90%89%E6%B0%B4%E5%AE%88" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E5%90%89%E6%B0%B4%E5%AE%88" rdfs:label="researchmap (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E5%90%89%E6%B0%B4%E5%AE%88" rdfs:label="J-Global (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E5%90%89%E6%B0%B4%E5%AE%88" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%90%89%E6%B0%B4%E5%AE%88" rdfs:label="Google Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E5%90%89%E6%B0%B4%20%E5%AE%88" rdfs:label="ORCID Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FYoshimizu+Mamoru%2F" rdfs:label="CiNii Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Yoshimizu%20Mamoru" rdfs:label="JAIRO Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Yoshimizu+Mamoru" rdfs:label="Webcat Plus Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Yoshimizu%20Mamoru" rdfs:label="researchmap (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Yoshimizu+Mamoru" rdfs:label="J-Global (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Yoshimizu+Mamoru%22" rdfs:label="Google Scholar Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Yoshimizu+Mamoru" rdfs:label="Google Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Yoshimizu%20Mamoru" rdfs:label="ORCID Search (by Name in English)"/>
+          </rns:Researcher>
+        </rdf:RDF>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>http://rns.nii.ac.jp/nr/1000000182147</identifier>
+        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <setSpec>NII</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
+          <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000000182147">
+            <dcterms:abstract>
+              <rns:Document dcterms:title="Researcher Name Resolver - Murohashi, Harumitsu | 室橋春光 (1000000182147)">
+                <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000000182147.rdf"/>
+              </rns:Document>
+            </dcterms:abstract>
+            <foaf:lastName xml:lang="ja">室橋</foaf:lastName>
+            <foaf:firstName xml:lang="ja">春光</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">ムロハシ</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">ハルミツ</rns:firstNameYomi>
+            <foaf:lastName xml:lang="en">Murohashi</foaf:lastName>
+            <foaf:firstName xml:lang="en">Harumitsu</foaf:firstName>
+            <rns:institution xml:lang="ja">北海道大学</rns:institution>
+            <rns:department xml:lang="ja">教育学研究科（研究院）</rns:department>
+            <rns:title xml:lang="ja">特任教授</rns:title>
+            <rns:researcherNumber>1000000182147</rns:researcherNumber>
+            <kaken:researcherNumber>00182147</kaken:researcherNumber>
+            <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
+            <owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/00182147"/>
+            <owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000000182147"/>
+            <owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000000182147"/>
+            <owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901003152711686&amp;t=1"/>
+            <owl:sameAs rdf:resource="http://researchmap.jp/read0009539/?lang=english"/>
+            <!-- Search links -->
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%AE%A4%E6%A9%8B%E6%98%A5%E5%85%89+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E5%AE%A4%E6%A9%8B%E6%98%A5%E5%85%89%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E5%AE%A4%E6%A9%8B%E6%98%A5%E5%85%89" rdfs:label="JAIRO Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E5%AE%A4%E6%A9%8B%E6%98%A5%E5%85%89" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E5%AE%A4%E6%A9%8B%E6%98%A5%E5%85%89" rdfs:label="researchmap (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E5%AE%A4%E6%A9%8B%E6%98%A5%E5%85%89" rdfs:label="J-Global (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E5%AE%A4%E6%A9%8B%E6%98%A5%E5%85%89" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E5%AE%A4%E6%A9%8B%E6%98%A5%E5%85%89" rdfs:label="Google Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E5%AE%A4%E6%A9%8B%20%E6%98%A5%E5%85%89" rdfs:label="ORCID Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FMurohashi+Harumitsu%2F" rdfs:label="CiNii Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Murohashi%20Harumitsu" rdfs:label="JAIRO Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Murohashi+Harumitsu" rdfs:label="Webcat Plus Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Murohashi%20Harumitsu" rdfs:label="researchmap (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Murohashi+Harumitsu" rdfs:label="J-Global (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Murohashi+Harumitsu%22" rdfs:label="Google Scholar Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Murohashi+Harumitsu" rdfs:label="Google Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Murohashi%20Harumitsu" rdfs:label="ORCID Search (by Name in English)"/>
+          </rns:Researcher>
+        </rdf:RDF>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>http://rns.nii.ac.jp/nr/1000020212219</identifier>
+        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <setSpec>NII</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
+          <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000020212219">
+            <dcterms:abstract>
+              <rns:Document dcterms:title="Researcher Name Resolver - Matsuda, Tadashi | 松田正 (1000020212219)">
+                <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000020212219.rdf"/>
+              </rns:Document>
+            </dcterms:abstract>
+            <foaf:lastName xml:lang="ja">松田</foaf:lastName>
+            <foaf:firstName xml:lang="ja">正</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">マツダ</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">タダシ</rns:firstNameYomi>
+            <foaf:lastName xml:lang="en">Matsuda</foaf:lastName>
+            <foaf:firstName xml:lang="en">Tadashi</foaf:firstName>
+            <rns:institution xml:lang="ja">北海道大学</rns:institution>
+            <rns:department xml:lang="ja">薬学研究科（研究院）</rns:department>
+            <rns:title xml:lang="ja">教授</rns:title>
+            <rns:researcherNumber>1000020212219</rns:researcherNumber>
+            <kaken:researcherNumber>20212219</kaken:researcherNumber>
+            <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
+            <owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/20212219"/>
+            <owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000020212219"/>
+            <owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000020212219"/>
+            <owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901097799908508&amp;t=1"/>
+            <owl:sameAs rdf:resource="http://researchmap.jp/read0102915/?lang=english"/>
+            <!-- Search links -->
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E6%9D%BE%E7%94%B0%E6%AD%A3+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E6%9D%BE%E7%94%B0%E6%AD%A3%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E6%9D%BE%E7%94%B0%E6%AD%A3" rdfs:label="JAIRO Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E6%9D%BE%E7%94%B0%E6%AD%A3" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E6%9D%BE%E7%94%B0%E6%AD%A3" rdfs:label="researchmap (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E6%9D%BE%E7%94%B0%E6%AD%A3" rdfs:label="J-Global (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E6%9D%BE%E7%94%B0%E6%AD%A3" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E6%9D%BE%E7%94%B0%E6%AD%A3" rdfs:label="Google Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E6%9D%BE%E7%94%B0%20%E6%AD%A3" rdfs:label="ORCID Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FMatsuda+Tadashi%2F" rdfs:label="CiNii Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Matsuda%20Tadashi" rdfs:label="JAIRO Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Matsuda+Tadashi" rdfs:label="Webcat Plus Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Matsuda%20Tadashi" rdfs:label="researchmap (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Matsuda+Tadashi" rdfs:label="J-Global (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Matsuda+Tadashi%22" rdfs:label="Google Scholar Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Matsuda+Tadashi" rdfs:label="Google Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Matsuda%20Tadashi" rdfs:label="ORCID Search (by Name in English)"/>
+          </rns:Researcher>
+        </rdf:RDF>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>http://rns.nii.ac.jp/nr/1000040214449</identifier>
+        <datestamp>2016-02-06T16:35:48Z</datestamp>
+        <setSpec>NII</setSpec>
+      </header>
+      <metadata>
+        <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:kaken="http://kaken.nii.ac.jp/ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:rns="http://rns.nii.ac.jp/ns#" xml:base="http://rns.nii.ac.jp/ns">
+          <rns:Researcher rdf:about="http://rns.nii.ac.jp/nr/1000040214449">
+            <dcterms:abstract>
+              <rns:Document dcterms:title="Researcher Name Resolver - Kanie, Akira | 蟹江章 (1000040214449)">
+                <dcterms:hasFormat rdf:resource="http://rns.nii.ac.jp/d/nr/1000040214449.rdf"/>
+              </rns:Document>
+            </dcterms:abstract>
+            <foaf:lastName xml:lang="ja">蟹江</foaf:lastName>
+            <foaf:firstName xml:lang="ja">章</foaf:firstName>
+            <rns:lastNameYomi xml:lang="ja">カニエ</rns:lastNameYomi>
+            <rns:firstNameYomi xml:lang="ja">アキラ</rns:firstNameYomi>
+            <foaf:lastName xml:lang="en">Kanie</foaf:lastName>
+            <foaf:firstName xml:lang="en">Akira</foaf:firstName>
+            <rns:institution xml:lang="ja">北海道大学</rns:institution>
+            <rns:department xml:lang="ja">経済学研究科（研究院）</rns:department>
+            <rns:title xml:lang="ja">教授</rns:title>
+            <rns:researcherNumber>1000040214449</rns:researcherNumber>
+            <kaken:researcherNumber>40214449</kaken:researcherNumber>
+            <!-- Direct links to researcher pages of scholarly databases (KAKEN, CiNii, researchmap, J-Global, researchmap, ResearcherID, ORCID, campus directories, etc.) -->
+            <owl:sameAs rdf:resource="http://kaken.nii.ac.jp/r/40214449"/>
+            <owl:sameAs rdf:resource="http://ci.nii.ac.jp/nrid/1000040214449"/>
+            <owl:sameAs rdf:resource="http://jairo.nii.ac.jp/nr/1000040214449"/>
+            <owl:sameAs rdf:resource="http://jglobal.jst.go.jp/detail.php?JGLOBAL_ID=200901000154662314&amp;t=1"/>
+            <owl:sameAs rdf:resource="http://researchmap.jp/read0167778/?lang=english"/>
+            <!-- Search links -->
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E8%9F%B9%E6%B1%9F%E7%AB%A0+%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6" rdfs:label="Google Search (by Name and Affiliation in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2F%E8%9F%B9%E6%B1%9F%E7%AB%A0%2F" rdfs:label="CiNii Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=%E8%9F%B9%E6%B1%9F%E7%AB%A0" rdfs:label="JAIRO Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=%E8%9F%B9%E6%B1%9F%E7%AB%A0" rdfs:label="Webcat Plus Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=japanese&amp;content=%E8%9F%B9%E6%B1%9F%E7%AB%A0" rdfs:label="researchmap (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=%E8%9F%B9%E6%B1%9F%E7%AB%A0" rdfs:label="J-Global (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author:%E8%9F%B9%E6%B1%9F%E7%AB%A0" rdfs:label="Google Scholar Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=%E8%9F%B9%E6%B1%9F%E7%AB%A0" rdfs:label="Google Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=%E8%9F%B9%E6%B1%9F%20%E7%AB%A0" rdfs:label="ORCID Search (by Name in Japanese)"/>
+            <rdfs:seeAlso rdf:resource="http://ci.nii.ac.jp/opensearch/search?author=%2FKanie+Akira%2F" rdfs:label="CiNii Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jairo.nii.ac.jp/opensearch/search?q=Kanie%20Akira" rdfs:label="JAIRO Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://webcatplus-equal.nii.ac.jp/libportal/EqualFromForm?txt_author=Kanie+Akira" rdfs:label="Webcat Plus Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://researchmap.jp/?active_center=snsview_view_main_search_basicitem&amp;item_id=4&amp;lang=english&amp;content=Kanie%20Akira" rdfs:label="researchmap (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://jglobal.jst.go.jp/search.php?t=1&amp;q=Kanie+Akira" rdfs:label="J-Global (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://scholar.google.com/scholar?q=author%3A%22Kanie+Akira%22" rdfs:label="Google Scholar Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="http://www.google.com/search?q=Kanie+Akira" rdfs:label="Google Search (by Name in English)"/>
+            <rdfs:seeAlso rdf:resource="https://orcid.org/orcid-search/quick-search?searchQuery=Kanie%20Akira" rdfs:label="ORCID Search (by Name in English)"/>
+          </rns:Researcher>
+        </rdf:RDF>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
