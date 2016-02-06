@@ -9,6 +9,8 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Iterator;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.xml.namespace.NamespaceContext;
 import javax.xml.parsers.DocumentBuilder;
@@ -260,66 +262,65 @@ public class App {
 			XPathExpression idExpr = xpath.compile("/rdf:RDF/rns:Researcher/@rdf:about");
 			XPathExpression emptyExpr = xpath.compile("//text()[normalize-space(.) = '']");
 			
-			// read file into a sring
+			// create RegEx patterns  
+			Pattern pattern = Pattern.compile("<\\?xml\\s+version=\"[\\d\\.]+\"\\s*\\?>\\s*<\\s*rdf:RDF[^>]*>[\\s\\S]*?<\\s*\\/\\s*rdf:RDF\\s*>");
+			
+			// read file into a string
 			String content = new String(Files.readAllBytes(source), inputEncoding);
 			
-			// split all records
-			String[] records = content.split("<\\?xml\\s+version=\"[\\d\\.]+\".*\\?>\\s*");
-			
+			Matcher matcher = pattern.matcher(content);
 			// process all records
-			for (String rec : records) {
-				if (!StringUtils.isBlank(rec)) {
-					// convert string to input stream
-					ByteArrayInputStream input =  new ByteArrayInputStream(("<?xml version=\"1.0\"?>" + rec).getBytes(StandardCharsets.UTF_8.toString()));
-					
-					// parse the xml document
-					Document doc = builder.parse(input);
-					
-					// remove all spaces
-					NodeList emptyNodes = (NodeList) emptyExpr.evaluate(doc, XPathConstants.NODESET);
-					// Remove each empty text node from document.
-					for (int i = 0; i < emptyNodes.getLength(); i++) {
-					    Node emptyTextNode = emptyNodes.item(i);
-					    emptyTextNode.getParentNode().removeChild(emptyTextNode);
-					}
-					
-					// obtain researcher id
-					String id = (String) idExpr.evaluate(doc, XPathConstants.STRING);
-					if (StringUtils.isEmpty(id)) 
-						throw new Exception("The record identifier can not be empty");
-					
-					// create record element
-					Element record = oai.createElement("record");
-					listRecords.appendChild(record);
-					
-					// create header element
-					Element header = oai.createElement("header");
-					record.appendChild(header);
-
-					// create identifier element
-					Element identifier = oai.createElement("identifier");
-					identifier.setTextContent(id);
-					header.appendChild(identifier);
-
-					// create datestamp element
-					Element datestamp = oai.createElement("datestamp");
-					datestamp.setTextContent(date);
-					header.appendChild(datestamp);
-
-					// create set spec element if it exists
-					if (!StringUtils.isEmpty(setSpecName)) {
-						Element setSpec = oai.createElement("setSpec");
-						setSpec.setTextContent(setSpecName);
-						header.appendChild(setSpec);
-					}
-					
-					// create metadata element
-					Element metadata = oai.createElement("metadata");
-					record.appendChild(metadata);
-					
-					// import the record
-					metadata.appendChild(oai.importNode(doc.getDocumentElement(), true));					
+			while (matcher.find()) {
+				// convert string to input stream
+				ByteArrayInputStream input =  new ByteArrayInputStream(matcher.group().getBytes(StandardCharsets.UTF_8.toString()));
+				
+				// parse the xml document
+				Document doc = builder.parse(input);
+				
+				// remove all spaces
+				NodeList emptyNodes = (NodeList) emptyExpr.evaluate(doc, XPathConstants.NODESET);
+				// Remove each empty text node from document.
+				for (int i = 0; i < emptyNodes.getLength(); i++) {
+				    Node emptyTextNode = emptyNodes.item(i);
+				    emptyTextNode.getParentNode().removeChild(emptyTextNode);
 				}
+				
+				// obtain researcher id
+				String id = (String) idExpr.evaluate(doc, XPathConstants.STRING);
+				if (StringUtils.isEmpty(id)) 
+					throw new Exception("The record identifier can not be empty");
+				
+				// create record element
+				Element record = oai.createElement("record");
+				listRecords.appendChild(record);
+				
+				// create header element
+				Element header = oai.createElement("header");
+				record.appendChild(header);
+
+				// create identifier element
+				Element identifier = oai.createElement("identifier");
+				identifier.setTextContent(id);
+				header.appendChild(identifier);
+
+				// create datestamp element
+				Element datestamp = oai.createElement("datestamp");
+				datestamp.setTextContent(date);
+				header.appendChild(datestamp);
+
+				// create set spec element if it exists
+				if (!StringUtils.isEmpty(setSpecName)) {
+					Element setSpec = oai.createElement("setSpec");
+					setSpec.setTextContent(setSpecName);
+					header.appendChild(setSpec);
+				}
+				
+				// create metadata element
+				Element metadata = oai.createElement("metadata");
+				record.appendChild(metadata);
+				
+				// import the record
+				metadata.appendChild(oai.importNode(doc.getDocumentElement(), true));					
 			}
 			
 			// create transformer factory
