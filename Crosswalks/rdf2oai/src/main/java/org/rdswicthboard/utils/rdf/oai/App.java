@@ -1,3 +1,25 @@
+/*******************************************************************************
+ * Copyright (c) 2016 RD-Switchboard and others.
+ *
+ * This file is part of RD-Switchboard.
+ * 
+ * RD-Switchboard is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * Contributors:
+ *     Dima Kudriavcev - https://github.com/wizman777
+ *******************************************************************************/
+
 package org.rdswicthboard.utils.rdf.oai;
 
 import java.io.ByteArrayInputStream;
@@ -89,7 +111,6 @@ public class App {
 			
 			// variables to store program properties
 			CompositeConfiguration config = new CompositeConfiguration();
-			config.setProperty( PROPERTY_INPUT_FILE, "researchers-small.rdf" );
 			config.setProperty( PROPERTY_OUTPUT_FILE, DEFAULT_OUTPUT_FILE );
 			config.setProperty( PROPERTY_INPUT_ENCODING, DEFAULT_ENCODING );
 			config.setProperty( PROPERTY_OUTPUT_ENCODING, DEFAULT_ENCODING );

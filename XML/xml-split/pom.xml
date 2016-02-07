@@ -2,7 +2,7 @@
     Copyright (c) 2016 RD-Switchboard and others.
    
     This file is part of RD-Switchboard.
-    
+   
     RD-Switchboard is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -21,14 +21,15 @@
  -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.rdswitchboard.utils</groupId>
-  <artifactId>rdf2oai</artifactId>
+  <groupId>org.rdstchboard.utils</groupId>
+  <artifactId>xml-split</artifactId>
   <version>1.0.0</version>
-  <name>Convert RDF to OAI-PMH</name>
+  
+   <name>Split single file into couple XML documents</name>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <main.class>org.rdswicthboard.utils.rdf.oai.App</main.class>
+    <main.class>org.rdswicthboard.utils.xml.split.App</main.class>
     <class.path>jars/</class.path>
     <jdk.version>1.7</jdk.version>  	
     <junit.version>4.11</junit.version> 
@@ -132,6 +133,5 @@
 	  <version>${commons-configuration.version}</version>
     </dependency>    
   </dependencies>
-  
   
 </project>

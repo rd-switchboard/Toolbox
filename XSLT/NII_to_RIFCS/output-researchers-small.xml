@@ -9,7 +9,7 @@
         <setSpec>NII</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://rns.nii.ac.jp/nr/1000030261340</key>
             <originatingSource>NII</originatingSource>
@@ -30,7 +30,7 @@
         <setSpec>NII</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://rns.nii.ac.jp/nr/1000060209971</key>
             <originatingSource>NII</originatingSource>
@@ -51,7 +51,7 @@
         <setSpec>NII</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://rns.nii.ac.jp/nr/1000070374585</key>
             <originatingSource>NII</originatingSource>
@@ -72,7 +72,7 @@
         <setSpec>NII</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://rns.nii.ac.jp/nr/1000070356575</key>
             <originatingSource>NII</originatingSource>
@@ -93,7 +93,7 @@
         <setSpec>NII</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://rns.nii.ac.jp/nr/1000000091504</key>
             <originatingSource>NII</originatingSource>
@@ -114,7 +114,7 @@
         <setSpec>NII</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://rns.nii.ac.jp/nr/1000090235739</key>
             <originatingSource>NII</originatingSource>
@@ -135,7 +135,7 @@
         <setSpec>NII</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://rns.nii.ac.jp/nr/1000010182015</key>
             <originatingSource>NII</originatingSource>
@@ -156,7 +156,7 @@
         <setSpec>NII</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://rns.nii.ac.jp/nr/1000040122915</key>
             <originatingSource>NII</originatingSource>
@@ -177,7 +177,7 @@
         <setSpec>NII</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://rns.nii.ac.jp/nr/1000000182147</key>
             <originatingSource>NII</originatingSource>
@@ -198,7 +198,7 @@
         <setSpec>NII</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://rns.nii.ac.jp/nr/1000020212219</key>
             <originatingSource>NII</originatingSource>
@@ -219,7 +219,7 @@
         <setSpec>NII</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://rns.nii.ac.jp/nr/1000040214449</key>
             <originatingSource>NII</originatingSource>

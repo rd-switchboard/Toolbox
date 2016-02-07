@@ -12,8 +12,8 @@
   xmlns:kaken="http://kaken.nii.ac.jp/ns#"
   xmlns:owl="http://www.w3.org/2002/07/owl#"
   xmlns:oai="http://www.openarchives.org/OAI/2.0/"  
-  xmlns="http://www.openarchives.org/OAI/2.0/"  
-  exclude-result-prefixes="xs xsi xsl rdf rdfs rns foaf dcterms kaken owl oai rif">
+  xmlns="http://www.openarchives.org/OAI/2.0/" 
+  exclude-result-prefixes="xs xsl rdf rdfs rns foaf dcterms kaken owl">
 
   <!-- =========================================== -->
   <!-- Configuration                               -->
@@ -46,7 +46,7 @@
     <xsl:variable name="recordKey" select="normalize-space(./oai:metadata/rdf:RDF/rns:Researcher/@rdf:about)"/>
 
     <!-- create OAI Record object -->
-    <record>
+    <xsl:element name="record" namespace="http://www.openarchives.org/OAI/2.0/">
 
       <!-- Generate OAI Header -->
       <!-- <xsl:copy-of select="./oai:header"/> -->
@@ -62,49 +62,67 @@
       <metadata>	
 
         <!-- create RIF:CS Registry objects collection -->
-        <registryObjects>
+        <xsl:element name="registryObjects" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
+          <xsl:namespace name="xsi" select="'http://www.w3.org/2001/XMLSchema-instance'"/>
+                
+ 
+         <!-- <xsl:copy-of select="namespace::xsi"/>  -->
+       <!-- <registryObjects> -->
 
-          <!-- create RIF:CS Registry objectss schema location -->
+          <!-- create RIF:CS Registry object namespace -->
+        <!--  <xsl:attribute name="xmlns">
+            <xsl:text>http://ands.org.au/standards/rif-cs/registryObjects</xsl:text>
+          </xsl:attribute> -->
+
+        <!-- create xsi object namespace -->
+         <!--   <xsl:attribute name="xmlns:xsi">
+            <xsl:text>http://www.w3.org/2001/XMLSchema-instance</xsl:text>
+          </xsl:attribute> -->
+
+          <!-- create RIF:CS Registry object schema location -->
           <xsl:attribute name="xsi:schemaLocation">
             <xsl:text>http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd</xsl:text>
           </xsl:attribute>
 			
           <!-- create RIF:CS Registry object -->
-          <registryObject>
+          <xsl:element name="registryObject" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
             <!-- create RIF:CS Registry object group attribute -->
             <xsl:attribute name="group">
               <xsl:value-of select="$global_group"/>
             </xsl:attribute>
 
             <!-- create RIF:CS Key object -->
-            <key>
+	    <xsl:element name="key" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 	            
               <xsl:copy-of select="$recordKey"/>
-            </key>
+            </xsl:element>
 
             <!-- create RIF:CS Originating Source Object -->	
-            <originatingSource>
+	    <xsl:element name="originatingSource" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 	            
               <xsl:value-of select="$originatingSource"/>    
-            </originatingSource>
+            </xsl:element>
 	
             <!-- create RIF:CS Party Object -->
-            <party>
+            <xsl:element name="party" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 	            
 	     
               <!-- create RIF:CS Collection type attribute -->
               <xsl:attribute name="type">
                 <xsl:text>person</xsl:text>
               </xsl:attribute>
 
-              <name type="primary">
+              <xsl:element name="name" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 	            
+                <xsl:attribute name="type">
+                  <xsl:text>primary</xsl:text>
+                </xsl:attribute>
                 <!-- create Title object -->
 		<xsl:apply-templates select=".//foaf:lastName[@xml:lang='en']"/>
 		<xsl:apply-templates select=".//foaf:firstName[@xml:lang='en']"/>
-              </name>
+              </xsl:element>
 
-            </party>	
-          </registryObject>
-        </registryObjects>
+            </xsl:element>	
+          </xsl:element>
+        </xsl:element>
       </metadata>
-    </record>
+    </xsl:element>
 
   </xsl:template>
 
@@ -113,12 +131,12 @@
   <!-- =========================================== -->
 
   <xsl:template match="foaf:lastName">
-    <namePart>
+    <xsl:element name="namePart" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 
       <xsl:attribute name="type">
         <xsl:text>family</xsl:text>
       </xsl:attribute>
       <xsl:value-of select="normalize-space(./node())"/>
-    </namePart>	
+    </xsl:element>	
   </xsl:template>
 
   <!-- =========================================== -->
@@ -126,12 +144,12 @@
   <!-- =========================================== -->
 
   <xsl:template match="foaf:firstName">
-    <namePart>
+    <xsl:element name="namePart" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
       <xsl:attribute name="type">
         <xsl:text>given</xsl:text>
       </xsl:attribute>
       <xsl:value-of select="normalize-space(./node())"/>
-    </namePart>	
+    </xsl:element>	
   </xsl:template>
 
 </xsl:stylesheet>

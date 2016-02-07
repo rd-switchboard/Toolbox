@@ -10,7 +10,7 @@
         <setSpec>3</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://hdl.handle.net/2115/21986</key>
             <originatingSource>NII</originatingSource>
@@ -20,14 +20,14 @@
               </name>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000030261340</key>
-                <relation>
-                  <description>creator</description>
+                <relation type="isCreatedBy">
+                  <description>ANDO, Yasuhiro</description>
                 </relation>
               </relatedObject>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000060209971</key>
-                <relation>
-                  <description>creator</description>
+                <relation type="isCreatedBy">
+                  <description>MUKAI, Tohru</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -42,7 +42,7 @@
         <setSpec>3</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://hdl.handle.net/2115/25460</key>
             <originatingSource>NII</originatingSource>
@@ -52,14 +52,14 @@
               </name>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000070374585</key>
-                <relation>
-                  <description>creator</description>
+                <relation type="isCreatedBy">
+                  <description>永山, 昌史</description>
                 </relation>
               </relatedObject>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000070356575</key>
-                <relation>
-                  <description>creator</description>
+                <relation type="isCreatedBy">
+                  <description>内田, 努</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -74,7 +74,7 @@
         <setSpec>3</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://hdl.handle.net/2115/29663</key>
             <originatingSource>NII</originatingSource>
@@ -84,8 +84,8 @@
               </name>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000000091504</key>
-                <relation>
-                  <description>creator</description>
+                <relation type="isCreatedBy">
+                  <description>三浦, 清一</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -100,7 +100,7 @@
         <setSpec>3</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://hdl.handle.net/2115/18805</key>
             <originatingSource>NII</originatingSource>
@@ -110,8 +110,8 @@
               </name>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000090235739</key>
-                <relation>
-                  <description>creator</description>
+                <relation type="isCreatedBy">
+                  <description>白岩, 孝行</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -126,7 +126,7 @@
         <setSpec>3</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://hdl.handle.net/2115/21973</key>
             <originatingSource>NII</originatingSource>
@@ -136,8 +136,8 @@
               </name>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000010182015</key>
-                <relation>
-                  <description>creator</description>
+                <relation type="isCreatedBy">
+                  <description>宮下, 和夫</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -152,7 +152,7 @@
         <setSpec>3</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://hdl.handle.net/2115/24203</key>
             <originatingSource>NII</originatingSource>
@@ -162,8 +162,8 @@
               </name>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000040122915</key>
-                <relation>
-                  <description>creator</description>
+                <relation type="isCreatedBy">
+                  <description>吉水, 守</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -178,7 +178,7 @@
         <setSpec>3</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://hdl.handle.net/2115/20562</key>
             <originatingSource>NII</originatingSource>
@@ -188,8 +188,8 @@
               </name>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000000182147</key>
-                <relation>
-                  <description>creator</description>
+                <relation type="isCreatedBy">
+                  <description>室橋, 春光</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -204,7 +204,7 @@
         <setSpec>3</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://hdl.handle.net/2115/22102</key>
             <originatingSource>NII</originatingSource>
@@ -214,8 +214,8 @@
               </name>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000020212219</key>
-                <relation>
-                  <description>creator</description>
+                <relation type="isCreatedBy">
+                  <description>Matsuda, T.</description>
                 </relation>
               </relatedObject>
             </collection>
@@ -230,7 +230,7 @@
         <setSpec>3</setSpec>
       </header>
       <metadata>
-        <registryObjects xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <registryObject group="NII">
             <key>http://hdl.handle.net/2115/20021</key>
             <originatingSource>NII</originatingSource>
@@ -240,8 +240,8 @@
               </name>
               <relatedObject>
                 <key>http://rns.nii.ac.jp/nr/1000040214449</key>
-                <relation>
-                  <description>creator</description>
+                <relation type="isCreatedBy">
+                  <description>蟹江, 章</description>
                 </relation>
               </relatedObject>
             </collection>

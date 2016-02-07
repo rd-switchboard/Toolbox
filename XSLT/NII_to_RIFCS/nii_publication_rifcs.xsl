@@ -41,7 +41,7 @@
     <xsl:variable name="recordKey" select="./oai:metadata/irdb:junii2/irdb:IR_URI/text()"/>
 
     <!-- create OAI Record object -->
-    <record>
+    <xsl:element name="record" namespace="http://www.openarchives.org/OAI/2.0/">
 
       <!-- Generate OAI Header -->
       <!-- <xsl:copy-of select="./oai:header"/> -->
@@ -57,7 +57,8 @@
       <metadata>	
 
         <!-- create RIF:CS Registry objects collection -->
-        <registryObjects>
+        <xsl:element name="registryObjects" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
+          <xsl:namespace name="xsi" select="'http://www.w3.org/2001/XMLSchema-instance'"/>
 
           <!-- create RIF:CS Registry objectss schema location -->
           <xsl:attribute name="xsi:schemaLocation">
@@ -65,7 +66,7 @@
           </xsl:attribute>
 			
           <!-- create RIF:CS Registry object -->
-          <registryObject>
+          <xsl:element name="registryObject" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
 	
             <!-- create RIF:CS Registry object group attribute -->
             <xsl:attribute name="group">
@@ -73,17 +74,17 @@
 	    </xsl:attribute>
 
             <!-- create RIF:CS Key object -->
-            <key>
+            <xsl:element name="key" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 	            
               <xsl:copy-of select="$recordKey"/>
-            </key>
+            </xsl:element>
 
             <!-- create RIF:CS Originating Source Object -->	
-            <originatingSource>
+	    <xsl:element name="originatingSource" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 	            
               <xsl:value-of select="$originatingSource"/>    
-            </originatingSource>
+            </xsl:element>
 	
             <!-- create RIF:CS Collection Object -->
-            <collection>
+            <xsl:element name="collection" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
 
               <!-- create RIF:CS Collection type attribute -->
               <xsl:attribute name="type">
@@ -96,11 +97,11 @@
               <!-- create Related object -->
               <xsl:apply-templates select=".//irdb:junii2/irdb:creator[@id]"/>
 
-            </collection>	
-          </registryObject>
-        </registryObjects>
+            </xsl:element>	
+          </xsl:element>
+        </xsl:element>
       </metadata>
-    </record>
+    </xsl:element>
 	    
   </xsl:template>
 
@@ -109,14 +110,14 @@
   <!-- =========================================== -->
 
   <xsl:template match="irdb:title">
-    <name>
-      <namePart>
+    <xsl:element name="name" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
+      <xsl:element name="namePart" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 
         <xsl:attribute name="type">
           <xsl:text>primary</xsl:text>
         </xsl:attribute>
 	<xsl:value-of select="normalize-space(./node())"/>
-      </namePart>	
-    </name>
+      </xsl:element>	
+    </xsl:element>
   </xsl:template>
 
   <!-- =========================================== -->
@@ -124,16 +125,20 @@
   <!-- =========================================== -->
 
   <xsl:template match="irdb:creator">
-    <relatedObject>
-      <key>
+    <xsl:element name="relatedObject" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
+      <xsl:element name="key" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
         <xsl:value-of select="normalize-space(./@id)"/>
-      </key>
-      <relation>
-        <description>
-	  <xsl:text>creator</xsl:text>
-        </description>
-      </relation>
-    </relatedObject>
+      </xsl:element>
+      <xsl:element name="relation" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 
+        <xsl:attribute name="type">
+          <xsl:text>isCreatedBy</xsl:text>
+        </xsl:attribute>
+        <xsl:element name="description" namespace="http://ands.org.au/standards/rif-cs/registryObjects">  
+	  <!-- <xsl:text>creator</xsl:text> -->
+          <xsl:value-of select="normalize-space(./text())"/>
+        </xsl:element>
+      </xsl:element>
+    </xsl:element>
   </xsl:template>
 	
 </xsl:stylesheet>
