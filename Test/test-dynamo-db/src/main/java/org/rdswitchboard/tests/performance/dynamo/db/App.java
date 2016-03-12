@@ -80,7 +80,7 @@ public class App {
 		}
 
 		long estimatedTime = System.currentTimeMillis() - startTime;		
-		System.out.println("Loaded " + testN + " records over " + estimatedTime + " ms. That is " + (double) estimatedTime / (double) testN + " ms per record.");
+		System.out.println("Deleted " + testN + " records over " + estimatedTime + " ms. That is " + (double) estimatedTime / (double) testN + " ms per record.");
 	}
 
 }

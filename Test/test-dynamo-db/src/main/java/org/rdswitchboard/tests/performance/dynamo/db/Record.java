@@ -122,6 +122,7 @@ public class Record {
 	
 		dynamo.deleteItem(
 				new DeleteItemRequest()
+				.withTableName("Test1M")
 				.withKey(key));
 	}
 
