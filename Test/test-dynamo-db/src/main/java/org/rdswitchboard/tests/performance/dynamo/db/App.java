@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.amazonaws.auth.InstanceProfileCredentialsProvider;
+import com.amazonaws.regions.Region;
+import com.amazonaws.regions.Regions;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
@@ -23,6 +25,7 @@ public class App {
 	private void _main(String[] args) {
 	
 		AmazonDynamoDB dynamo = new AmazonDynamoDBClient(new InstanceProfileCredentialsProvider());
+		dynamo.setRegion(Region.getRegion(Regions.US_WEST_2));
 		//DynamoDBMapper mapper = new DynamoDBMapper(dynamo);
 		
 		testBenchmark(TEST_ITEMS);
