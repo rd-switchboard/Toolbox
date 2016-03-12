@@ -91,7 +91,7 @@ public class Record {
 
 	public static Record load(AmazonDynamoDB dynamo, Integer id) {
 		Map<String, AttributeValue> key = new HashMap<String, AttributeValue>();
-		key.put("NodeID", new AttributeValue().withN(String.valueOf(id)));
+		key.put("NodeID", new AttributeValue().withS(String.valueOf(id)));
 	    GetItemResult result = dynamo.getItem(
 	    		new GetItemRequest()
 	    		.withTableName("Test1M")

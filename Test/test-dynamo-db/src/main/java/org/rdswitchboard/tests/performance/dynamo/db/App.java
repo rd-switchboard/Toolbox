@@ -28,8 +28,8 @@ public class App {
 		dynamo.setRegion(Region.getRegion(Regions.US_WEST_2));
 		//DynamoDBMapper mapper = new DynamoDBMapper(dynamo);
 		
-		testBenchmark(TEST_ITEMS);
-		testSaveDb(TEST_ITEMS, dynamo);
+		//testBenchmark(TEST_ITEMS);
+		//testSaveDb(TEST_ITEMS, dynamo);
 		testLoadDb(TEST_ITEMS, dynamo);
 	}
 	
