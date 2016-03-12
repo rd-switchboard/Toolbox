@@ -76,7 +76,7 @@ public class App {
 		
 		for (int n = 0; n < testN; ++n) 
 		{
-			Record.load(dynamo, n);
+			Record.delete(dynamo, n);
 		}
 
 		long estimatedTime = System.currentTimeMillis() - startTime;		
