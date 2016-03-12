@@ -94,6 +94,7 @@ public class Record {
 		this.text5 = text5;
 	}
 
+	/*
 	public PrimaryKey getKey() {
 		return new PrimaryKey()
 				.addComponents(
@@ -111,7 +112,7 @@ public class Record {
 				.withString("text4", text4)
 				.withString("text5", text5);
 	}
-	
+	*/
 	
 	public void save(AmazonDynamoDB dynamo) {
 	    Map<String, AttributeValue> item = new HashMap<String, AttributeValue>();
