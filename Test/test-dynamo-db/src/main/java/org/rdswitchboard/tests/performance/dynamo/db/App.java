@@ -28,9 +28,10 @@ public class App {
 		dynamo.setRegion(Region.getRegion(Regions.US_WEST_2));
 		//DynamoDBMapper mapper = new DynamoDBMapper(dynamo);
 		
-		//testBenchmark(TEST_ITEMS);
-		//testSaveDb(TEST_ITEMS, dynamo);
+		testBenchmark(TEST_ITEMS);
+		testSaveDb(TEST_ITEMS, dynamo);
 		testLoadDb(TEST_ITEMS, dynamo);
+		testDeleteDb(TEST_ITEMS, dynamo);
 	}
 	
 	private void testBenchmark(int testN) {
@@ -59,6 +60,18 @@ public class App {
 	}
 	
 	private void testLoadDb(int testN, AmazonDynamoDB dynamo) {
+		long startTime = System.currentTimeMillis();
+		
+		for (int n = 0; n < testN; ++n) 
+		{
+			Record.load(dynamo, n);
+		}
+
+		long estimatedTime = System.currentTimeMillis() - startTime;		
+		System.out.println("Loaded " + testN + " records over " + estimatedTime + " ms. That is " + (double) estimatedTime / (double) testN + " ms per record.");
+	}
+	
+	private void testDeleteDb(int testN, AmazonDynamoDB dynamo) {
 		long startTime = System.currentTimeMillis();
 		
 		for (int n = 0; n < testN; ++n) 

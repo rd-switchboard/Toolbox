@@ -7,6 +7,7 @@ import java.util.Random;
 
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.model.AttributeValue;
+import com.amazonaws.services.dynamodbv2.model.DeleteItemRequest;
 import com.amazonaws.services.dynamodbv2.model.GetItemRequest;
 import com.amazonaws.services.dynamodbv2.model.GetItemResult;
 import com.amazonaws.services.dynamodbv2.model.PutItemRequest;
@@ -113,6 +114,15 @@ public class Record {
 	    	record.setText1(result.getItem().get("text5").getS());
 	    
 	    return record;
+	}
+	
+	public static void delete(AmazonDynamoDB dynamo, Integer id) {
+		Map<String, AttributeValue> key = new HashMap<String, AttributeValue>();
+		key.put("NodeID", new AttributeValue().withS(String.valueOf(id)));
+	
+		dynamo.deleteItem(
+				new DeleteItemRequest()
+				.withKey(key));
 	}
 
 	@Override
