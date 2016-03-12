@@ -4,12 +4,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.amazonaws.auth.InstanceProfileCredentialsProvider;
+import com.amazonaws.event.ProgressEvent;
+import com.amazonaws.event.ProgressListener;
 import com.amazonaws.regions.Region;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import com.amazonaws.services.dynamodbv2.model.AttributeValue;
+import com.amazonaws.services.dynamodbv2.model.DescribeLimitsRequest;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3Client;
 
@@ -27,6 +30,15 @@ public class App {
 		AmazonDynamoDB dynamo = new AmazonDynamoDBClient(new InstanceProfileCredentialsProvider());
 		dynamo.setRegion(Region.getRegion(Regions.US_WEST_2));
 		//DynamoDBMapper mapper = new DynamoDBMapper(dynamo);
+		
+		dynamo.describeLimits((DescribeLimitsRequest) new DescribeLimitsRequest().withGeneralProgressListener(new ProgressListener() {
+
+			@Override
+			public void progressChanged(ProgressEvent event) {
+				System.out.println("Bytes: " + event.getBytes() + ", Transfered : " + event.getBytesTransferred());
+				
+			}
+		}));
 		
 		testBenchmark(TEST_ITEMS);
 		testSaveDb(TEST_ITEMS, dynamo);
