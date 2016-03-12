@@ -41,7 +41,7 @@
     <xsl:variable name="recordKey" select="./oai:metadata/irdb:junii2/irdb:IR_URI/text()"/>
 
     <!-- create OAI Record object -->
-    <xsl:element name="record" namespace="http://www.openarchives.org/OAI/2.0/">
+    <record xmlns="http://www.openarchives.org/OAI/2.0/">
 
       <!-- Generate OAI Header -->
       <!-- <xsl:copy-of select="./oai:header"/> -->
@@ -57,16 +57,9 @@
       <metadata>	
 
         <!-- create RIF:CS Registry objects collection -->
-        <xsl:element name="registryObjects" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
-          <xsl:namespace name="xsi" select="'http://www.w3.org/2001/XMLSchema-instance'"/>
-
-          <!-- create RIF:CS Registry objectss schema location -->
-          <xsl:attribute name="xsi:schemaLocation">
-            <xsl:text>http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd</xsl:text>
-          </xsl:attribute>
-			
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
           <!-- create RIF:CS Registry object -->
-          <xsl:element name="registryObject" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
+          <registryObject>
 	
             <!-- create RIF:CS Registry object group attribute -->
             <xsl:attribute name="group">
@@ -74,17 +67,17 @@
 	    </xsl:attribute>
 
             <!-- create RIF:CS Key object -->
-            <xsl:element name="key" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 	            
+            <key>
               <xsl:copy-of select="$recordKey"/>
-            </xsl:element>
+            </key>
 
             <!-- create RIF:CS Originating Source Object -->	
-	    <xsl:element name="originatingSource" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 	            
+	    <originatingSource> 	            
               <xsl:value-of select="$originatingSource"/>    
-            </xsl:element>
+            </originatingSource>
 	
             <!-- create RIF:CS Collection Object -->
-            <xsl:element name="collection" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
+            <collection>
 
               <!-- create RIF:CS Collection type attribute -->
               <xsl:attribute name="type">
@@ -97,11 +90,11 @@
               <!-- create Related object -->
               <xsl:apply-templates select=".//irdb:junii2/irdb:creator[@id]"/>
 
-            </xsl:element>	
-          </xsl:element>
-        </xsl:element>
+            </collection>	
+          </registryObject>
+        </registryObjects>
       </metadata>
-    </xsl:element>
+    </record>
 	    
   </xsl:template>
 
@@ -110,14 +103,17 @@
   <!-- =========================================== -->
 
   <xsl:template match="irdb:title">
-    <xsl:element name="name" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
-      <xsl:element name="namePart" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 
-        <xsl:attribute name="type">
+    <name xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+      <xsl:attribute name="type">
           <xsl:text>primary</xsl:text>
         </xsl:attribute>
+      <namePart> 
+        <xsl:attribute name="type">
+          <xsl:text>title</xsl:text>
+        </xsl:attribute>
 	<xsl:value-of select="normalize-space(./node())"/>
-      </xsl:element>	
-    </xsl:element>
+      </namePart>	
+    </name>
   </xsl:template>
 
   <!-- =========================================== -->
@@ -125,20 +121,20 @@
   <!-- =========================================== -->
 
   <xsl:template match="irdb:creator">
-    <xsl:element name="relatedObject" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
-      <xsl:element name="key" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
+    <relatedObject xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+      <key>
         <xsl:value-of select="normalize-space(./@id)"/>
-      </xsl:element>
-      <xsl:element name="relation" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> 
+      </key>
+      <relation> 
         <xsl:attribute name="type">
-          <xsl:text>isCreatedBy</xsl:text>
+          <xsl:text>isProducedBy</xsl:text>
         </xsl:attribute>
-        <xsl:element name="description" namespace="http://ands.org.au/standards/rif-cs/registryObjects">  
+        <description>  
 	  <!-- <xsl:text>creator</xsl:text> -->
           <xsl:value-of select="normalize-space(./text())"/>
-        </xsl:element>
-      </xsl:element>
-    </xsl:element>
+        </description>
+      </relation>
+    </relatedObject>
   </xsl:template>
 	
 </xsl:stylesheet>

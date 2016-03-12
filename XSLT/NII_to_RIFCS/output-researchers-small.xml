@@ -2,7 +2,7 @@
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
   <responseDate>2016-02-06T21:45:44Z</responseDate>
   <ListRecords>
-    <record>
+    <record xmlns:rif="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:oai="http://www.openarchives.org/OAI/2.0/">
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000030261340</identifier>
         <datestamp>2016-02-06T21:45:44Z</datestamp>
@@ -15,15 +15,15 @@
             <originatingSource>NII</originatingSource>
             <party type="person">
               <name type="primary">
-                <namePart type="family">Ando</namePart>
-                <namePart type="given">Yasuhiro</namePart>
+                <namePart type="family">安藤</namePart>
+                <namePart type="given">靖浩</namePart>
               </name>
             </party>
           </registryObject>
         </registryObjects>
       </metadata>
     </record>
-    <record>
+    <record xmlns:rif="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:oai="http://www.openarchives.org/OAI/2.0/">
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000060209971</identifier>
         <datestamp>2016-02-06T21:45:44Z</datestamp>
@@ -36,15 +36,15 @@
             <originatingSource>NII</originatingSource>
             <party type="person">
               <name type="primary">
-                <namePart type="family">Mukai</namePart>
-                <namePart type="given">Tohru</namePart>
+                <namePart type="family">向井</namePart>
+                <namePart type="given">徹</namePart>
               </name>
             </party>
           </registryObject>
         </registryObjects>
       </metadata>
     </record>
-    <record>
+    <record xmlns:rif="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:oai="http://www.openarchives.org/OAI/2.0/">
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000070374585</identifier>
         <datestamp>2016-02-06T21:45:44Z</datestamp>
@@ -57,15 +57,15 @@
             <originatingSource>NII</originatingSource>
             <party type="person">
               <name type="primary">
-                <namePart type="family">Nagayama</namePart>
-                <namePart type="given">Masafumi</namePart>
+                <namePart type="family">永山</namePart>
+                <namePart type="given">昌史</namePart>
               </name>
             </party>
           </registryObject>
         </registryObjects>
       </metadata>
     </record>
-    <record>
+    <record xmlns:rif="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:oai="http://www.openarchives.org/OAI/2.0/">
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000070356575</identifier>
         <datestamp>2016-02-06T21:45:44Z</datestamp>
@@ -78,15 +78,15 @@
             <originatingSource>NII</originatingSource>
             <party type="person">
               <name type="primary">
-                <namePart type="family">Uchida</namePart>
-                <namePart type="given">Tsutomu</namePart>
+                <namePart type="family">内田</namePart>
+                <namePart type="given">努</namePart>
               </name>
             </party>
           </registryObject>
         </registryObjects>
       </metadata>
     </record>
-    <record>
+    <record xmlns:rif="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:oai="http://www.openarchives.org/OAI/2.0/">
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000000091504</identifier>
         <datestamp>2016-02-06T21:45:44Z</datestamp>
@@ -99,15 +99,15 @@
             <originatingSource>NII</originatingSource>
             <party type="person">
               <name type="primary">
-                <namePart type="family">Miura</namePart>
-                <namePart type="given">Seiichi</namePart>
+                <namePart type="family">三浦</namePart>
+                <namePart type="given">清一</namePart>
               </name>
             </party>
           </registryObject>
         </registryObjects>
       </metadata>
     </record>
-    <record>
+    <record xmlns:rif="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:oai="http://www.openarchives.org/OAI/2.0/">
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000090235739</identifier>
         <datestamp>2016-02-06T21:45:44Z</datestamp>
@@ -120,15 +120,15 @@
             <originatingSource>NII</originatingSource>
             <party type="person">
               <name type="primary">
-                <namePart type="family">Shiraiwa</namePart>
-                <namePart type="given">Takayuki</namePart>
+                <namePart type="family">白岩</namePart>
+                <namePart type="given">孝行</namePart>
               </name>
             </party>
           </registryObject>
         </registryObjects>
       </metadata>
     </record>
-    <record>
+    <record xmlns:rif="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:oai="http://www.openarchives.org/OAI/2.0/">
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000010182015</identifier>
         <datestamp>2016-02-06T21:45:44Z</datestamp>
@@ -141,15 +141,15 @@
             <originatingSource>NII</originatingSource>
             <party type="person">
               <name type="primary">
-                <namePart type="family">Miyashita</namePart>
-                <namePart type="given">Kazuo</namePart>
+                <namePart type="family">宮下</namePart>
+                <namePart type="given">和夫</namePart>
               </name>
             </party>
           </registryObject>
         </registryObjects>
       </metadata>
     </record>
-    <record>
+    <record xmlns:rif="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:oai="http://www.openarchives.org/OAI/2.0/">
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000040122915</identifier>
         <datestamp>2016-02-06T21:45:44Z</datestamp>
@@ -162,15 +162,15 @@
             <originatingSource>NII</originatingSource>
             <party type="person">
               <name type="primary">
-                <namePart type="family">Yoshimizu</namePart>
-                <namePart type="given">Mamoru</namePart>
+                <namePart type="family">吉水</namePart>
+                <namePart type="given">守</namePart>
               </name>
             </party>
           </registryObject>
         </registryObjects>
       </metadata>
     </record>
-    <record>
+    <record xmlns:rif="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:oai="http://www.openarchives.org/OAI/2.0/">
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000000182147</identifier>
         <datestamp>2016-02-06T21:45:44Z</datestamp>
@@ -183,15 +183,15 @@
             <originatingSource>NII</originatingSource>
             <party type="person">
               <name type="primary">
-                <namePart type="family">Murohashi</namePart>
-                <namePart type="given">Harumitsu</namePart>
+                <namePart type="family">室橋</namePart>
+                <namePart type="given">春光</namePart>
               </name>
             </party>
           </registryObject>
         </registryObjects>
       </metadata>
     </record>
-    <record>
+    <record xmlns:rif="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:oai="http://www.openarchives.org/OAI/2.0/">
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000020212219</identifier>
         <datestamp>2016-02-06T21:45:44Z</datestamp>
@@ -204,15 +204,15 @@
             <originatingSource>NII</originatingSource>
             <party type="person">
               <name type="primary">
-                <namePart type="family">Matsuda</namePart>
-                <namePart type="given">Tadashi</namePart>
+                <namePart type="family">松田</namePart>
+                <namePart type="given">正</namePart>
               </name>
             </party>
           </registryObject>
         </registryObjects>
       </metadata>
     </record>
-    <record>
+    <record xmlns:rif="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:oai="http://www.openarchives.org/OAI/2.0/">
       <header>
         <identifier>http://rns.nii.ac.jp/nr/1000040214449</identifier>
         <datestamp>2016-02-06T21:45:44Z</datestamp>
@@ -225,8 +225,8 @@
             <originatingSource>NII</originatingSource>
             <party type="person">
               <name type="primary">
-                <namePart type="family">Kanie</namePart>
-                <namePart type="given">Akira</namePart>
+                <namePart type="family">蟹江</namePart>
+                <namePart type="given">章</namePart>
               </name>
             </party>
           </registryObject>
