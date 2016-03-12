@@ -62,8 +62,10 @@
       <metadata>	
 
         <!-- create RIF:CS Registry objects collection -->
-        <xsl:element name="registryObjects" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
-          <xsl:namespace name="xsi" select="'http://www.w3.org/2001/XMLSchema-instance'"/>
+        <registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd">
+       
+      <!--  <xsl:element name="registryObjects" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
+          <xsl:namespace name="xsi" select="'http://www.w3.org/2001/XMLSchema-instance'"/> -->
                 
  
          <!-- <xsl:copy-of select="namespace::xsi"/>  -->
@@ -80,12 +82,13 @@
           </xsl:attribute> -->
 
           <!-- create RIF:CS Registry object schema location -->
-          <xsl:attribute name="xsi:schemaLocation">
+         <!-- <xsl:attribute name="xsi:schemaLocation">
             <xsl:text>http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/schema/registryObjects.xsd</xsl:text>
-          </xsl:attribute>
+          </xsl:attribute> -->
 			
           <!-- create RIF:CS Registry object -->
-          <xsl:element name="registryObject" namespace="http://ands.org.au/standards/rif-cs/registryObjects">
+	  <registryObject>
+          <!-- <xsl:element name="registryObject" namespace="http://ands.org.au/standards/rif-cs/registryObjects"> -->
             <!-- create RIF:CS Registry object group attribute -->
             <xsl:attribute name="group">
               <xsl:value-of select="$global_group"/>
@@ -119,8 +122,8 @@
               </xsl:element>
 
             </xsl:element>	
-          </xsl:element>
-        </xsl:element>
+          </registryObject>
+        </registryObjects>
       </metadata>
     </xsl:element>
 
