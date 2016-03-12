@@ -77,7 +77,7 @@ public class Record {
 	
 	public void save(AmazonDynamoDB dynamo) {
 	    Map<String, AttributeValue> item = new HashMap<String, AttributeValue>();
-	    item.put("NodeID", new AttributeValue().withN(nodeId));
+	    item.put("NodeID", new AttributeValue().withS(nodeId));
 	    item.put("text1", new AttributeValue().withS(text1));
 	    item.put("text2", new AttributeValue().withS(text2));
 	    item.put("text3", new AttributeValue().withS(text3));
