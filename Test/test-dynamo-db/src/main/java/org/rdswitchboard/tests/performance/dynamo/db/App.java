@@ -15,7 +15,7 @@ import com.amazonaws.services.s3.AmazonS3Client;
 
 public class App {
 	
-	private static final int TEST_ITEMS = 1000;
+	private static final int TEST_ITEMS = 2000;
 
 	public static void main(String[] args) {
 		App app = new App();
