@@ -98,6 +98,11 @@
       <artifactId>aws-java-sdk</artifactId>
       <version>${aws-java-sdk.version}</version>
     </dependency>
+    <dependency>
+	  <groupId>joda-time</groupId>
+	  <artifactId>joda-time</artifactId>
+	  <version>${joda-time.version}</version>
+    </dependency>
   </dependencies>
   
 </project>

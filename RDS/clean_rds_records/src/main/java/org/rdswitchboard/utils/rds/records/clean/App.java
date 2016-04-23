@@ -40,7 +40,7 @@ import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
 
 public class App {
-	private static final String PROPERTIES_FILE = "properties/clean_rds_records.properties";	
+	private static final String PROPERTIES_FILE = "properties/clean_ands_records.properties";	
 	
 	public static void main(String[] args) {
 		try {
@@ -50,13 +50,15 @@ public class App {
 			if (args.length != 0 && args[0] != null && args[0].isEmpty())
 				propertiesFile = args[0];
 			
-            		Properties properties = new Properties();
-	        	try (InputStream in = new FileInputStream(propertiesFile)) {
-	            	    properties.load(in);
-	        	}
+    		Properties properties = new Properties();
+        	try (InputStream in = new FileInputStream(propertiesFile)) {
+        		properties.load(in);
+        	}
 
 			String mHost = properties.getProperty("host", "localhost");
+			System.out.println("Host: " + mHost);
 			String mUser = properties.getProperty("user");
+			System.out.println("User: " + mUser);
 			String mPassword = properties.getProperty("password");
 
 			URL url = new URL(properties.getProperty("base_url") + "/registry_object/delete/");
