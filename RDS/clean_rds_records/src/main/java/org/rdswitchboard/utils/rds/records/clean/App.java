@@ -47,7 +47,7 @@ public class App {
 			// read properties file
 			String propertiesFile = PROPERTIES_FILE;
 			
-			if (args.length != 0 && args[0] != null && args[0].isEmpty())
+			if (args.length != 0 && args[0] != null && !args[0].isEmpty())
 				propertiesFile = args[0];
 			
     		Properties properties = new Properties();
@@ -62,6 +62,7 @@ public class App {
 			String mPassword = properties.getProperty("password");
 
 			URL url = new URL(properties.getProperty("base_url") + "/registry_object/delete/");
+			System.out.println("URL: " + url);
 
 			Cookie cookie = new Cookie("PHPSESSID", properties.getProperty("session"));
 
